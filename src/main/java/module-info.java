@@ -1,6 +1,8 @@
 module com.example.ejemplojfx {
     requires javafx.controls;
     requires javafx.fxml;
+    requires com.fasterxml.jackson.databind;
+    requires org.jgrapht.core;
 
 
     opens view to javafx.fxml;
