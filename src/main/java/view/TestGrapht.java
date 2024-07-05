@@ -54,7 +54,7 @@ public class TestGrapht {
             System.out.println("Peso total de la ruta: " + pathWeight);
 
             // Guardar la ruta en un archivo GeoJSON
-            saveShortestPathAsGeoJson(path, nodes, "shortest_path.geojson");
+            saveShortestPathAsGeoJson(path, nodes, edges, graph, "src/main/java/persistence/shortest_path.geojson");
 
         } catch (IOException e) {
             e.printStackTrace();
@@ -70,16 +70,30 @@ public class TestGrapht {
         return mapper.readTree(new File(filePath));
     }
 
-    private static void saveShortestPathAsGeoJson(List<Long> path, JsonNode nodes, String outputPath) throws IOException {
+    private static void saveShortestPathAsGeoJson(List<Long> path, JsonNode nodes, JsonNode edges, Graph<Long, DefaultWeightedEdge> graph, String outputPath) throws IOException {
         ObjectMapper mapper = new ObjectMapper();
         JsonNode root = mapper.createObjectNode();
         ((ObjectNode) root).put("type", "FeatureCollection");
         ArrayNode features = mapper.createArrayNode();
 
+        // Añadir los nodos de la ruta
         for (long id : path) {
             for (JsonNode node : nodes.get("features")) {
                 if (node.get("properties").get("osmid").asLong() == id) {
                     features.add(node);
+                }
+            }
+        }
+
+        // Añadir las aristas de la ruta
+        for (int i = 0; i < path.size() - 1; i++) {
+            long u = path.get(i);
+            long v = path.get(i + 1);
+            for (JsonNode edge : edges.get("features")) {
+                if ((edge.get("properties").get("u").asLong() == u && edge.get("properties").get("v").asLong() == v) ||
+                        (edge.get("properties").get("u").asLong() == v && edge.get("properties").get("v").asLong() == u)) {
+                    ((ObjectNode) edge.get("properties")).put("weight", graph.getEdgeWeight(graph.getEdge(u, v)));
+                    features.add(edge);
                 }
             }
         }
