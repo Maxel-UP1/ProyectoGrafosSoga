@@ -1,10 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.Pane?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlers.ExAplicatioController">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+   prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21"
+   xmlns:fx="http://javafx.com/fxml/1"
+   fx:controller="src.main.java.controlerView.ExAplicatioController">
    <children>
-      <Button fx:id="idhola" layoutX="269.0" layoutY="221.0" mnemonicParsing="false" onAction="#holamundo" text="Hola mundo" />
+      <TextField fx:id="searchField" layoutX="14.0" layoutY="14.0" prefHeight="25.0"
+         prefWidth="300.0" promptText="Buscar paquete..." />
+      <Button fx:id="searchButton" layoutX="320.0" layoutY="14.0" mnemonicParsing="false"
+         onAction="#searchPackage" text="Buscar" />
+      <TableView fx:id="packageTable" layoutX="14.0" layoutY="50.0" prefHeight="500.0"
+         prefWidth="772.0">
+         <columns>
+            <TableColumn fx:id="idColumn" prefWidth="75.0" text="ID" />
+            <TableColumn fx:id="nameColumn" prefWidth="200.0" text="Nombre" />
+            <TableColumn fx:id="statusColumn" prefWidth="100.0" text="Estado" />
+            <TableColumn fx:id="dateColumn" prefWidth="150.0" text="Fecha" />
+            <TableColumn fx:id="locationColumn" prefWidth="250.0" text="Ubicación" />
+         </columns>
+      </TableView>
+      <Button fx:id="addButton" layoutX="14.0" layoutY="560.0" mnemonicParsing="false"
+         onAction="#addPackage" text="Agregar" />
+      <Button fx:id="editButton" layoutX="100.0" layoutY="560.0" mnemonicParsing="false"
+         onAction="#editPackage" text="Editar" />
+      <Button fx:id="deleteButton" layoutX="200.0" layoutY="560.0" mnemonicParsing="false"
+         onAction="#deletePackage" text="Eliminar" />
    </children>
 </Pane>

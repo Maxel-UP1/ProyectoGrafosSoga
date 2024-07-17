@@ -2,549 +2,87 @@
   "type" : "FeatureCollection",
   "features" : [ {
     "type" : "Feature",
-    "id" : 1347,
+    "id" : 575,
     "properties" : {
-      "osmid" : 1016201065,
-      "y" : 5.7135306,
-      "x" : -72.9417286,
+      "osmid" : 1016190752,
+      "y" : 5.7266426,
+      "x" : -72.9241406,
       "street_count" : 3,
       "highway" : null
     },
     "geometry" : {
       "type" : "Point",
-      "coordinates" : [ -72.9417286, 5.7135306 ]
+      "coordinates" : [ -72.9241406, 5.7266426 ]
     }
   }, {
     "type" : "Feature",
-    "id" : 1888,
+    "id" : 806,
     "properties" : {
-      "osmid" : 4885633068,
-      "y" : 5.7134091,
-      "x" : -72.9415655,
+      "osmid" : 1016193255,
+      "y" : 5.7270221,
+      "x" : -72.9248799,
       "street_count" : 3,
       "highway" : null
     },
     "geometry" : {
       "type" : "Point",
-      "coordinates" : [ -72.9415655, 5.7134091 ]
+      "coordinates" : [ -72.9248799, 5.7270221 ]
     }
   }, {
     "type" : "Feature",
-    "id" : 804,
+    "id" : 1706,
     "properties" : {
-      "osmid" : 1016193241,
-      "y" : 5.7131271,
-      "x" : -72.9411874,
+      "osmid" : 4038648475,
+      "y" : 5.7269433,
+      "x" : -72.9249193,
       "street_count" : 3,
       "highway" : null
     },
     "geometry" : {
       "type" : "Point",
-      "coordinates" : [ -72.9411874, 5.7131271 ]
+      "coordinates" : [ -72.9249193, 5.7269433 ]
     }
   }, {
     "type" : "Feature",
-    "id" : 473,
+    "id" : 236,
     "properties" : {
-      "osmid" : 1016189605,
-      "y" : 5.7134,
-      "x" : -72.940992,
+      "osmid" : 1016186148,
+      "y" : 5.7266571,
+      "x" : -72.9250989,
       "street_count" : 3,
       "highway" : null
     },
     "geometry" : {
       "type" : "Point",
-      "coordinates" : [ -72.940992, 5.7134 ]
+      "coordinates" : [ -72.9250989, 5.7266571 ]
     }
   }, {
     "type" : "Feature",
-    "id" : 1529,
+    "id" : 2978,
     "properties" : {
-      "osmid" : 2727985458,
-      "y" : 5.7136876,
-      "x" : -72.9407987,
+      "osmid" : 7787663560,
+      "y" : 5.7263112,
+      "x" : -72.9252971,
       "street_count" : 3,
       "highway" : null
     },
     "geometry" : {
       "type" : "Point",
-      "coordinates" : [ -72.9407987, 5.7136876 ]
+      "coordinates" : [ -72.9252971, 5.7263112 ]
     }
   }, {
     "type" : "Feature",
-    "id" : 149,
+    "id" : 150,
     "properties" : {
-      "osmid" : 1016184738,
-      "y" : 5.7141427,
-      "x" : -72.9405083,
+      "osmid" : 1016184754,
+      "y" : 5.7260812,
+      "x" : -72.9254382,
       "street_count" : 3,
       "highway" : null
     },
     "geometry" : {
       "type" : "Point",
-      "coordinates" : [ -72.9405083, 5.7141427 ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 1258,
-    "properties" : {
-      "osmid" : 1016199942,
-      "y" : 5.7140227,
-      "x" : -72.9401912,
-      "street_count" : 4,
-      "highway" : null
-    },
-    "geometry" : {
-      "type" : "Point",
-      "coordinates" : [ -72.9401912, 5.7140227 ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 1272,
-    "properties" : {
-      "osmid" : 1016200256,
-      "y" : 5.7137382,
-      "x" : -72.9397435,
-      "street_count" : 4,
-      "highway" : null
-    },
-    "geometry" : {
-      "type" : "Point",
-      "coordinates" : [ -72.9397435, 5.7137382 ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 379,
-    "properties" : {
-      "osmid" : 1016188261,
-      "y" : 5.714866,
-      "x" : -72.9388992,
-      "street_count" : 4,
-      "highway" : null
-    },
-    "geometry" : {
-      "type" : "Point",
-      "coordinates" : [ -72.9388992, 5.714866 ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 160,
-    "properties" : {
-      "osmid" : 1016185022,
-      "y" : 5.715327,
-      "x" : -72.9385478,
-      "street_count" : 4,
-      "highway" : null
-    },
-    "geometry" : {
-      "type" : "Point",
-      "coordinates" : [ -72.9385478, 5.715327 ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 1358,
-    "properties" : {
-      "osmid" : 1016201277,
-      "y" : 5.71542,
-      "x" : -72.9384701,
-      "street_count" : 4,
-      "highway" : null
-    },
-    "geometry" : {
-      "type" : "Point",
-      "coordinates" : [ -72.9384701, 5.71542 ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 1231,
-    "properties" : {
-      "osmid" : 1016199573,
-      "y" : 5.7161363,
-      "x" : -72.9379864,
-      "street_count" : 4,
-      "highway" : null
-    },
-    "geometry" : {
-      "type" : "Point",
-      "coordinates" : [ -72.9379864, 5.7161363 ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 490,
-    "properties" : {
-      "osmid" : 1016189907,
-      "y" : 5.7170261,
-      "x" : -72.9373486,
-      "street_count" : 4,
-      "highway" : null
-    },
-    "geometry" : {
-      "type" : "Point",
-      "coordinates" : [ -72.9373486, 5.7170261 ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 1037,
-    "properties" : {
-      "osmid" : 1016195809,
-      "y" : 5.7177323,
-      "x" : -72.9368218,
-      "street_count" : 4,
-      "highway" : null
-    },
-    "geometry" : {
-      "type" : "Point",
-      "coordinates" : [ -72.9368218, 5.7177323 ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 3625,
-    "properties" : {
-      "osmid" : 9303495236,
-      "y" : 5.7181367,
-      "x" : -72.9365261,
-      "street_count" : 3,
-      "highway" : null
-    },
-    "geometry" : {
-      "type" : "Point",
-      "coordinates" : [ -72.9365261, 5.7181367 ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 999,
-    "properties" : {
-      "osmid" : 1016195084,
-      "y" : 5.7189586,
-      "x" : -72.935925,
-      "street_count" : 4,
-      "highway" : null
-    },
-    "geometry" : {
-      "type" : "Point",
-      "coordinates" : [ -72.935925, 5.7189586 ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 3695,
-    "properties" : {
-      "osmid" : 9371895544,
-      "y" : 5.7190493,
-      "x" : -72.9358669,
-      "street_count" : 4,
-      "highway" : null
-    },
-    "geometry" : {
-      "type" : "Point",
-      "coordinates" : [ -72.9358669, 5.7190493 ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 1982,
-    "properties" : {
-      "osmid" : 5237321005,
-      "y" : 5.7195882,
-      "x" : -72.9354664,
-      "street_count" : 3,
-      "highway" : null
-    },
-    "geometry" : {
-      "type" : "Point",
-      "coordinates" : [ -72.9354664, 5.7195882 ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 1166,
-    "properties" : {
-      "osmid" : 1016198001,
-      "y" : 5.7199608,
-      "x" : -72.935186,
-      "street_count" : 3,
-      "highway" : null
-    },
-    "geometry" : {
-      "type" : "Point",
-      "coordinates" : [ -72.935186, 5.7199608 ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 1171,
-    "properties" : {
-      "osmid" : 1016198248,
-      "y" : 5.7205504,
-      "x" : -72.9347546,
-      "street_count" : 4,
-      "highway" : null
-    },
-    "geometry" : {
-      "type" : "Point",
-      "coordinates" : [ -72.9347546, 5.7205504 ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 647,
-    "properties" : {
-      "osmid" : 1016191624,
-      "y" : 5.7206153,
-      "x" : -72.9347118,
-      "street_count" : 4,
-      "highway" : null
-    },
-    "geometry" : {
-      "type" : "Point",
-      "coordinates" : [ -72.9347118, 5.7206153 ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 1182,
-    "properties" : {
-      "osmid" : 1016198419,
-      "y" : 5.7210244,
-      "x" : -72.9344194,
-      "street_count" : 3,
-      "highway" : null
-    },
-    "geometry" : {
-      "type" : "Point",
-      "coordinates" : [ -72.9344194, 5.7210244 ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 643,
-    "properties" : {
-      "osmid" : 1016191571,
-      "y" : 5.7214014,
-      "x" : -72.9341789,
-      "street_count" : 3,
-      "highway" : null
-    },
-    "geometry" : {
-      "type" : "Point",
-      "coordinates" : [ -72.9341789, 5.7214014 ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 1090,
-    "properties" : {
-      "osmid" : 1016196920,
-      "y" : 5.7217684,
-      "x" : -72.9339387,
-      "street_count" : 4,
-      "highway" : null
-    },
-    "geometry" : {
-      "type" : "Point",
-      "coordinates" : [ -72.9339387, 5.7217684 ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 3750,
-    "properties" : {
-      "osmid" : 9376141050,
-      "y" : 5.7226453,
-      "x" : -72.9333295,
-      "street_count" : 3,
-      "highway" : null
-    },
-    "geometry" : {
-      "type" : "Point",
-      "coordinates" : [ -72.9333295, 5.7226453 ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 972,
-    "properties" : {
-      "osmid" : 1016194753,
-      "y" : 5.7228075,
-      "x" : -72.9331805,
-      "street_count" : 4,
-      "highway" : null
-    },
-    "geometry" : {
-      "type" : "Point",
-      "coordinates" : [ -72.9331805, 5.7228075 ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 3735,
-    "properties" : {
-      "osmid" : 9375013426,
-      "y" : 5.7228661,
-      "x" : -72.9330236,
-      "street_count" : 4,
-      "highway" : null
-    },
-    "geometry" : {
-      "type" : "Point",
-      "coordinates" : [ -72.9330236, 5.7228661 ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 3736,
-    "properties" : {
-      "osmid" : 9375013432,
-      "y" : 5.7235103,
-      "x" : -72.9326587,
-      "street_count" : 3,
-      "highway" : null
-    },
-    "geometry" : {
-      "type" : "Point",
-      "coordinates" : [ -72.9326587, 5.7235103 ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 3542,
-    "properties" : {
-      "osmid" : 8108879801,
-      "y" : 5.7237741,
-      "x" : -72.9321908,
-      "street_count" : 3,
-      "highway" : null
-    },
-    "geometry" : {
-      "type" : "Point",
-      "coordinates" : [ -72.9321908, 5.7237741 ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 479,
-    "properties" : {
-      "osmid" : 1016189709,
-      "y" : 5.7237995,
-      "x" : -72.9321103,
-      "street_count" : 3,
-      "highway" : null
-    },
-    "geometry" : {
-      "type" : "Point",
-      "coordinates" : [ -72.9321103, 5.7237995 ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 2334,
-    "properties" : {
-      "osmid" : 6946357523,
-      "y" : 5.7238866,
-      "x" : -72.9313268,
-      "street_count" : 3,
-      "highway" : null
-    },
-    "geometry" : {
-      "type" : "Point",
-      "coordinates" : [ -72.9313268, 5.7238866 ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 2335,
-    "properties" : {
-      "osmid" : 6946357528,
-      "y" : 5.7240578,
-      "x" : -72.9307748,
-      "street_count" : 3,
-      "highway" : null
-    },
-    "geometry" : {
-      "type" : "Point",
-      "coordinates" : [ -72.9307748, 5.7240578 ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 1689,
-    "properties" : {
-      "osmid" : 4038648432,
-      "y" : 5.724362,
-      "x" : -72.9297138,
-      "street_count" : 3,
-      "highway" : null
-    },
-    "geometry" : {
-      "type" : "Point",
-      "coordinates" : [ -72.9297138, 5.724362 ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 40,
-    "properties" : {
-      "osmid" : 1016183529,
-      "y" : 5.7245134,
-      "x" : -72.9290387,
-      "street_count" : 4,
-      "highway" : null
-    },
-    "geometry" : {
-      "type" : "Point",
-      "coordinates" : [ -72.9290387, 5.7245134 ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 1690,
-    "properties" : {
-      "osmid" : 4038648435,
-      "y" : 5.7246792,
-      "x" : -72.9281965,
-      "street_count" : 3,
-      "highway" : null
-    },
-    "geometry" : {
-      "type" : "Point",
-      "coordinates" : [ -72.9281965, 5.7246792 ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 1692,
-    "properties" : {
-      "osmid" : 4038648444,
-      "y" : 5.7249628,
-      "x" : -72.92728,
-      "street_count" : 3,
-      "highway" : null
-    },
-    "geometry" : {
-      "type" : "Point",
-      "coordinates" : [ -72.92728, 5.7249628 ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 1695,
-    "properties" : {
-      "osmid" : 4038648450,
-      "y" : 5.7252144,
-      "x" : -72.9265058,
-      "street_count" : 3,
-      "highway" : null
-    },
-    "geometry" : {
-      "type" : "Point",
-      "coordinates" : [ -72.9265058, 5.7252144 ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 1696,
-    "properties" : {
-      "osmid" : 4038648453,
-      "y" : 5.725308,
-      "x" : -72.9262102,
-      "street_count" : 3,
-      "highway" : null
-    },
-    "geometry" : {
-      "type" : "Point",
-      "coordinates" : [ -72.9262102, 5.725308 ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 1700,
-    "properties" : {
-      "osmid" : 4038648460,
-      "y" : 5.7254901,
-      "x" : -72.9255862,
-      "street_count" : 3,
-      "highway" : null
-    },
-    "geometry" : {
-      "type" : "Point",
-      "coordinates" : [ -72.9255862, 5.7254901 ]
+      "coordinates" : [ -72.9254382, 5.7260812 ]
     }
   }, {
     "type" : "Feature",
@@ -562,1510 +100,642 @@
     }
   }, {
     "type" : "Feature",
-    "id" : 2996,
+    "id" : 1700,
     "properties" : {
-      "osmid" : 7787666007,
-      "y" : 5.725475,
-      "x" : -72.9250033,
-      "street_count" : 4,
-      "highway" : null
-    },
-    "geometry" : {
-      "type" : "Point",
-      "coordinates" : [ -72.9250033, 5.725475 ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 2997,
-    "properties" : {
-      "osmid" : 7787666010,
-      "y" : 5.7255916,
-      "x" : -72.9246055,
+      "osmid" : 4038648460,
+      "y" : 5.7254901,
+      "x" : -72.9255862,
       "street_count" : 3,
       "highway" : null
     },
     "geometry" : {
       "type" : "Point",
-      "coordinates" : [ -72.9246055, 5.7255916 ]
+      "coordinates" : [ -72.9255862, 5.7254901 ]
     }
   }, {
     "type" : "Feature",
-    "id" : 2993,
+    "id" : 1696,
     "properties" : {
-      "osmid" : 7787666001,
-      "y" : 5.7261758,
-      "x" : -72.9232414,
-      "street_count" : 4,
-      "highway" : null
-    },
-    "geometry" : {
-      "type" : "Point",
-      "coordinates" : [ -72.9232414, 5.7261758 ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 2994,
-    "properties" : {
-      "osmid" : 7787666005,
-      "y" : 5.726129,
-      "x" : -72.9231203,
-      "street_count" : 4,
-      "highway" : null
-    },
-    "geometry" : {
-      "type" : "Point",
-      "coordinates" : [ -72.9231203, 5.726129 ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 2986,
-    "properties" : {
-      "osmid" : 7787663580,
-      "y" : 5.7263585,
-      "x" : -72.9220305,
+      "osmid" : 4038648453,
+      "y" : 5.725308,
+      "x" : -72.9262102,
       "street_count" : 3,
       "highway" : null
     },
     "geometry" : {
       "type" : "Point",
-      "coordinates" : [ -72.9220305, 5.7263585 ]
+      "coordinates" : [ -72.9262102, 5.725308 ]
     }
   }, {
     "type" : "Feature",
-    "id" : 1645,
+    "id" : 1695,
     "properties" : {
-      "osmid" : 3473464627,
-      "y" : 5.7269964,
-      "x" : -72.9217244,
-      "street_count" : 4,
-      "highway" : null
-    },
-    "geometry" : {
-      "type" : "Point",
-      "coordinates" : [ -72.9217244, 5.7269964 ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 1646,
-    "properties" : {
-      "osmid" : 3473464628,
-      "y" : 5.7271009,
-      "x" : -72.921675,
+      "osmid" : 4038648450,
+      "y" : 5.7252144,
+      "x" : -72.9265058,
       "street_count" : 3,
       "highway" : null
     },
     "geometry" : {
       "type" : "Point",
-      "coordinates" : [ -72.921675, 5.7271009 ]
+      "coordinates" : [ -72.9265058, 5.7252144 ]
     }
   }, {
     "type" : "Feature",
-    "id" : 1000,
+    "id" : 1692,
     "properties" : {
-      "osmid" : 1016195096,
-      "y" : 5.7270576,
-      "x" : -72.921572,
-      "street_count" : 4,
-      "highway" : null
-    },
-    "geometry" : {
-      "type" : "Point",
-      "coordinates" : [ -72.921572, 5.7270576 ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 1443,
-    "properties" : {
-      "osmid" : 1291157337,
-      "y" : 5.7266838,
-      "x" : -72.9206816,
+      "osmid" : 4038648444,
+      "y" : 5.7249628,
+      "x" : -72.92728,
       "street_count" : 3,
       "highway" : null
     },
     "geometry" : {
       "type" : "Point",
-      "coordinates" : [ -72.9206816, 5.7266838 ]
+      "coordinates" : [ -72.92728, 5.7249628 ]
     }
   }, {
     "type" : "Feature",
-    "id" : 579,
+    "id" : 1690,
     "properties" : {
-      "osmid" : 1016190833,
-      "y" : 5.7278468,
-      "x" : -72.9201432,
+      "osmid" : 4038648435,
+      "y" : 5.7246792,
+      "x" : -72.9281965,
       "street_count" : 3,
       "highway" : null
     },
     "geometry" : {
       "type" : "Point",
-      "coordinates" : [ -72.9201432, 5.7278468 ]
+      "coordinates" : [ -72.9281965, 5.7246792 ]
     }
   }, {
     "type" : "Feature",
-    "id" : 238,
+    "id" : 40,
     "properties" : {
-      "osmid" : 1016186233,
-      "y" : 5.7277221,
-      "x" : -72.91995,
+      "osmid" : 1016183529,
+      "y" : 5.7245134,
+      "x" : -72.9290387,
+      "street_count" : 4,
+      "highway" : null
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -72.9290387, 5.7245134 ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 1689,
+    "properties" : {
+      "osmid" : 4038648432,
+      "y" : 5.724362,
+      "x" : -72.9297138,
       "street_count" : 3,
       "highway" : null
     },
     "geometry" : {
       "type" : "Point",
-      "coordinates" : [ -72.91995, 5.7277221 ]
+      "coordinates" : [ -72.9297138, 5.724362 ]
     }
   }, {
     "type" : "Feature",
-    "id" : 930,
+    "id" : 2335,
     "properties" : {
-      "osmid" : 1016194302,
-      "y" : 5.7286317,
-      "x" : -72.9192069,
+      "osmid" : 6946357528,
+      "y" : 5.7240578,
+      "x" : -72.9307748,
+      "street_count" : 3,
+      "highway" : null
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -72.9307748, 5.7240578 ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 2334,
+    "properties" : {
+      "osmid" : 6946357523,
+      "y" : 5.7238866,
+      "x" : -72.9313268,
+      "street_count" : 3,
+      "highway" : null
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -72.9313268, 5.7238866 ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 479,
+    "properties" : {
+      "osmid" : 1016189709,
+      "y" : 5.7237995,
+      "x" : -72.9321103,
+      "street_count" : 3,
+      "highway" : null
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -72.9321103, 5.7237995 ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 3542,
+    "properties" : {
+      "osmid" : 8108879801,
+      "y" : 5.7237741,
+      "x" : -72.9321908,
+      "street_count" : 3,
+      "highway" : null
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -72.9321908, 5.7237741 ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 3541,
+    "properties" : {
+      "osmid" : 8108879796,
+      "y" : 5.7239503,
+      "x" : -72.93262,
+      "street_count" : 3,
+      "highway" : null
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -72.93262, 5.7239503 ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 3540,
+    "properties" : {
+      "osmid" : 8108879795,
+      "y" : 5.724019,
+      "x" : -72.9326414,
+      "street_count" : 3,
+      "highway" : null
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -72.9326414, 5.724019 ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 3547,
+    "properties" : {
+      "osmid" : 8108884931,
+      "y" : 5.7241752,
+      "x" : -72.9328861,
+      "street_count" : 3,
+      "highway" : null
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -72.9328861, 5.7241752 ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 3546,
+    "properties" : {
+      "osmid" : 8108884927,
+      "y" : 5.7242106,
+      "x" : -72.9331644,
+      "street_count" : 3,
+      "highway" : null
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -72.9331644, 5.7242106 ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 492,
+    "properties" : {
+      "osmid" : 1016189910,
+      "y" : 5.7252557,
+      "x" : -72.933434,
+      "street_count" : 3,
+      "highway" : null
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -72.933434, 5.7252557 ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 187,
+    "properties" : {
+      "osmid" : 1016185368,
+      "y" : 5.7260187,
+      "x" : -72.933639,
+      "street_count" : 3,
+      "highway" : null
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -72.933639, 5.7260187 ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 2749,
+    "properties" : {
+      "osmid" : 7784857841,
+      "y" : 5.7255545,
+      "x" : -72.9345551,
+      "street_count" : 3,
+      "highway" : null
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -72.9345551, 5.7255545 ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 779,
+    "properties" : {
+      "osmid" : 1016193013,
+      "y" : 5.7254767,
+      "x" : -72.9347418,
+      "street_count" : 3,
+      "highway" : null
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -72.9347418, 5.7254767 ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 3698,
+    "properties" : {
+      "osmid" : 9371895553,
+      "y" : 5.7251894,
+      "x" : -72.9352464,
+      "street_count" : 3,
+      "highway" : null
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -72.9352464, 5.7251894 ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 1397,
+    "properties" : {
+      "osmid" : 1016201699,
+      "y" : 5.7250428,
+      "x" : -72.9355527,
+      "street_count" : 3,
+      "highway" : null
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -72.9355527, 5.7250428 ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 298,
+    "properties" : {
+      "osmid" : 1016187203,
+      "y" : 5.7253254,
+      "x" : -72.9358639,
+      "street_count" : 3,
+      "highway" : null
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -72.9358639, 5.7253254 ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 208,
+    "properties" : {
+      "osmid" : 1016185627,
+      "y" : 5.7256624,
+      "x" : -72.9362224,
+      "street_count" : 3,
+      "highway" : null
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -72.9362224, 5.7256624 ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 3585,
+    "properties" : {
+      "osmid" : 9298387987,
+      "y" : 5.7258616,
+      "x" : -72.9364022,
       "street_count" : 4,
       "highway" : null
     },
     "geometry" : {
       "type" : "Point",
-      "coordinates" : [ -72.9192069, 5.7286317 ]
+      "coordinates" : [ -72.9364022, 5.7258616 ]
     }
   }, {
     "type" : "Feature",
-    "id" : 44,
+    "id" : 3624,
     "properties" : {
-      "osmid" : 1016183614,
-      "y" : 5.7293468,
-      "x" : -72.9185887,
+      "osmid" : 9302024524,
+      "y" : 5.7259313,
+      "x" : -72.9364219,
       "street_count" : 4,
       "highway" : null
     },
     "geometry" : {
       "type" : "Point",
-      "coordinates" : [ -72.9185887, 5.7293468 ]
+      "coordinates" : [ -72.9364219, 5.7259313 ]
     }
   }, {
     "type" : "Feature",
-    "id" : 3870,
+    "id" : 2787,
     "properties" : {
-      "u" : 1016201065,
-      "v" : 4885633068,
+      "osmid" : 7784867706,
+      "y" : 5.7266876,
+      "x" : -72.9366099,
+      "street_count" : 3,
+      "highway" : null
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -72.9366099, 5.7266876 ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 1635,
+    "properties" : {
+      "u" : 1016190752,
+      "v" : 1016193255,
       "key" : 0,
-      "osmid" : "87389789",
+      "osmid" : "87392451",
+      "highway" : "residential",
+      "oneway" : true,
+      "reversed" : "False",
+      "length" : 92.04,
+      "maxspeed" : 30,
+      "weight" : 92.04,
+      "lanes" : null,
+      "ref" : null,
+      "name" : "Calle 24",
+      "width" : null,
+      "bridge" : null,
+      "junction" : null
+    },
+    "geometry" : {
+      "type" : "LineString",
+      "coordinates" : [ [ -72.9241406, 5.7266426 ], [ -72.9248799, 5.7270221 ] ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 2305,
+    "properties" : {
+      "u" : 1016193255,
+      "v" : 4038648475,
+      "key" : 0,
+      "osmid" : "87393128",
+      "highway" : "residential",
+      "oneway" : false,
+      "reversed" : "False",
+      "length" : 9.787,
+      "maxspeed" : 30,
+      "weight" : 9.787,
+      "lanes" : null,
+      "ref" : null,
+      "name" : "Carrera 12",
+      "width" : null,
+      "bridge" : null,
+      "junction" : null
+    },
+    "geometry" : {
+      "type" : "LineString",
+      "coordinates" : [ [ -72.9248799, 5.7270221 ], [ -72.9249193, 5.7269433 ] ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 4830,
+    "properties" : {
+      "u" : 4038648475,
+      "v" : 1016193255,
+      "key" : 0,
+      "osmid" : "87393128",
       "highway" : "residential",
       "oneway" : false,
       "reversed" : "True",
-      "length" : 22.543,
+      "length" : 9.787,
       "maxspeed" : 30,
-      "weight" : 22.543,
+      "weight" : 9.787,
       "lanes" : null,
       "ref" : null,
-      "name" : "Calle 3",
+      "name" : "Carrera 12",
       "width" : null,
       "bridge" : null,
       "junction" : null
     },
     "geometry" : {
       "type" : "LineString",
-      "coordinates" : [ [ -72.9417286, 5.7135306 ], [ -72.9415655, 5.7134091 ] ]
+      "coordinates" : [ [ -72.9249193, 5.7269433 ], [ -72.9248799, 5.7270221 ] ]
     }
   }, {
     "type" : "Feature",
-    "id" : 5304,
+    "id" : 678,
     "properties" : {
-      "u" : 4885633068,
-      "v" : 1016201065,
+      "u" : 1016186148,
+      "v" : 4038648475,
       "key" : 0,
-      "osmid" : "87389789",
-      "highway" : "residential",
-      "oneway" : false,
-      "reversed" : "False",
-      "length" : 22.543,
-      "maxspeed" : 30,
-      "weight" : 22.543,
-      "lanes" : null,
-      "ref" : null,
-      "name" : "Calle 3",
-      "width" : null,
-      "bridge" : null,
-      "junction" : null
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.9415655, 5.7134091 ], [ -72.9417286, 5.7135306 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 2300,
-    "properties" : {
-      "u" : 1016193241,
-      "v" : 4885633068,
-      "key" : 0,
-      "osmid" : "87389789",
-      "highway" : "residential",
-      "oneway" : false,
-      "reversed" : "False",
-      "length" : 52.282,
-      "maxspeed" : 30,
-      "weight" : 52.282,
-      "lanes" : null,
-      "ref" : null,
-      "name" : "Calle 3",
-      "width" : null,
-      "bridge" : null,
-      "junction" : null
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.9411874, 5.7131271 ], [ -72.9412728, 5.7131915 ], [ -72.9415655, 5.7134091 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 5305,
-    "properties" : {
-      "u" : 4885633068,
-      "v" : 1016193241,
-      "key" : 0,
-      "osmid" : "87389789",
+      "osmid" : "87393128",
       "highway" : "residential",
       "oneway" : false,
       "reversed" : "True",
-      "length" : 52.282,
+      "length" : 37.518,
       "maxspeed" : 30,
-      "weight" : 52.282,
+      "weight" : 37.518,
       "lanes" : null,
       "ref" : null,
-      "name" : "Calle 3",
+      "name" : "Carrera 12",
       "width" : null,
       "bridge" : null,
       "junction" : null
     },
     "geometry" : {
       "type" : "LineString",
-      "coordinates" : [ [ -72.9415655, 5.7134091 ], [ -72.9412728, 5.7131915 ], [ -72.9411874, 5.7131271 ] ]
+      "coordinates" : [ [ -72.9250989, 5.7266571 ], [ -72.9249193, 5.7269433 ] ]
     }
   }, {
     "type" : "Feature",
-    "id" : 1346,
+    "id" : 4829,
     "properties" : {
-      "u" : 1016189605,
-      "v" : 1016193241,
+      "u" : 4038648475,
+      "v" : 1016186148,
       "key" : 0,
-      "osmid" : "87393970",
+      "osmid" : "87393128",
+      "highway" : "residential",
+      "oneway" : false,
+      "reversed" : "False",
+      "length" : 37.518,
+      "maxspeed" : 30,
+      "weight" : 37.518,
+      "lanes" : null,
+      "ref" : null,
+      "name" : "Carrera 12",
+      "width" : null,
+      "bridge" : null,
+      "junction" : null
+    },
+    "geometry" : {
+      "type" : "LineString",
+      "coordinates" : [ [ -72.9249193, 5.7269433 ], [ -72.9250989, 5.7266571 ] ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 680,
+    "properties" : {
+      "u" : 1016186148,
+      "v" : 7787663560,
+      "key" : 0,
+      "osmid" : "87393128",
+      "highway" : "residential",
+      "oneway" : false,
+      "reversed" : "False",
+      "length" : 44.274,
+      "maxspeed" : 30,
+      "weight" : 44.274,
+      "lanes" : null,
+      "ref" : null,
+      "name" : "Carrera 12",
+      "width" : null,
+      "bridge" : null,
+      "junction" : null
+    },
+    "geometry" : {
+      "type" : "LineString",
+      "coordinates" : [ [ -72.9250989, 5.7266571 ], [ -72.9252085, 5.7264649 ], [ -72.9252971, 5.7263112 ] ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 7797,
+    "properties" : {
+      "u" : 7787663560,
+      "v" : 1016186148,
+      "key" : 0,
+      "osmid" : "87393128",
       "highway" : "residential",
       "oneway" : false,
       "reversed" : "True",
-      "length" : 37.259,
+      "length" : 44.274,
       "maxspeed" : 30,
-      "weight" : 37.259,
+      "weight" : 44.274,
       "lanes" : null,
       "ref" : null,
-      "name" : "Carrera 21",
+      "name" : "Carrera 12",
       "width" : null,
       "bridge" : null,
       "junction" : null
     },
     "geometry" : {
       "type" : "LineString",
-      "coordinates" : [ [ -72.940992, 5.7134 ], [ -72.9411874, 5.7131271 ] ]
+      "coordinates" : [ [ -72.9252971, 5.7263112 ], [ -72.9252085, 5.7264649 ], [ -72.9250989, 5.7266571 ] ]
     }
   }, {
     "type" : "Feature",
-    "id" : 2299,
+    "id" : 441,
     "properties" : {
-      "u" : 1016193241,
-      "v" : 1016189605,
+      "u" : 1016184754,
+      "v" : 7787663560,
       "key" : 0,
-      "osmid" : "87393970",
-      "highway" : "residential",
-      "oneway" : false,
-      "reversed" : "False",
-      "length" : 37.259,
-      "maxspeed" : 30,
-      "weight" : 37.259,
-      "lanes" : null,
-      "ref" : null,
-      "name" : "Carrera 21",
-      "width" : null,
-      "bridge" : null,
-      "junction" : null
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.9411874, 5.7131271 ], [ -72.940992, 5.7134 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 1345,
-    "properties" : {
-      "u" : 1016189605,
-      "v" : 2727985458,
-      "key" : 0,
-      "osmid" : "87393970",
-      "highway" : "residential",
-      "oneway" : false,
-      "reversed" : "False",
-      "length" : 38.472,
-      "maxspeed" : 30,
-      "weight" : 38.472,
-      "lanes" : null,
-      "ref" : null,
-      "name" : "Carrera 21",
-      "width" : null,
-      "bridge" : null,
-      "junction" : null
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.940992, 5.7134 ], [ -72.9407987, 5.7136876 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 4364,
-    "properties" : {
-      "u" : 2727985458,
-      "v" : 1016189605,
-      "key" : 0,
-      "osmid" : "87393970",
+      "osmid" : "87393128",
       "highway" : "residential",
       "oneway" : false,
       "reversed" : "True",
-      "length" : 38.472,
+      "length" : 29.963,
       "maxspeed" : 30,
-      "weight" : 38.472,
+      "weight" : 29.963,
       "lanes" : null,
       "ref" : null,
-      "name" : "Carrera 21",
+      "name" : "Carrera 12",
       "width" : null,
       "bridge" : null,
       "junction" : null
     },
     "geometry" : {
       "type" : "LineString",
-      "coordinates" : [ [ -72.9407987, 5.7136876 ], [ -72.940992, 5.7134 ] ]
+      "coordinates" : [ [ -72.9254382, 5.7260812 ], [ -72.9252971, 5.7263112 ] ]
     }
   }, {
     "type" : "Feature",
-    "id" : 439,
+    "id" : 7795,
     "properties" : {
-      "u" : 1016184738,
-      "v" : 2727985458,
+      "u" : 7787663560,
+      "v" : 1016184754,
       "key" : 0,
-      "osmid" : "87393970",
+      "osmid" : "87393128",
+      "highway" : "residential",
+      "oneway" : false,
+      "reversed" : "False",
+      "length" : 29.963,
+      "maxspeed" : 30,
+      "weight" : 29.963,
+      "lanes" : null,
+      "ref" : null,
+      "name" : "Carrera 12",
+      "width" : null,
+      "bridge" : null,
+      "junction" : null
+    },
+    "geometry" : {
+      "type" : "LineString",
+      "coordinates" : [ [ -72.9252971, 5.7263112 ], [ -72.9254382, 5.7260812 ] ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 442,
+    "properties" : {
+      "u" : 1016184754,
+      "v" : 1016200650,
+      "key" : 0,
+      "osmid" : "87393128",
+      "highway" : "residential",
+      "oneway" : false,
+      "reversed" : "False",
+      "length" : 43.943,
+      "maxspeed" : 30,
+      "weight" : 43.943,
+      "lanes" : null,
+      "ref" : null,
+      "name" : "Carrera 12",
+      "width" : null,
+      "bridge" : null,
+      "junction" : null
+    },
+    "geometry" : {
+      "type" : "LineString",
+      "coordinates" : [ [ -72.9254382, 5.7260812 ], [ -72.9254758, 5.726008 ], [ -72.9255128, 5.725884 ], [ -72.9255415, 5.7257026 ] ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 3766,
+    "properties" : {
+      "u" : 1016200650,
+      "v" : 1016184754,
+      "key" : 0,
+      "osmid" : "87393128",
       "highway" : "residential",
       "oneway" : false,
       "reversed" : "True",
-      "length" : 59.944,
+      "length" : 43.943,
       "maxspeed" : 30,
-      "weight" : 59.944,
+      "weight" : 43.943,
       "lanes" : null,
       "ref" : null,
-      "name" : "Carrera 21",
+      "name" : "Carrera 12",
       "width" : null,
       "bridge" : null,
       "junction" : null
     },
     "geometry" : {
       "type" : "LineString",
-      "coordinates" : [ [ -72.9405083, 5.7141427 ], [ -72.9407987, 5.7136876 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 4363,
-    "properties" : {
-      "u" : 2727985458,
-      "v" : 1016184738,
-      "key" : 0,
-      "osmid" : "87393970",
-      "highway" : "residential",
-      "oneway" : false,
-      "reversed" : "False",
-      "length" : 59.944,
-      "maxspeed" : 30,
-      "weight" : 59.944,
-      "lanes" : null,
-      "ref" : null,
-      "name" : "Carrera 21",
-      "width" : null,
-      "bridge" : null,
-      "junction" : null
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.9407987, 5.7136876 ], [ -72.9405083, 5.7141427 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 440,
-    "properties" : {
-      "u" : 1016184738,
-      "v" : 1016199942,
-      "key" : 0,
-      "osmid" : "87391844",
-      "highway" : "residential",
-      "oneway" : false,
-      "reversed" : "True",
-      "length" : 37.536,
-      "maxspeed" : 30,
-      "weight" : 37.536,
-      "lanes" : null,
-      "ref" : null,
-      "name" : "Calle 5",
-      "width" : null,
-      "bridge" : null,
-      "junction" : null
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.9405083, 5.7141427 ], [ -72.9404254, 5.7141113 ], [ -72.9401912, 5.7140227 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 3609,
-    "properties" : {
-      "u" : 1016199942,
-      "v" : 1016184738,
-      "key" : 0,
-      "osmid" : "87391844",
-      "highway" : "residential",
-      "oneway" : false,
-      "reversed" : "False",
-      "length" : 37.536,
-      "maxspeed" : 30,
-      "weight" : 37.536,
-      "lanes" : null,
-      "ref" : null,
-      "name" : "Calle 5",
-      "width" : null,
-      "bridge" : null,
-      "junction" : null
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.9401912, 5.7140227 ], [ -72.9404254, 5.7141113 ], [ -72.9405083, 5.7141427 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 3607,
-    "properties" : {
-      "u" : 1016199942,
-      "v" : 1016200256,
-      "key" : 0,
-      "osmid" : "87391844",
-      "highway" : "residential",
-      "oneway" : false,
-      "reversed" : "True",
-      "length" : 58.775,
-      "maxspeed" : 30,
-      "weight" : 58.775,
-      "lanes" : null,
-      "ref" : null,
-      "name" : "Calle 5",
-      "width" : null,
-      "bridge" : null,
-      "junction" : null
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.9401912, 5.7140227 ], [ -72.9397435, 5.7137382 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 3648,
-    "properties" : {
-      "u" : 1016200256,
-      "v" : 1016199942,
-      "key" : 0,
-      "osmid" : "87391844",
-      "highway" : "residential",
-      "oneway" : false,
-      "reversed" : "False",
-      "length" : 58.775,
-      "maxspeed" : 30,
-      "weight" : 58.775,
-      "lanes" : null,
-      "ref" : null,
-      "name" : "Calle 5",
-      "width" : null,
-      "bridge" : null,
-      "junction" : null
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.9397435, 5.7137382 ], [ -72.9401912, 5.7140227 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 1086,
-    "properties" : {
-      "u" : 1016188261,
-      "v" : 1016200256,
-      "key" : 0,
-      "osmid" : "1089368221",
-      "highway" : "residential",
-      "oneway" : true,
-      "reversed" : "False",
-      "length" : 156.375,
-      "maxspeed" : 30,
-      "weight" : 156.375,
-      "lanes" : null,
-      "ref" : null,
-      "name" : "Carrera 20",
-      "width" : null,
-      "bridge" : null,
-      "junction" : null
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.9388992, 5.714866 ], [ -72.9397435, 5.7137382 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 467,
-    "properties" : {
-      "u" : 1016185022,
-      "v" : 1016188261,
-      "key" : 0,
-      "osmid" : "1089368221",
-      "highway" : "residential",
-      "oneway" : true,
-      "reversed" : "False",
-      "length" : 64.338,
-      "maxspeed" : 30,
-      "weight" : 64.338,
-      "lanes" : null,
-      "ref" : null,
-      "name" : "Carrera 20",
-      "width" : null,
-      "bridge" : null,
-      "junction" : null
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.9385478, 5.715327 ], [ -72.9388992, 5.714866 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 3902,
-    "properties" : {
-      "u" : 1016201277,
-      "v" : 1016185022,
-      "key" : 0,
-      "osmid" : "1089368219",
-      "highway" : "residential",
-      "oneway" : true,
-      "reversed" : "False",
-      "length" : 13.448,
-      "maxspeed" : 30,
-      "weight" : 13.448,
-      "lanes" : null,
-      "ref" : null,
-      "name" : "Carrera 20",
-      "width" : null,
-      "bridge" : null,
-      "junction" : null
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.9384701, 5.71542 ], [ -72.9385478, 5.715327 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 3527,
-    "properties" : {
-      "u" : 1016199573,
-      "v" : 1016201277,
-      "key" : 0,
-      "osmid" : "87389975",
-      "highway" : "residential",
-      "oneway" : true,
-      "reversed" : "False",
-      "length" : 95.959,
-      "maxspeed" : 30,
-      "weight" : 95.959,
-      "lanes" : null,
-      "ref" : null,
-      "name" : "Carrera 20",
-      "width" : null,
-      "bridge" : null,
-      "junction" : null
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.9379864, 5.7161363 ], [ -72.9384701, 5.71542 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 1387,
-    "properties" : {
-      "u" : 1016189907,
-      "v" : 1016199573,
-      "key" : 0,
-      "osmid" : "87389975",
-      "highway" : "residential",
-      "oneway" : true,
-      "reversed" : "False",
-      "length" : 121.528,
-      "maxspeed" : 30,
-      "weight" : 121.528,
-      "lanes" : null,
-      "ref" : null,
-      "name" : "Carrera 20",
-      "width" : null,
-      "bridge" : null,
-      "junction" : null
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.9373486, 5.7170261 ], [ -72.9379864, 5.7161363 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 2961,
-    "properties" : {
-      "u" : 1016195809,
-      "v" : 1016189907,
-      "key" : 0,
-      "osmid" : "87389975",
-      "highway" : "residential",
-      "oneway" : true,
-      "reversed" : "False",
-      "length" : 97.794,
-      "maxspeed" : 30,
-      "weight" : 97.794,
-      "lanes" : null,
-      "ref" : null,
-      "name" : "Carrera 20",
-      "width" : null,
-      "bridge" : null,
-      "junction" : null
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.9368218, 5.7177323 ], [ -72.9373486, 5.7170261 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 9167,
-    "properties" : {
-      "u" : 9303495236,
-      "v" : 1016195809,
-      "key" : 0,
-      "osmid" : "1172507351",
-      "highway" : "residential",
-      "oneway" : true,
-      "reversed" : "False",
-      "length" : 55.61,
-      "maxspeed" : 30,
-      "weight" : 55.61,
-      "lanes" : null,
-      "ref" : null,
-      "name" : "Carrera 20",
-      "width" : null,
-      "bridge" : null,
-      "junction" : null
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.9365261, 5.7181367 ], [ -72.9368218, 5.7177323 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 2861,
-    "properties" : {
-      "u" : 1016195084,
-      "v" : 9303495236,
-      "key" : 0,
-      "osmid" : "1172507351",
-      "highway" : "residential",
-      "oneway" : true,
-      "reversed" : "False",
-      "length" : 113.029,
-      "maxspeed" : 30,
-      "weight" : 113.029,
-      "lanes" : null,
-      "ref" : null,
-      "name" : "Carrera 20",
-      "width" : null,
-      "bridge" : null,
-      "junction" : null
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.935925, 5.7189586 ], [ -72.9365261, 5.7181367 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 9311,
-    "properties" : {
-      "u" : 9371895544,
-      "v" : 1016195084,
-      "key" : 0,
-      "osmid" : "1016444618",
-      "highway" : "tertiary",
-      "oneway" : true,
-      "reversed" : "False",
-      "length" : 11.96,
-      "maxspeed" : 30,
-      "weight" : 11.96,
-      "lanes" : null,
-      "ref" : null,
-      "name" : "Carrera 20",
-      "width" : null,
-      "bridge" : null,
-      "junction" : null
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.9358669, 5.7190493 ], [ -72.935925, 5.7189586 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 5554,
-    "properties" : {
-      "u" : 5237321005,
-      "v" : 9371895544,
-      "key" : 0,
-      "osmid" : [ 1016444620, 87392006 ],
-      "highway" : "tertiary",
-      "oneway" : true,
-      "reversed" : "False",
-      "length" : 74.537,
-      "maxspeed" : 30,
-      "weight" : 74.537,
-      "lanes" : null,
-      "ref" : null,
-      "name" : "Carrera 20",
-      "width" : null,
-      "bridge" : null,
-      "junction" : null
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.9354664, 5.7195882 ], [ -72.9355518, 5.7194661 ], [ -72.9357917, 5.7191472 ], [ -72.9358669, 5.7190493 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 3344,
-    "properties" : {
-      "u" : 1016198001,
-      "v" : 5237321005,
-      "key" : 0,
-      "osmid" : "87392006",
-      "highway" : "tertiary",
-      "oneway" : true,
-      "reversed" : "False",
-      "length" : 51.769,
-      "maxspeed" : 30,
-      "weight" : 51.769,
-      "lanes" : null,
-      "ref" : null,
-      "name" : "Carrera 20",
-      "width" : null,
-      "bridge" : null,
-      "junction" : null
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.935186, 5.7199608 ], [ -72.9352517, 5.719867 ], [ -72.9354664, 5.7195882 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 3357,
-    "properties" : {
-      "u" : 1016198248,
-      "v" : 1016198001,
-      "key" : 0,
-      "osmid" : "1097531029",
-      "highway" : "tertiary",
-      "oneway" : true,
-      "reversed" : "False",
-      "length" : 81.096,
-      "maxspeed" : 30,
-      "weight" : 81.096,
-      "lanes" : null,
-      "ref" : null,
-      "name" : "Carrera 20",
-      "width" : null,
-      "bridge" : null,
-      "junction" : null
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.9347546, 5.7205504 ], [ -72.9350253, 5.7201766 ], [ -72.935186, 5.7199608 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 1849,
-    "properties" : {
-      "u" : 1016191624,
-      "v" : 1016198248,
-      "key" : 0,
-      "osmid" : "1097531030",
-      "highway" : "tertiary",
-      "oneway" : true,
-      "reversed" : "False",
-      "length" : 8.632,
-      "maxspeed" : 30,
-      "weight" : 8.632,
-      "lanes" : null,
-      "ref" : null,
-      "name" : "Carrera 20",
-      "width" : null,
-      "bridge" : null,
-      "junction" : null
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.9347118, 5.7206153 ], [ -72.9347546, 5.7205504 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 3389,
-    "properties" : {
-      "u" : 1016198419,
-      "v" : 1016191624,
-      "key" : 0,
-      "osmid" : "1097531030",
-      "highway" : "tertiary",
-      "oneway" : true,
-      "reversed" : "False",
-      "length" : 55.821,
-      "maxspeed" : 30,
-      "weight" : 55.821,
-      "lanes" : null,
-      "ref" : null,
-      "name" : "Carrera 20",
-      "width" : null,
-      "bridge" : null,
-      "junction" : null
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.9344194, 5.7210244 ], [ -72.9347118, 5.7206153 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 1839,
-    "properties" : {
-      "u" : 1016191571,
-      "v" : 1016198419,
-      "key" : 0,
-      "osmid" : "1097531031",
-      "highway" : "tertiary",
-      "oneway" : true,
-      "reversed" : "False",
-      "length" : 49.653,
-      "maxspeed" : 30,
-      "weight" : 49.653,
-      "lanes" : null,
-      "ref" : null,
-      "name" : "Carrera 20",
-      "width" : null,
-      "bridge" : null,
-      "junction" : null
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.9341789, 5.7214014 ], [ -72.9344194, 5.7210244 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 3114,
-    "properties" : {
-      "u" : 1016196920,
-      "v" : 1016191571,
-      "key" : 0,
-      "osmid" : "1097531031",
-      "highway" : "tertiary",
-      "oneway" : true,
-      "reversed" : "False",
-      "length" : 48.699,
-      "maxspeed" : 30,
-      "weight" : 48.699,
-      "lanes" : null,
-      "ref" : null,
-      "name" : "Carrera 20",
-      "width" : null,
-      "bridge" : null,
-      "junction" : null
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.9339387, 5.7217684 ], [ -72.9341789, 5.7214014 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 9423,
-    "properties" : {
-      "u" : 9376141050,
-      "v" : 1016196920,
-      "key" : 0,
-      "osmid" : "1097531032",
-      "highway" : "tertiary",
-      "oneway" : true,
-      "reversed" : "False",
-      "length" : 118.536,
-      "maxspeed" : 30,
-      "weight" : 118.536,
-      "lanes" : null,
-      "ref" : null,
-      "name" : "Carrera 20",
-      "width" : null,
-      "bridge" : null,
-      "junction" : null
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.9333295, 5.7226453 ], [ -72.9339387, 5.7217684 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 2782,
-    "properties" : {
-      "u" : 1016194753,
-      "v" : 9376141050,
-      "key" : 0,
-      "osmid" : "1097531032",
-      "highway" : "tertiary",
-      "oneway" : true,
-      "reversed" : "False",
-      "length" : 24.496,
-      "maxspeed" : 30,
-      "weight" : 24.496,
-      "lanes" : null,
-      "ref" : null,
-      "name" : "Carrera 20",
-      "width" : null,
-      "bridge" : null,
-      "junction" : null
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.9331805, 5.7228075 ], [ -72.9332566, 5.7227361 ], [ -72.9333295, 5.7226453 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 2780,
-    "properties" : {
-      "u" : 1016194753,
-      "v" : 9375013426,
-      "key" : 0,
-      "osmid" : "1172485775",
-      "highway" : "tertiary",
-      "oneway" : true,
-      "reversed" : "False",
-      "length" : 18.542,
-      "maxspeed" : 30,
-      "weight" : 18.542,
-      "lanes" : null,
-      "ref" : null,
-      "name" : "Transversal 20",
-      "width" : null,
-      "bridge" : null,
-      "junction" : null
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.9331805, 5.7228075 ], [ -72.9330236, 5.7228661 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 9391,
-    "properties" : {
-      "u" : 9375013426,
-      "v" : 9375013432,
-      "key" : 0,
-      "osmid" : [ 1091362659, 1172507621, 1016444623 ],
-      "highway" : "tertiary",
-      "oneway" : true,
-      "reversed" : "False",
-      "length" : 82.493,
-      "maxspeed" : 30,
-      "weight" : 82.493,
-      "lanes" : null,
-      "ref" : null,
-      "name" : "Carrera 20",
-      "width" : null,
-      "bridge" : "yes",
-      "junction" : null
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.9330236, 5.7228661 ], [ -72.9329854, 5.7229108 ], [ -72.9329349, 5.7229974 ], [ -72.9329152, 5.7230344 ], [ -72.9328472, 5.7231604 ], [ -72.9327976, 5.7232671 ], [ -72.9327641, 5.7233285 ], [ -72.9326776, 5.7234906 ], [ -72.9326587, 5.7235103 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 9392,
-    "properties" : {
-      "u" : 9375013432,
-      "v" : 8108879801,
-      "key" : 0,
-      "osmid" : "870458227",
-      "highway" : "tertiary",
-      "oneway" : true,
-      "reversed" : "False",
-      "length" : 60.417,
-      "maxspeed" : 30,
-      "weight" : 60.417,
-      "lanes" : null,
-      "ref" : null,
-      "name" : "Carrera 20",
-      "width" : null,
-      "bridge" : null,
-      "junction" : null
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.9326587, 5.7235103 ], [ -72.9326159, 5.7235593 ], [ -72.9325729, 5.7236007 ], [ -72.9325421, 5.7236234 ], [ -72.9324979, 5.7236448 ], [ -72.9324429, 5.7236688 ], [ -72.9323785, 5.7236941 ], [ -72.9321908, 5.7237741 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 8990,
-    "properties" : {
-      "u" : 8108879801,
-      "v" : 1016189709,
-      "key" : 0,
-      "osmid" : "1091362658",
-      "highway" : "tertiary",
-      "oneway" : true,
-      "reversed" : "False",
-      "length" : 9.344,
-      "maxspeed" : 30,
-      "weight" : 9.344,
-      "lanes" : null,
-      "ref" : null,
-      "name" : null,
-      "width" : null,
-      "bridge" : null,
-      "junction" : "roundabout"
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.9321908, 5.7237741 ], [ -72.9321103, 5.7237995 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 1361,
-    "properties" : {
-      "u" : 1016189709,
-      "v" : 6946357523,
-      "key" : 0,
-      "osmid" : "742028885",
-      "highway" : "residential",
-      "oneway" : true,
-      "reversed" : "False",
-      "length" : 87.589,
-      "maxspeed" : 30,
-      "weight" : 87.589,
-      "lanes" : null,
-      "ref" : null,
-      "name" : "Transversal 20",
-      "width" : null,
-      "bridge" : null,
-      "junction" : null
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.9321103, 5.7237995 ], [ -72.9317978, 5.7238463 ], [ -72.9317455, 5.7238516 ], [ -72.9316838, 5.7238529 ], [ -72.9316382, 5.7238529 ], [ -72.9316007, 5.7238516 ], [ -72.931555, 5.7238477 ], [ -72.9315095, 5.7238489 ], [ -72.9314706, 5.7238529 ], [ -72.9313268, 5.7238866 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 6409,
-    "properties" : {
-      "u" : 6946357523,
-      "v" : 6946357528,
-      "key" : 0,
-      "osmid" : "742028883",
-      "highway" : "residential",
-      "oneway" : false,
-      "reversed" : "False",
-      "length" : 63.973,
-      "maxspeed" : 30,
-      "weight" : 63.973,
-      "lanes" : null,
-      "ref" : null,
-      "name" : "Transversal 20",
-      "width" : null,
-      "bridge" : null,
-      "junction" : null
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.9313268, 5.7238866 ], [ -72.9312486, 5.7239096 ], [ -72.9307748, 5.7240578 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 6413,
-    "properties" : {
-      "u" : 6946357528,
-      "v" : 6946357523,
-      "key" : 0,
-      "osmid" : "742028883",
-      "highway" : "residential",
-      "oneway" : false,
-      "reversed" : "True",
-      "length" : 63.973,
-      "maxspeed" : 30,
-      "weight" : 63.973,
-      "lanes" : null,
-      "ref" : null,
-      "name" : "Transversal 20",
-      "width" : null,
-      "bridge" : null,
-      "junction" : null
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.9307748, 5.7240578 ], [ -72.9312486, 5.7239096 ], [ -72.9313268, 5.7238866 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 4778,
-    "properties" : {
-      "u" : 4038648432,
-      "v" : 6946357528,
-      "key" : 0,
-      "osmid" : "742028882",
-      "highway" : "residential",
-      "oneway" : false,
-      "reversed" : "False",
-      "length" : 122.166,
-      "maxspeed" : 30,
-      "weight" : 122.166,
-      "lanes" : null,
-      "ref" : null,
-      "name" : "Transversal 20",
-      "width" : null,
-      "bridge" : null,
-      "junction" : null
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.9297138, 5.724362 ], [ -72.9307748, 5.7240578 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 6411,
-    "properties" : {
-      "u" : 6946357528,
-      "v" : 4038648432,
-      "key" : 0,
-      "osmid" : "742028882",
-      "highway" : "residential",
-      "oneway" : false,
-      "reversed" : "True",
-      "length" : 122.166,
-      "maxspeed" : 30,
-      "weight" : 122.166,
-      "lanes" : null,
-      "ref" : null,
-      "name" : "Transversal 20",
-      "width" : null,
-      "bridge" : null,
-      "junction" : null
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.9307748, 5.7240578 ], [ -72.9297138, 5.724362 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 118,
-    "properties" : {
-      "u" : 1016183529,
-      "v" : 4038648432,
-      "key" : 0,
-      "osmid" : "742028882",
-      "highway" : "residential",
-      "oneway" : false,
-      "reversed" : "False",
-      "length" : 76.567,
-      "maxspeed" : 30,
-      "weight" : 76.567,
-      "lanes" : null,
-      "ref" : null,
-      "name" : "Transversal 20",
-      "width" : null,
-      "bridge" : null,
-      "junction" : null
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.9290387, 5.7245134 ], [ -72.9297138, 5.724362 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 4779,
-    "properties" : {
-      "u" : 4038648432,
-      "v" : 1016183529,
-      "key" : 0,
-      "osmid" : "742028882",
-      "highway" : "residential",
-      "oneway" : false,
-      "reversed" : "True",
-      "length" : 76.567,
-      "maxspeed" : 30,
-      "weight" : 76.567,
-      "lanes" : null,
-      "ref" : null,
-      "name" : "Transversal 20",
-      "width" : null,
-      "bridge" : null,
-      "junction" : null
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.9297138, 5.724362 ], [ -72.9290387, 5.7245134 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 119,
-    "properties" : {
-      "u" : 1016183529,
-      "v" : 4038648435,
-      "key" : 0,
-      "osmid" : "1089563421",
-      "highway" : "residential",
-      "oneway" : false,
-      "reversed" : "False",
-      "length" : 94.988,
-      "maxspeed" : 30,
-      "weight" : 94.988,
-      "lanes" : null,
-      "ref" : null,
-      "name" : "Transversal 20",
-      "width" : null,
-      "bridge" : null,
-      "junction" : null
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.9290387, 5.7245134 ], [ -72.9281965, 5.7246792 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 4782,
-    "properties" : {
-      "u" : 4038648435,
-      "v" : 1016183529,
-      "key" : 0,
-      "osmid" : "1089563421",
-      "highway" : "residential",
-      "oneway" : false,
-      "reversed" : "True",
-      "length" : 94.988,
-      "maxspeed" : 30,
-      "weight" : 94.988,
-      "lanes" : null,
-      "ref" : null,
-      "name" : "Transversal 20",
-      "width" : null,
-      "bridge" : null,
-      "junction" : null
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.9281965, 5.7246792 ], [ -72.9290387, 5.7245134 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 4781,
-    "properties" : {
-      "u" : 4038648435,
-      "v" : 4038648444,
-      "key" : 0,
-      "osmid" : "401434291",
-      "highway" : "residential",
-      "oneway" : false,
-      "reversed" : "False",
-      "length" : 106.192,
-      "maxspeed" : 30,
-      "weight" : 106.192,
-      "lanes" : null,
-      "ref" : null,
-      "name" : "Transversal 20",
-      "width" : null,
-      "bridge" : null,
-      "junction" : null
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.9281965, 5.7246792 ], [ -72.92728, 5.7249628 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 4787,
-    "properties" : {
-      "u" : 4038648444,
-      "v" : 4038648435,
-      "key" : 0,
-      "osmid" : "401434291",
-      "highway" : "residential",
-      "oneway" : false,
-      "reversed" : "True",
-      "length" : 106.192,
-      "maxspeed" : 30,
-      "weight" : 106.192,
-      "lanes" : null,
-      "ref" : null,
-      "name" : "Transversal 20",
-      "width" : null,
-      "bridge" : null,
-      "junction" : null
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.92728, 5.7249628 ], [ -72.9281965, 5.7246792 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 4786,
-    "properties" : {
-      "u" : 4038648444,
-      "v" : 4038648450,
-      "key" : 0,
-      "osmid" : "401434291",
-      "highway" : "residential",
-      "oneway" : false,
-      "reversed" : "False",
-      "length" : 90.111,
-      "maxspeed" : 30,
-      "weight" : 90.111,
-      "lanes" : null,
-      "ref" : null,
-      "name" : "Transversal 20",
-      "width" : null,
-      "bridge" : null,
-      "junction" : null
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.92728, 5.7249628 ], [ -72.9265058, 5.7252144 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 4794,
-    "properties" : {
-      "u" : 4038648450,
-      "v" : 4038648444,
-      "key" : 0,
-      "osmid" : "401434291",
-      "highway" : "residential",
-      "oneway" : false,
-      "reversed" : "True",
-      "length" : 90.111,
-      "maxspeed" : 30,
-      "weight" : 90.111,
-      "lanes" : null,
-      "ref" : null,
-      "name" : "Transversal 20",
-      "width" : null,
-      "bridge" : null,
-      "junction" : null
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.9265058, 5.7252144 ], [ -72.92728, 5.7249628 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 4793,
-    "properties" : {
-      "u" : 4038648450,
-      "v" : 4038648453,
-      "key" : 0,
-      "osmid" : "401434291",
-      "highway" : "residential",
-      "oneway" : false,
-      "reversed" : "False",
-      "length" : 34.321,
-      "maxspeed" : 30,
-      "weight" : 34.321,
-      "lanes" : null,
-      "ref" : null,
-      "name" : "Transversal 20",
-      "width" : null,
-      "bridge" : null,
-      "junction" : null
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.9265058, 5.7252144 ], [ -72.9262102, 5.725308 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 4798,
-    "properties" : {
-      "u" : 4038648453,
-      "v" : 4038648450,
-      "key" : 0,
-      "osmid" : "401434291",
-      "highway" : "residential",
-      "oneway" : false,
-      "reversed" : "True",
-      "length" : 34.321,
-      "maxspeed" : 30,
-      "weight" : 34.321,
-      "lanes" : null,
-      "ref" : null,
-      "name" : "Transversal 20",
-      "width" : null,
-      "bridge" : null,
-      "junction" : null
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.9262102, 5.725308 ], [ -72.9265058, 5.7252144 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 4797,
-    "properties" : {
-      "u" : 4038648453,
-      "v" : 4038648460,
-      "key" : 0,
-      "osmid" : "401434291",
-      "highway" : "residential",
-      "oneway" : false,
-      "reversed" : "False",
-      "length" : 71.948,
-      "maxspeed" : 30,
-      "weight" : 71.948,
-      "lanes" : null,
-      "ref" : null,
-      "name" : "Transversal 20",
-      "width" : null,
-      "bridge" : null,
-      "junction" : null
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.9262102, 5.725308 ], [ -72.9255862, 5.7254901 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 4811,
-    "properties" : {
-      "u" : 4038648460,
-      "v" : 4038648453,
-      "key" : 0,
-      "osmid" : "401434291",
-      "highway" : "residential",
-      "oneway" : false,
-      "reversed" : "True",
-      "length" : 71.948,
-      "maxspeed" : 30,
-      "weight" : 71.948,
-      "lanes" : null,
-      "ref" : null,
-      "name" : "Transversal 20",
-      "width" : null,
-      "bridge" : null,
-      "junction" : null
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.9255862, 5.7254901 ], [ -72.9262102, 5.725308 ] ]
+      "coordinates" : [ [ -72.9255415, 5.7257026 ], [ -72.9255128, 5.725884 ], [ -72.9254758, 5.726008 ], [ -72.9254382, 5.7260812 ] ]
     }
   }, {
     "type" : "Feature",
@@ -2119,68 +789,43 @@
     }
   }, {
     "type" : "Feature",
-    "id" : 3765,
+    "id" : 4797,
     "properties" : {
-      "u" : 1016200650,
-      "v" : 7787666007,
+      "u" : 4038648453,
+      "v" : 4038648460,
       "key" : 0,
-      "osmid" : "1105898939",
-      "highway" : "residential",
-      "oneway" : false,
-      "reversed" : "True",
-      "length" : 64.702,
-      "maxspeed" : 30,
-      "weight" : 64.702,
-      "lanes" : null,
-      "ref" : null,
-      "name" : "Calle 22",
-      "width" : null,
-      "bridge" : null,
-      "junction" : null
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.9255415, 5.7257026 ], [ -72.9250033, 5.725475 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 7832,
-    "properties" : {
-      "u" : 7787666007,
-      "v" : 1016200650,
-      "key" : 0,
-      "osmid" : "1105898939",
+      "osmid" : "401434291",
       "highway" : "residential",
       "oneway" : false,
       "reversed" : "False",
-      "length" : 64.702,
+      "length" : 71.948,
       "maxspeed" : 30,
-      "weight" : 64.702,
+      "weight" : 71.948,
       "lanes" : null,
       "ref" : null,
-      "name" : "Calle 22",
+      "name" : "Transversal 20",
       "width" : null,
       "bridge" : null,
       "junction" : null
     },
     "geometry" : {
       "type" : "LineString",
-      "coordinates" : [ [ -72.9250033, 5.725475 ], [ -72.9255415, 5.7257026 ] ]
+      "coordinates" : [ [ -72.9262102, 5.725308 ], [ -72.9255862, 5.7254901 ] ]
     }
   }, {
     "type" : "Feature",
-    "id" : 7831,
+    "id" : 4811,
     "properties" : {
-      "u" : 7787666007,
-      "v" : 7787666010,
+      "u" : 4038648460,
+      "v" : 4038648453,
       "key" : 0,
-      "osmid" : "834249524",
+      "osmid" : "401434291",
       "highway" : "residential",
       "oneway" : false,
       "reversed" : "True",
-      "length" : 45.883,
+      "length" : 71.948,
       "maxspeed" : 30,
-      "weight" : 45.883,
+      "weight" : 71.948,
       "lanes" : null,
       "ref" : null,
       "name" : "Transversal 20",
@@ -2190,22 +835,22 @@
     },
     "geometry" : {
       "type" : "LineString",
-      "coordinates" : [ [ -72.9250033, 5.725475 ], [ -72.9246055, 5.7255916 ] ]
+      "coordinates" : [ [ -72.9255862, 5.7254901 ], [ -72.9262102, 5.725308 ] ]
     }
   }, {
     "type" : "Feature",
-    "id" : 7834,
+    "id" : 4793,
     "properties" : {
-      "u" : 7787666010,
-      "v" : 7787666007,
+      "u" : 4038648450,
+      "v" : 4038648453,
       "key" : 0,
-      "osmid" : "834249524",
+      "osmid" : "401434291",
       "highway" : "residential",
       "oneway" : false,
       "reversed" : "False",
-      "length" : 45.883,
+      "length" : 34.321,
       "maxspeed" : 30,
-      "weight" : 45.883,
+      "weight" : 34.321,
       "lanes" : null,
       "ref" : null,
       "name" : "Transversal 20",
@@ -2215,47 +860,22 @@
     },
     "geometry" : {
       "type" : "LineString",
-      "coordinates" : [ [ -72.9246055, 5.7255916 ], [ -72.9250033, 5.725475 ] ]
+      "coordinates" : [ [ -72.9265058, 5.7252144 ], [ -72.9262102, 5.725308 ] ]
     }
   }, {
     "type" : "Feature",
-    "id" : 7823,
+    "id" : 4798,
     "properties" : {
-      "u" : 7787666001,
-      "v" : 7787666010,
+      "u" : 4038648453,
+      "v" : 4038648450,
       "key" : 0,
-      "osmid" : [ 834249522, 834249524 ],
-      "highway" : "residential",
-      "oneway" : false,
-      "reversed" : "False",
-      "length" : 166.871,
-      "maxspeed" : 30,
-      "weight" : 166.871,
-      "lanes" : null,
-      "ref" : null,
-      "name" : "Transversal 20",
-      "width" : null,
-      "bridge" : null,
-      "junction" : null
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.9232414, 5.7261758 ], [ -72.9233301, 5.7260801 ], [ -72.9234776, 5.7259787 ], [ -72.9236828, 5.7258639 ], [ -72.9244445, 5.7256303 ], [ -72.9246055, 5.7255916 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 7836,
-    "properties" : {
-      "u" : 7787666010,
-      "v" : 7787666001,
-      "key" : 0,
-      "osmid" : [ 834249522, 834249524 ],
+      "osmid" : "401434291",
       "highway" : "residential",
       "oneway" : false,
       "reversed" : "True",
-      "length" : 166.871,
+      "length" : 34.321,
       "maxspeed" : 30,
-      "weight" : 166.871,
+      "weight" : 34.321,
       "lanes" : null,
       "ref" : null,
       "name" : "Transversal 20",
@@ -2265,382 +885,1032 @@
     },
     "geometry" : {
       "type" : "LineString",
-      "coordinates" : [ [ -72.9246055, 5.7255916 ], [ -72.9244445, 5.7256303 ], [ -72.9236828, 5.7258639 ], [ -72.9234776, 5.7259787 ], [ -72.9233301, 5.7260801 ], [ -72.9232414, 5.7261758 ] ]
+      "coordinates" : [ [ -72.9262102, 5.725308 ], [ -72.9265058, 5.7252144 ] ]
     }
   }, {
     "type" : "Feature",
-    "id" : 7824,
+    "id" : 4786,
     "properties" : {
-      "u" : 7787666005,
-      "v" : 7787666001,
+      "u" : 4038648444,
+      "v" : 4038648450,
       "key" : 0,
-      "osmid" : "87392451",
+      "osmid" : "401434291",
+      "highway" : "residential",
+      "oneway" : false,
+      "reversed" : "False",
+      "length" : 90.111,
+      "maxspeed" : 30,
+      "weight" : 90.111,
+      "lanes" : null,
+      "ref" : null,
+      "name" : "Transversal 20",
+      "width" : null,
+      "bridge" : null,
+      "junction" : null
+    },
+    "geometry" : {
+      "type" : "LineString",
+      "coordinates" : [ [ -72.92728, 5.7249628 ], [ -72.9265058, 5.7252144 ] ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 4794,
+    "properties" : {
+      "u" : 4038648450,
+      "v" : 4038648444,
+      "key" : 0,
+      "osmid" : "401434291",
+      "highway" : "residential",
+      "oneway" : false,
+      "reversed" : "True",
+      "length" : 90.111,
+      "maxspeed" : 30,
+      "weight" : 90.111,
+      "lanes" : null,
+      "ref" : null,
+      "name" : "Transversal 20",
+      "width" : null,
+      "bridge" : null,
+      "junction" : null
+    },
+    "geometry" : {
+      "type" : "LineString",
+      "coordinates" : [ [ -72.9265058, 5.7252144 ], [ -72.92728, 5.7249628 ] ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 4781,
+    "properties" : {
+      "u" : 4038648435,
+      "v" : 4038648444,
+      "key" : 0,
+      "osmid" : "401434291",
+      "highway" : "residential",
+      "oneway" : false,
+      "reversed" : "False",
+      "length" : 106.192,
+      "maxspeed" : 30,
+      "weight" : 106.192,
+      "lanes" : null,
+      "ref" : null,
+      "name" : "Transversal 20",
+      "width" : null,
+      "bridge" : null,
+      "junction" : null
+    },
+    "geometry" : {
+      "type" : "LineString",
+      "coordinates" : [ [ -72.9281965, 5.7246792 ], [ -72.92728, 5.7249628 ] ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 4787,
+    "properties" : {
+      "u" : 4038648444,
+      "v" : 4038648435,
+      "key" : 0,
+      "osmid" : "401434291",
+      "highway" : "residential",
+      "oneway" : false,
+      "reversed" : "True",
+      "length" : 106.192,
+      "maxspeed" : 30,
+      "weight" : 106.192,
+      "lanes" : null,
+      "ref" : null,
+      "name" : "Transversal 20",
+      "width" : null,
+      "bridge" : null,
+      "junction" : null
+    },
+    "geometry" : {
+      "type" : "LineString",
+      "coordinates" : [ [ -72.92728, 5.7249628 ], [ -72.9281965, 5.7246792 ] ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 119,
+    "properties" : {
+      "u" : 1016183529,
+      "v" : 4038648435,
+      "key" : 0,
+      "osmid" : "1089563421",
+      "highway" : "residential",
+      "oneway" : false,
+      "reversed" : "False",
+      "length" : 94.988,
+      "maxspeed" : 30,
+      "weight" : 94.988,
+      "lanes" : null,
+      "ref" : null,
+      "name" : "Transversal 20",
+      "width" : null,
+      "bridge" : null,
+      "junction" : null
+    },
+    "geometry" : {
+      "type" : "LineString",
+      "coordinates" : [ [ -72.9290387, 5.7245134 ], [ -72.9281965, 5.7246792 ] ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 4782,
+    "properties" : {
+      "u" : 4038648435,
+      "v" : 1016183529,
+      "key" : 0,
+      "osmid" : "1089563421",
+      "highway" : "residential",
+      "oneway" : false,
+      "reversed" : "True",
+      "length" : 94.988,
+      "maxspeed" : 30,
+      "weight" : 94.988,
+      "lanes" : null,
+      "ref" : null,
+      "name" : "Transversal 20",
+      "width" : null,
+      "bridge" : null,
+      "junction" : null
+    },
+    "geometry" : {
+      "type" : "LineString",
+      "coordinates" : [ [ -72.9281965, 5.7246792 ], [ -72.9290387, 5.7245134 ] ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 118,
+    "properties" : {
+      "u" : 1016183529,
+      "v" : 4038648432,
+      "key" : 0,
+      "osmid" : "742028882",
+      "highway" : "residential",
+      "oneway" : false,
+      "reversed" : "False",
+      "length" : 76.567,
+      "maxspeed" : 30,
+      "weight" : 76.567,
+      "lanes" : null,
+      "ref" : null,
+      "name" : "Transversal 20",
+      "width" : null,
+      "bridge" : null,
+      "junction" : null
+    },
+    "geometry" : {
+      "type" : "LineString",
+      "coordinates" : [ [ -72.9290387, 5.7245134 ], [ -72.9297138, 5.724362 ] ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 4779,
+    "properties" : {
+      "u" : 4038648432,
+      "v" : 1016183529,
+      "key" : 0,
+      "osmid" : "742028882",
+      "highway" : "residential",
+      "oneway" : false,
+      "reversed" : "True",
+      "length" : 76.567,
+      "maxspeed" : 30,
+      "weight" : 76.567,
+      "lanes" : null,
+      "ref" : null,
+      "name" : "Transversal 20",
+      "width" : null,
+      "bridge" : null,
+      "junction" : null
+    },
+    "geometry" : {
+      "type" : "LineString",
+      "coordinates" : [ [ -72.9297138, 5.724362 ], [ -72.9290387, 5.7245134 ] ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 4778,
+    "properties" : {
+      "u" : 4038648432,
+      "v" : 6946357528,
+      "key" : 0,
+      "osmid" : "742028882",
+      "highway" : "residential",
+      "oneway" : false,
+      "reversed" : "False",
+      "length" : 122.166,
+      "maxspeed" : 30,
+      "weight" : 122.166,
+      "lanes" : null,
+      "ref" : null,
+      "name" : "Transversal 20",
+      "width" : null,
+      "bridge" : null,
+      "junction" : null
+    },
+    "geometry" : {
+      "type" : "LineString",
+      "coordinates" : [ [ -72.9297138, 5.724362 ], [ -72.9307748, 5.7240578 ] ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 6411,
+    "properties" : {
+      "u" : 6946357528,
+      "v" : 4038648432,
+      "key" : 0,
+      "osmid" : "742028882",
+      "highway" : "residential",
+      "oneway" : false,
+      "reversed" : "True",
+      "length" : 122.166,
+      "maxspeed" : 30,
+      "weight" : 122.166,
+      "lanes" : null,
+      "ref" : null,
+      "name" : "Transversal 20",
+      "width" : null,
+      "bridge" : null,
+      "junction" : null
+    },
+    "geometry" : {
+      "type" : "LineString",
+      "coordinates" : [ [ -72.9307748, 5.7240578 ], [ -72.9297138, 5.724362 ] ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 6409,
+    "properties" : {
+      "u" : 6946357523,
+      "v" : 6946357528,
+      "key" : 0,
+      "osmid" : "742028883",
+      "highway" : "residential",
+      "oneway" : false,
+      "reversed" : "False",
+      "length" : 63.973,
+      "maxspeed" : 30,
+      "weight" : 63.973,
+      "lanes" : null,
+      "ref" : null,
+      "name" : "Transversal 20",
+      "width" : null,
+      "bridge" : null,
+      "junction" : null
+    },
+    "geometry" : {
+      "type" : "LineString",
+      "coordinates" : [ [ -72.9313268, 5.7238866 ], [ -72.9312486, 5.7239096 ], [ -72.9307748, 5.7240578 ] ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 6413,
+    "properties" : {
+      "u" : 6946357528,
+      "v" : 6946357523,
+      "key" : 0,
+      "osmid" : "742028883",
+      "highway" : "residential",
+      "oneway" : false,
+      "reversed" : "True",
+      "length" : 63.973,
+      "maxspeed" : 30,
+      "weight" : 63.973,
+      "lanes" : null,
+      "ref" : null,
+      "name" : "Transversal 20",
+      "width" : null,
+      "bridge" : null,
+      "junction" : null
+    },
+    "geometry" : {
+      "type" : "LineString",
+      "coordinates" : [ [ -72.9307748, 5.7240578 ], [ -72.9312486, 5.7239096 ], [ -72.9313268, 5.7238866 ] ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 1361,
+    "properties" : {
+      "u" : 1016189709,
+      "v" : 6946357523,
+      "key" : 0,
+      "osmid" : "742028885",
       "highway" : "residential",
       "oneway" : true,
       "reversed" : "False",
-      "length" : 14.388,
+      "length" : 87.589,
       "maxspeed" : 30,
-      "weight" : 14.388,
+      "weight" : 87.589,
       "lanes" : null,
       "ref" : null,
-      "name" : "Calle 24",
+      "name" : "Transversal 20",
       "width" : null,
       "bridge" : null,
       "junction" : null
     },
     "geometry" : {
       "type" : "LineString",
-      "coordinates" : [ [ -72.9231203, 5.726129 ], [ -72.9231387, 5.7261384 ], [ -72.9232414, 5.7261758 ] ]
+      "coordinates" : [ [ -72.9321103, 5.7237995 ], [ -72.9317978, 5.7238463 ], [ -72.9317455, 5.7238516 ], [ -72.9316838, 5.7238529 ], [ -72.9316382, 5.7238529 ], [ -72.9316007, 5.7238516 ], [ -72.931555, 5.7238477 ], [ -72.9315095, 5.7238489 ], [ -72.9314706, 5.7238529 ], [ -72.9313268, 5.7238866 ] ]
     }
   }, {
     "type" : "Feature",
-    "id" : 7810,
+    "id" : 8990,
     "properties" : {
-      "u" : 7787663580,
-      "v" : 7787666005,
+      "u" : 8108879801,
+      "v" : 1016189709,
       "key" : 0,
-      "osmid" : "834249517",
-      "highway" : "residential",
-      "oneway" : false,
-      "reversed" : "True",
-      "length" : 154.488,
+      "osmid" : "1091362658",
+      "highway" : "tertiary",
+      "oneway" : true,
+      "reversed" : "False",
+      "length" : 9.344,
       "maxspeed" : 30,
-      "weight" : 154.488,
+      "weight" : 9.344,
       "lanes" : null,
       "ref" : null,
       "name" : null,
       "width" : null,
       "bridge" : null,
-      "junction" : null
+      "junction" : "roundabout"
     },
     "geometry" : {
       "type" : "LineString",
-      "coordinates" : [ [ -72.9220305, 5.7263585 ], [ -72.9226059, 5.7266459 ], [ -72.9226635, 5.7266459 ], [ -72.9227038, 5.7266245 ], [ -72.9231203, 5.726129 ] ]
+      "coordinates" : [ [ -72.9321908, 5.7237741 ], [ -72.9321103, 5.7237995 ] ]
     }
   }, {
     "type" : "Feature",
-    "id" : 7825,
+    "id" : 8989,
     "properties" : {
-      "u" : 7787666005,
-      "v" : 7787663580,
+      "u" : 8108879796,
+      "v" : 8108879801,
       "key" : 0,
-      "osmid" : "834249517",
-      "highway" : "residential",
-      "oneway" : false,
+      "osmid" : "1091362657",
+      "highway" : "tertiary",
+      "oneway" : true,
       "reversed" : "False",
-      "length" : 154.488,
+      "length" : 57.98,
       "maxspeed" : 30,
-      "weight" : 154.488,
+      "weight" : 57.98,
       "lanes" : null,
       "ref" : null,
       "name" : null,
       "width" : null,
       "bridge" : null,
-      "junction" : null
+      "junction" : "roundabout"
     },
     "geometry" : {
       "type" : "LineString",
-      "coordinates" : [ [ -72.9231203, 5.726129 ], [ -72.9227038, 5.7266245 ], [ -72.9226635, 5.7266459 ], [ -72.9226059, 5.7266459 ], [ -72.9220305, 5.7263585 ] ]
+      "coordinates" : [ [ -72.93262, 5.7239503 ], [ -72.9325824, 5.7238742 ], [ -72.9325449, 5.7238262 ], [ -72.9324832, 5.7237781 ], [ -72.9324, 5.7237515 ], [ -72.9323088, 5.7237488 ], [ -72.9321908, 5.7237741 ] ]
     }
   }, {
     "type" : "Feature",
-    "id" : 4673,
+    "id" : 8987,
     "properties" : {
-      "u" : 3473464627,
-      "v" : 7787663580,
+      "u" : 8108879795,
+      "v" : 8108879796,
       "key" : 0,
-      "osmid" : "1105898944",
-      "highway" : "primary",
+      "osmid" : "1097531034",
+      "highway" : "tertiary",
       "oneway" : true,
       "reversed" : "False",
-      "length" : 78.602,
-      "maxspeed" : 20,
-      "weight" : 78.602,
-      "lanes" : null,
-      "ref" : null,
-      "name" : "Carrera 11",
-      "width" : null,
-      "bridge" : null,
-      "junction" : null
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.9217244, 5.7269964 ], [ -72.9220305, 5.7263585 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 4674,
-    "properties" : {
-      "u" : 3473464628,
-      "v" : 3473464627,
-      "key" : 0,
-      "osmid" : "340140375",
-      "highway" : "primary",
-      "oneway" : true,
-      "reversed" : "False",
-      "length" : 12.841,
+      "length" : 7.998,
       "maxspeed" : 30,
-      "weight" : 12.841,
+      "weight" : 7.998,
       "lanes" : null,
       "ref" : null,
-      "name" : "Carrera 11",
+      "name" : null,
       "width" : null,
       "bridge" : null,
-      "junction" : null
+      "junction" : "roundabout"
     },
     "geometry" : {
       "type" : "LineString",
-      "coordinates" : [ [ -72.921675, 5.7271009 ], [ -72.9217244, 5.7269964 ] ]
+      "coordinates" : [ [ -72.9326414, 5.724019 ], [ -72.93262, 5.7239503 ] ]
     }
   }, {
     "type" : "Feature",
-    "id" : 2862,
+    "id" : 8999,
     "properties" : {
-      "u" : 1016195096,
-      "v" : 3473464628,
+      "u" : 8108884931,
+      "v" : 8108879795,
       "key" : 0,
-      "osmid" : "87389449",
-      "highway" : "residential",
+      "osmid" : "870457665",
+      "highway" : "tertiary",
       "oneway" : true,
       "reversed" : "False",
-      "length" : 12.371,
+      "length" : 33.501,
       "maxspeed" : 30,
-      "weight" : 12.371,
+      "weight" : 33.501,
       "lanes" : null,
       "ref" : null,
-      "name" : "Calle 26",
+      "name" : "Diagonal 13",
       "width" : null,
       "bridge" : null,
       "junction" : null
     },
     "geometry" : {
       "type" : "LineString",
-      "coordinates" : [ [ -72.921572, 5.7270576 ], [ -72.921675, 5.7271009 ] ]
+      "coordinates" : [ [ -72.9328861, 5.7241752 ], [ -72.9328003, 5.7241572 ], [ -72.9327574, 5.7241358 ], [ -72.9327245, 5.7241138 ], [ -72.9326943, 5.7240885 ], [ -72.9326695, 5.7240624 ], [ -72.9326414, 5.724019 ] ]
     }
   }, {
     "type" : "Feature",
-    "id" : 4150,
+    "id" : 8997,
     "properties" : {
-      "u" : 1291157337,
-      "v" : 1016195096,
+      "u" : 8108884927,
+      "v" : 8108884931,
       "key" : 0,
-      "osmid" : "1089368250",
-      "highway" : "residential",
-      "oneway" : true,
-      "reversed" : "False",
-      "length" : 106.923,
+      "osmid" : "340140382",
+      "highway" : "tertiary",
+      "oneway" : false,
+      "reversed" : "True",
+      "length" : 32.151,
       "maxspeed" : 30,
-      "weight" : 106.923,
-      "lanes" : null,
+      "weight" : 32.151,
+      "lanes" : "2",
       "ref" : null,
-      "name" : "Calle 26",
-      "width" : null,
+      "name" : "Diagonal 13",
+      "width" : "8",
       "bridge" : null,
       "junction" : null
     },
     "geometry" : {
       "type" : "LineString",
-      "coordinates" : [ [ -72.9206816, 5.7266838 ], [ -72.921572, 5.7270576 ] ]
+      "coordinates" : [ [ -72.9331644, 5.7242106 ], [ -72.9331242, 5.724201 ], [ -72.9330947, 5.7241905 ], [ -72.9330726, 5.7241788 ], [ -72.9330397, 5.7241625 ], [ -72.933002, 5.724157 ], [ -72.9329619, 5.7241572 ], [ -72.9328861, 5.7241752 ] ]
     }
   }, {
     "type" : "Feature",
-    "id" : 1644,
+    "id" : 8998,
     "properties" : {
-      "u" : 1016190833,
-      "v" : 1291157337,
+      "u" : 8108884931,
+      "v" : 8108884927,
       "key" : 0,
-      "osmid" : "87393410",
-      "highway" : "residential",
+      "osmid" : "340140382",
+      "highway" : "tertiary",
       "oneway" : false,
       "reversed" : "False",
-      "length" : 142.38,
+      "length" : 32.151,
       "maxspeed" : 30,
-      "weight" : 142.38,
-      "lanes" : null,
+      "weight" : 32.151,
+      "lanes" : "2",
       "ref" : null,
-      "name" : "Carrera 10",
-      "width" : null,
+      "name" : "Diagonal 13",
+      "width" : "8",
       "bridge" : null,
       "junction" : null
     },
     "geometry" : {
       "type" : "LineString",
-      "coordinates" : [ [ -72.9201432, 5.7278468 ], [ -72.9206816, 5.7266838 ] ]
+      "coordinates" : [ [ -72.9328861, 5.7241752 ], [ -72.9329619, 5.7241572 ], [ -72.933002, 5.724157 ], [ -72.9330397, 5.7241625 ], [ -72.9330726, 5.7241788 ], [ -72.9330947, 5.7241905 ], [ -72.9331242, 5.724201 ], [ -72.9331644, 5.7242106 ] ]
     }
   }, {
     "type" : "Feature",
-    "id" : 4149,
+    "id" : 1396,
     "properties" : {
-      "u" : 1291157337,
-      "v" : 1016190833,
+      "u" : 1016189910,
+      "v" : 8108884927,
       "key" : 0,
-      "osmid" : "87393410",
+      "osmid" : "340140382",
+      "highway" : "tertiary",
+      "oneway" : false,
+      "reversed" : "True",
+      "length" : 119.979,
+      "maxspeed" : 30,
+      "weight" : 119.979,
+      "lanes" : "2",
+      "ref" : null,
+      "name" : "Diagonal 13",
+      "width" : "8",
+      "bridge" : null,
+      "junction" : null
+    },
+    "geometry" : {
+      "type" : "LineString",
+      "coordinates" : [ [ -72.933434, 5.7252557 ], [ -72.9333535, 5.7249319 ], [ -72.9331644, 5.7242106 ] ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 8996,
+    "properties" : {
+      "u" : 8108884927,
+      "v" : 1016189910,
+      "key" : 0,
+      "osmid" : "340140382",
+      "highway" : "tertiary",
+      "oneway" : false,
+      "reversed" : "False",
+      "length" : 119.979,
+      "maxspeed" : 30,
+      "weight" : 119.979,
+      "lanes" : "2",
+      "ref" : null,
+      "name" : "Diagonal 13",
+      "width" : "8",
+      "bridge" : null,
+      "junction" : null
+    },
+    "geometry" : {
+      "type" : "LineString",
+      "coordinates" : [ [ -72.9331644, 5.7242106 ], [ -72.9333535, 5.7249319 ], [ -72.933434, 5.7252557 ] ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 544,
+    "properties" : {
+      "u" : 1016185368,
+      "v" : 1016189910,
+      "key" : 0,
+      "osmid" : "1097531036",
+      "highway" : "tertiary",
+      "oneway" : false,
+      "reversed" : "True",
+      "length" : 87.821,
+      "maxspeed" : 30,
+      "weight" : 87.821,
+      "lanes" : "2",
+      "ref" : null,
+      "name" : "Diagonal 13",
+      "width" : "8",
+      "bridge" : null,
+      "junction" : null
+    },
+    "geometry" : {
+      "type" : "LineString",
+      "coordinates" : [ [ -72.933639, 5.7260187 ], [ -72.933434, 5.7252557 ] ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 1394,
+    "properties" : {
+      "u" : 1016189910,
+      "v" : 1016185368,
+      "key" : 0,
+      "osmid" : "1097531036",
+      "highway" : "tertiary",
+      "oneway" : false,
+      "reversed" : "False",
+      "length" : 87.821,
+      "maxspeed" : 30,
+      "weight" : 87.821,
+      "lanes" : "2",
+      "ref" : null,
+      "name" : "Diagonal 13",
+      "width" : "8",
+      "bridge" : null,
+      "junction" : null
+    },
+    "geometry" : {
+      "type" : "LineString",
+      "coordinates" : [ [ -72.933434, 5.7252557 ], [ -72.933639, 5.7260187 ] ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 543,
+    "properties" : {
+      "u" : 1016185368,
+      "v" : 7784857841,
+      "key" : 0,
+      "osmid" : "87391617",
       "highway" : "residential",
       "oneway" : false,
       "reversed" : "True",
-      "length" : 142.38,
+      "length" : 113.744,
       "maxspeed" : 30,
-      "weight" : 142.38,
+      "weight" : 113.744,
       "lanes" : null,
       "ref" : null,
-      "name" : "Carrera 10",
+      "name" : "Carrera 24",
       "width" : null,
       "bridge" : null,
       "junction" : null
     },
     "geometry" : {
       "type" : "LineString",
-      "coordinates" : [ [ -72.9206816, 5.7266838 ], [ -72.9201432, 5.7278468 ] ]
+      "coordinates" : [ [ -72.933639, 5.7260187 ], [ -72.9345551, 5.7255545 ] ]
     }
   }, {
     "type" : "Feature",
-    "id" : 684,
+    "id" : 7322,
     "properties" : {
-      "u" : 1016186233,
-      "v" : 1016190833,
+      "u" : 7784857841,
+      "v" : 1016185368,
       "key" : 0,
-      "osmid" : "87393823",
-      "highway" : "residential",
-      "oneway" : false,
-      "reversed" : "True",
-      "length" : 25.479,
-      "maxspeed" : 30,
-      "weight" : 25.479,
-      "lanes" : null,
-      "ref" : null,
-      "name" : "Calle 27",
-      "width" : null,
-      "bridge" : null,
-      "junction" : null
-    },
-    "geometry" : {
-      "type" : "LineString",
-      "coordinates" : [ [ -72.91995, 5.7277221 ], [ -72.9201432, 5.7278468 ] ]
-    }
-  }, {
-    "type" : "Feature",
-    "id" : 1645,
-    "properties" : {
-      "u" : 1016190833,
-      "v" : 1016186233,
-      "key" : 0,
-      "osmid" : "87393823",
+      "osmid" : "87391617",
       "highway" : "residential",
       "oneway" : false,
       "reversed" : "False",
-      "length" : 25.479,
+      "length" : 113.744,
       "maxspeed" : 30,
-      "weight" : 25.479,
+      "weight" : 113.744,
       "lanes" : null,
       "ref" : null,
-      "name" : "Calle 27",
+      "name" : "Carrera 24",
       "width" : null,
       "bridge" : null,
       "junction" : null
     },
     "geometry" : {
       "type" : "LineString",
-      "coordinates" : [ [ -72.9201432, 5.7278468 ], [ -72.91995, 5.7277221 ] ]
+      "coordinates" : [ [ -72.9345551, 5.7255545 ], [ -72.933639, 5.7260187 ] ]
     }
   }, {
     "type" : "Feature",
-    "id" : 685,
+    "id" : 2229,
     "properties" : {
-      "u" : 1016186233,
-      "v" : 1016194302,
+      "u" : 1016193013,
+      "v" : 7784857841,
       "key" : 0,
-      "osmid" : "401451313",
+      "osmid" : "87391617",
       "highway" : "residential",
       "oneway" : false,
       "reversed" : "False",
-      "length" : 130.344,
+      "length" : 22.395,
       "maxspeed" : 30,
-      "weight" : 130.344,
+      "weight" : 22.395,
       "lanes" : null,
       "ref" : null,
-      "name" : "Carrera 10",
+      "name" : "Carrera 24",
       "width" : null,
       "bridge" : null,
       "junction" : null
     },
     "geometry" : {
       "type" : "LineString",
-      "coordinates" : [ [ -72.91995, 5.7277221 ], [ -72.9192069, 5.7286317 ] ]
+      "coordinates" : [ [ -72.9347418, 5.7254767 ], [ -72.9345551, 5.7255545 ] ]
     }
   }, {
     "type" : "Feature",
-    "id" : 2657,
+    "id" : 7323,
     "properties" : {
-      "u" : 1016194302,
-      "v" : 1016186233,
+      "u" : 7784857841,
+      "v" : 1016193013,
       "key" : 0,
-      "osmid" : "401451313",
+      "osmid" : "87391617",
       "highway" : "residential",
       "oneway" : false,
       "reversed" : "True",
-      "length" : 130.344,
+      "length" : 22.395,
       "maxspeed" : 30,
-      "weight" : 130.344,
+      "weight" : 22.395,
       "lanes" : null,
       "ref" : null,
-      "name" : "Carrera 10",
+      "name" : "Carrera 24",
       "width" : null,
       "bridge" : null,
       "junction" : null
     },
     "geometry" : {
       "type" : "LineString",
-      "coordinates" : [ [ -72.9192069, 5.7286317 ], [ -72.91995, 5.7277221 ] ]
+      "coordinates" : [ [ -72.9345551, 5.7255545 ], [ -72.9347418, 5.7254767 ] ]
     }
   }, {
     "type" : "Feature",
-    "id" : 134,
+    "id" : 2230,
     "properties" : {
-      "u" : 1016183614,
-      "v" : 1016194302,
+      "u" : 1016193013,
+      "v" : 9371895553,
       "key" : 0,
-      "osmid" : "401451313",
+      "osmid" : "87391617",
       "highway" : "residential",
       "oneway" : false,
       "reversed" : "True",
-      "length" : 104.885,
+      "length" : 64.323,
       "maxspeed" : 30,
-      "weight" : 104.885,
+      "weight" : 64.323,
       "lanes" : null,
       "ref" : null,
-      "name" : "Carrera 10",
+      "name" : "Carrera 24",
       "width" : null,
       "bridge" : null,
       "junction" : null
     },
     "geometry" : {
       "type" : "LineString",
-      "coordinates" : [ [ -72.9185887, 5.7293468 ], [ -72.9192069, 5.7286317 ] ]
+      "coordinates" : [ [ -72.9347418, 5.7254767 ], [ -72.9352464, 5.7251894 ] ]
     }
   }, {
     "type" : "Feature",
-    "id" : 2656,
+    "id" : 9319,
     "properties" : {
-      "u" : 1016194302,
-      "v" : 1016183614,
+      "u" : 9371895553,
+      "v" : 1016193013,
       "key" : 0,
-      "osmid" : "401451313",
+      "osmid" : "87391617",
       "highway" : "residential",
       "oneway" : false,
       "reversed" : "False",
-      "length" : 104.885,
+      "length" : 64.323,
       "maxspeed" : 30,
-      "weight" : 104.885,
+      "weight" : 64.323,
       "lanes" : null,
       "ref" : null,
-      "name" : "Carrera 10",
+      "name" : "Carrera 24",
       "width" : null,
       "bridge" : null,
       "junction" : null
     },
     "geometry" : {
       "type" : "LineString",
-      "coordinates" : [ [ -72.9192069, 5.7286317 ], [ -72.9185887, 5.7293468 ] ]
+      "coordinates" : [ [ -72.9352464, 5.7251894 ], [ -72.9347418, 5.7254767 ] ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 4014,
+    "properties" : {
+      "u" : 1016201699,
+      "v" : 9371895553,
+      "key" : 0,
+      "osmid" : "87391617",
+      "highway" : "residential",
+      "oneway" : false,
+      "reversed" : "False",
+      "length" : 37.606,
+      "maxspeed" : 30,
+      "weight" : 37.606,
+      "lanes" : null,
+      "ref" : null,
+      "name" : "Carrera 24",
+      "width" : null,
+      "bridge" : null,
+      "junction" : null
+    },
+    "geometry" : {
+      "type" : "LineString",
+      "coordinates" : [ [ -72.9355527, 5.7250428 ], [ -72.9352464, 5.7251894 ] ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 9320,
+    "properties" : {
+      "u" : 9371895553,
+      "v" : 1016201699,
+      "key" : 0,
+      "osmid" : "87391617",
+      "highway" : "residential",
+      "oneway" : false,
+      "reversed" : "True",
+      "length" : 37.606,
+      "maxspeed" : 30,
+      "weight" : 37.606,
+      "lanes" : null,
+      "ref" : null,
+      "name" : "Carrera 24",
+      "width" : null,
+      "bridge" : null,
+      "junction" : null
+    },
+    "geometry" : {
+      "type" : "LineString",
+      "coordinates" : [ [ -72.9352464, 5.7251894 ], [ -72.9355527, 5.7250428 ] ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 862,
+    "properties" : {
+      "u" : 1016187203,
+      "v" : 1016201699,
+      "key" : 0,
+      "osmid" : "834261070",
+      "highway" : "residential",
+      "oneway" : false,
+      "reversed" : "False",
+      "length" : 46.615,
+      "maxspeed" : 30,
+      "weight" : 46.615,
+      "lanes" : null,
+      "ref" : null,
+      "name" : "Calle 16",
+      "width" : null,
+      "bridge" : null,
+      "junction" : null
+    },
+    "geometry" : {
+      "type" : "LineString",
+      "coordinates" : [ [ -72.9358639, 5.7253254 ], [ -72.9355527, 5.7250428 ] ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 4015,
+    "properties" : {
+      "u" : 1016201699,
+      "v" : 1016187203,
+      "key" : 0,
+      "osmid" : "834261070",
+      "highway" : "residential",
+      "oneway" : false,
+      "reversed" : "True",
+      "length" : 46.615,
+      "maxspeed" : 30,
+      "weight" : 46.615,
+      "lanes" : null,
+      "ref" : null,
+      "name" : "Calle 16",
+      "width" : null,
+      "bridge" : null,
+      "junction" : null
+    },
+    "geometry" : {
+      "type" : "LineString",
+      "coordinates" : [ [ -72.9355527, 5.7250428 ], [ -72.9358639, 5.7253254 ] ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 605,
+    "properties" : {
+      "u" : 1016185627,
+      "v" : 1016187203,
+      "key" : 0,
+      "osmid" : "834261070",
+      "highway" : "residential",
+      "oneway" : false,
+      "reversed" : "False",
+      "length" : 54.566,
+      "maxspeed" : 30,
+      "weight" : 54.566,
+      "lanes" : null,
+      "ref" : null,
+      "name" : "Calle 16",
+      "width" : null,
+      "bridge" : null,
+      "junction" : null
+    },
+    "geometry" : {
+      "type" : "LineString",
+      "coordinates" : [ [ -72.9362224, 5.7256624 ], [ -72.9358639, 5.7253254 ] ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 863,
+    "properties" : {
+      "u" : 1016187203,
+      "v" : 1016185627,
+      "key" : 0,
+      "osmid" : "834261070",
+      "highway" : "residential",
+      "oneway" : false,
+      "reversed" : "True",
+      "length" : 54.566,
+      "maxspeed" : 30,
+      "weight" : 54.566,
+      "lanes" : null,
+      "ref" : null,
+      "name" : "Calle 16",
+      "width" : null,
+      "bridge" : null,
+      "junction" : null
+    },
+    "geometry" : {
+      "type" : "LineString",
+      "coordinates" : [ [ -72.9358639, 5.7253254 ], [ -72.9362224, 5.7256624 ] ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 606,
+    "properties" : {
+      "u" : 1016185627,
+      "v" : 9298387987,
+      "key" : 0,
+      "osmid" : [ 1101832956, 834261070 ],
+      "highway" : "residential",
+      "oneway" : false,
+      "reversed" : "True",
+      "length" : 30.459,
+      "maxspeed" : 30,
+      "weight" : 30.459,
+      "lanes" : null,
+      "ref" : null,
+      "name" : "Calle 16",
+      "width" : null,
+      "bridge" : null,
+      "junction" : null
+    },
+    "geometry" : {
+      "type" : "LineString",
+      "coordinates" : [ [ -72.9362224, 5.7256624 ], [ -72.9363673, 5.7257829 ], [ -72.9364022, 5.7258616 ] ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 9084,
+    "properties" : {
+      "u" : 9298387987,
+      "v" : 1016185627,
+      "key" : 0,
+      "osmid" : [ 1101832956, 834261070 ],
+      "highway" : "residential",
+      "oneway" : false,
+      "reversed" : "False",
+      "length" : 30.459,
+      "maxspeed" : 30,
+      "weight" : 30.459,
+      "lanes" : null,
+      "ref" : null,
+      "name" : "Calle 16",
+      "width" : null,
+      "bridge" : null,
+      "junction" : null
+    },
+    "geometry" : {
+      "type" : "LineString",
+      "coordinates" : [ [ -72.9364022, 5.7258616 ], [ -72.9363673, 5.7257829 ], [ -72.9362224, 5.7256624 ] ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 9083,
+    "properties" : {
+      "u" : 9298387987,
+      "v" : 9302024524,
+      "key" : 0,
+      "osmid" : "1101832956",
+      "highway" : "residential",
+      "oneway" : false,
+      "reversed" : "True",
+      "length" : 8.051,
+      "maxspeed" : 30,
+      "weight" : 8.051,
+      "lanes" : null,
+      "ref" : null,
+      "name" : "Calle 16",
+      "width" : null,
+      "bridge" : null,
+      "junction" : null
+    },
+    "geometry" : {
+      "type" : "LineString",
+      "coordinates" : [ [ -72.9364022, 5.7258616 ], [ -72.9364219, 5.7259313 ] ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 9163,
+    "properties" : {
+      "u" : 9302024524,
+      "v" : 9298387987,
+      "key" : 0,
+      "osmid" : "1101832956",
+      "highway" : "residential",
+      "oneway" : false,
+      "reversed" : "False",
+      "length" : 8.051,
+      "maxspeed" : 30,
+      "weight" : 8.051,
+      "lanes" : null,
+      "ref" : null,
+      "name" : "Calle 16",
+      "width" : null,
+      "bridge" : null,
+      "junction" : null
+    },
+    "geometry" : {
+      "type" : "LineString",
+      "coordinates" : [ [ -72.9364219, 5.7259313 ], [ -72.9364022, 5.7258616 ] ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 7405,
+    "properties" : {
+      "u" : 7784867706,
+      "v" : 9302024524,
+      "key" : 0,
+      "osmid" : "87390879",
+      "highway" : "residential",
+      "oneway" : false,
+      "reversed" : "False",
+      "length" : 86.736,
+      "maxspeed" : 30,
+      "weight" : 86.736,
+      "lanes" : null,
+      "ref" : null,
+      "name" : "Calle 16",
+      "width" : null,
+      "bridge" : null,
+      "junction" : null
+    },
+    "geometry" : {
+      "type" : "LineString",
+      "coordinates" : [ [ -72.9366099, 5.7266876 ], [ -72.9364743, 5.7262122 ], [ -72.9364503, 5.7260661 ], [ -72.9364317, 5.725967 ], [ -72.9364219, 5.7259313 ] ]
+    }
+  }, {
+    "type" : "Feature",
+    "id" : 9164,
+    "properties" : {
+      "u" : 9302024524,
+      "v" : 7784867706,
+      "key" : 0,
+      "osmid" : "87390879",
+      "highway" : "residential",
+      "oneway" : false,
+      "reversed" : "True",
+      "length" : 86.736,
+      "maxspeed" : 30,
+      "weight" : 86.736,
+      "lanes" : null,
+      "ref" : null,
+      "name" : "Calle 16",
+      "width" : null,
+      "bridge" : null,
+      "junction" : null
+    },
+    "geometry" : {
+      "type" : "LineString",
+      "coordinates" : [ [ -72.9364219, 5.7259313 ], [ -72.9364317, 5.725967 ], [ -72.9364503, 5.7260661 ], [ -72.9364743, 5.7262122 ], [ -72.9366099, 5.7266876 ] ]
     }
   } ]
 }

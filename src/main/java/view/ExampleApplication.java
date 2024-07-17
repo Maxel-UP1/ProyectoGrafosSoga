@@ -7,26 +7,20 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class ExapleAplication extends Application {
+public class ExampleApplication extends Application {
 
     public static Stage currentStage;
 
-
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(ExapleAplication.class.getResource("ExampleAplication.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(
+                ExampleApplication.class.getResource("src\\main\\resources\\view\\ExampleAplication.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 600, 550);
-        stage.setTitle("HOLA MUNDO");
+        stage.setTitle("Administrador de Paquetes");
         stage.setScene(scene);
         stage.show();
+        currentStage = stage;
     }
-
-
-    //Metodo para cerrar las ventanas
-    public void closeWindows(Stage stage){
-        stage.close();
-    }
-
 
     public static void main(String[] args) {
         launch();

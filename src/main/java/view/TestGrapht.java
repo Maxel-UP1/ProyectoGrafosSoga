@@ -44,8 +44,8 @@ public class TestGrapht {
             }
 
             // Encontrar la ruta más corta entre dos puntos
-            long source = 1016201065L; // punto de origen
-            long target = 1016183614L; // punto de destino
+            long source = 1016190752L; // punto de origen
+            long target = 7784867706L; // punto de destino
 
             DijkstraShortestPath<Long, DefaultWeightedEdge> dijkstraAlg = new DijkstraShortestPath<>(graph);
             List<Long> path = dijkstraAlg.getPath(source, target).getVertexList();
