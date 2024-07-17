@@ -7,6 +7,7 @@ import org.jgrapht.Graph;
 import org.jgrapht.alg.shortestpath.DijkstraShortestPath;
 import org.jgrapht.graph.DefaultWeightedEdge;
 import org.jgrapht.graph.SimpleWeightedGraph;
+import utilities.JacksonStorageUtilities;
 
 import java.io.File;
 import java.io.IOException;
@@ -50,9 +51,9 @@ public class TestGrapht {
             List<Long> path = dijkstraAlg.getPath(source, target).getVertexList();
             double pathWeight = dijkstraAlg.getPath(source, target).getWeight();
 
+
             System.out.println("Ruta más corta desde " + source + " hasta " + target + ": " + path);
             System.out.println("Peso total de la ruta: " + pathWeight);
-
             // Guardar la ruta en un archivo GeoJSON
             saveShortestPathAsGeoJson(path, nodes, edges, graph, "src/main/java/persistence/shortest_path.geojson");
 
@@ -66,14 +67,13 @@ public class TestGrapht {
     }
 
     private static JsonNode loadGeoJson(String filePath) throws IOException {
-        ObjectMapper mapper = new ObjectMapper();
-        return mapper.readTree(new File(filePath));
+        return JacksonStorageUtilities.ReadJGeojson(filePath);
     }
 
     private static void saveShortestPathAsGeoJson(List<Long> path, JsonNode nodes, JsonNode edges, Graph<Long, DefaultWeightedEdge> graph, String outputPath) throws IOException {
         ObjectMapper mapper = new ObjectMapper();
-        JsonNode root = mapper.createObjectNode();
-        ((ObjectNode) root).put("type", "FeatureCollection");
+        ObjectNode root = mapper.createObjectNode();
+        root.put("type", "FeatureCollection");
         ArrayNode features = mapper.createArrayNode();
 
         // Añadir los nodos de la ruta
@@ -98,7 +98,7 @@ public class TestGrapht {
             }
         }
 
-        ((ObjectNode) root).set("features", features);
+        root.set("features", features);
         mapper.writerWithDefaultPrettyPrinter().writeValue(new File(outputPath), root);
     }
 }

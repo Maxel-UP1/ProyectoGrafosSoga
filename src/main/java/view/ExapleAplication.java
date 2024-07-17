@@ -15,6 +15,7 @@ public class ExapleAplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(ExapleAplication.class.getResource("ExampleAplication.fxml"));
+        System.out.println("Ventana mostrada");
         Scene scene = new Scene(fxmlLoader.load(), 600, 550);
         stage.setTitle("HOLA MUNDO");
         stage.setScene(scene);
