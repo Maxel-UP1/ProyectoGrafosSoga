@@ -9,7 +9,7 @@
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
    prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21"
    xmlns:fx="http://javafx.com/fxml/1"
-   fx:controller="src.main.java.controlerView.ExAplicatioController">
+   fx:controller="controlerView.ExAplicatioController">
    <children>
       <TextField fx:id="searchField" layoutX="14.0" layoutY="14.0" prefHeight="25.0"
          prefWidth="300.0" promptText="Buscar paquete..." />

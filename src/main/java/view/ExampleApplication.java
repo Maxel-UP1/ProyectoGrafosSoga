@@ -13,8 +13,7 @@ public class ExampleApplication extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(
-                ExampleApplication.class.getResource("src\\main\\resources\\view\\ExampleAplication.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(ExampleApplication.class.getResource("/view/ExampleAplication.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 600, 550);
         stage.setTitle("Administrador de Paquetes");
         stage.setScene(scene);
