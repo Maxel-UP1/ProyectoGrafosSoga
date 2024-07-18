@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Owner {
     private String name;
-    private String passString;
+    private String password;
     private String rol;
     private String email;
     private String address;
@@ -15,7 +15,7 @@ public class Owner {
     public Owner(String name, String passString, String rol, String email, String address, String phone, int id,
             ArrayList<Package> packages) {
         this.name = name;
-        this.passString = passString;
+        this.password = passString;
         this.rol = rol;
         this.email = email;
         this.address = address;
@@ -32,12 +32,12 @@ public class Owner {
         this.name = name;
     }
 
-    public String getPassString() {
-        return passString;
+    public String getPassword() {
+        return password;
     }
 
-    public void setPassString(String passString) {
-        this.passString = passString;
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     public String getRol() {
