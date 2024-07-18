@@ -2,25 +2,18 @@ package model;
 
 import java.util.ArrayList;
 
-public class Owner {
+public class Responsible {
     private String name;
     private String passString;
     private String rol;
     private String email;
-    private String address;
-    private String phone;
-    private int id;
     private ArrayList<Package> packages;
 
-    public Owner(String name, String passString, String rol, String email, String address, String phone, int id,
-            ArrayList<Package> packages) {
+    public Responsible(String name, String passString, String rol, String email, ArrayList<Package> packages) {
         this.name = name;
         this.passString = passString;
         this.rol = rol;
         this.email = email;
-        this.address = address;
-        this.phone = phone;
-        this.id = id;
         this.packages = packages;
     }
 
@@ -54,30 +47,6 @@ public class Owner {
 
     public void setEmail(String email) {
         this.email = email;
-    }
-
-    public String getAddress() {
-        return address;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
-    }
-
-    public String getPhone() {
-        return phone;
-    }
-
-    public void setPhone(String phone) {
-        this.phone = phone;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public ArrayList<Package> getPackages() {

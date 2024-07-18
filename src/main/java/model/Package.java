@@ -4,13 +4,17 @@ public class Package {
     private String name;
     private String address;
     private Owner owner;
+    private Responsible responsible;
     private int id;
+    private String status;
 
-    public Package(String name, String address, Owner owner, int id) {
+    public Package(String name, String address, Owner owner, Responsible responsible, int id, String status) {
         this.name = name;
         this.address = address;
         this.owner = owner;
+        this.responsible = responsible;
         this.id = id;
+        this.status = status;
     }
 
     public String getName() {
@@ -29,6 +33,22 @@ public class Package {
         this.address = address;
     }
 
+    public Owner getOwner() {
+        return owner;
+    }
+
+    public void setOwner(Owner owner) {
+        this.owner = owner;
+    }
+
+    public Responsible getResponsible() {
+        return responsible;
+    }
+
+    public void setResponsible(Responsible responsible) {
+        this.responsible = responsible;
+    }
+
     public int getId() {
         return id;
     }
@@ -37,12 +57,12 @@ public class Package {
         this.id = id;
     }
 
-    public Owner getOwner() {
-        return owner;
+    public String getStatus() {
+        return status;
     }
 
-    public void setOwner(Owner owner) {
-        this.owner = owner;
+    public void setStatus(String status) {
+        this.status = status;
     }
 
 }
