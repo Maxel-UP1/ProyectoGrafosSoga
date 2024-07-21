@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Samuel",
+    "nameAcount": "sam12",
+    "password": "123",
+    "rol": "USER",
+    "email": "user@example.com",
+    "address": "123 User Street",
+    "phone": "123-456-7890",
+    "id": 1,
+    "packages": []
+  },
+  {
+    "name": "ADMIN",
+    "nameAcount": "admin",
+    "password": "admin",
+    "rol": "DELIVER",
+    "email": "admin@example.com",
+    "address": "456 Admin Avenue",
+    "phone": "098-765-4321",
+    "id": 2,
+    "packages": []
+  },
+  {
+    "name": "Maria",
+    "nameAcount": "maria99",
+    "password": "password2",
+    "rol": "USER",
+    "email": "user2@example.com",
+    "address": "789 User Road",
+    "phone": "234-567-8901",
+    "id": 3,
+    "packages": []
+  },
+  {
+    "name": "Juan Carlos",
+    "nameAcount": "juanCarlos",
+    "password": "password3",
+    "rol": "USER",
+    "email": "user3@example.com",
+    "address": "101 User Blvd",
+    "phone": "345-678-9012",
+    "id": 4,
+    "packages": []
+  },
+  {
+    "name": "Luis",
+    "nameAcount": "luisdev",
+    "password": "deliver2",
+    "rol": "DELIVER",
+    "email": "deliver2@example.com",
+    "address": "102 Deliver Lane",
+    "phone": "456-789-0123",
+    "id": 5,
+    "packages": []
+  }
+]

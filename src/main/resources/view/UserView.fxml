@@ -1,5 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.Label?>
@@ -7,57 +5,71 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="492.0" prefWidth="666.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+   prefHeight="492.0" prefWidth="666.0" xmlns="http://javafx.com/javafx/21"
+   xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Label layoutX="64.0" layoutY="30.0" text="Bienvenido Usuario: ">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <Label fx:id="lblNameUser" layoutX="314.0" layoutY="30.0" prefHeight="26.0" prefWidth="245.0" text=".">
+      <Label fx:id="lblNameUser" layoutX="283.0" layoutY="30.0" prefHeight="26.0" prefWidth="317.0"
+         text=".">
          <font>
             <Font size="16.0" />
          </font>
       </Label>
-      <Button fx:id="btnCreatePack" layoutX="450.0" layoutY="85.0" mnemonicParsing="false" onAction="#addPack" text="Solicitar envío">
+      <Button fx:id="btnCreatePack" layoutX="450.0" layoutY="85.0" mnemonicParsing="false"
+         onAction="#addPack" text="Solicitar envío">
          <font>
             <Font size="18.0" />
          </font>
       </Button>
-      <Button fx:id="brnSeePacks" layoutX="220.0" layoutY="428.0" mnemonicParsing="false" onAction="#seePacks" text="Ver envíos realizados">
+      <Button fx:id="brnSeePacks" layoutX="220.0" layoutY="428.0" mnemonicParsing="false"
+         onAction="#seePacks" text="Ver envíos realizados">
          <font>
             <Font size="18.0" />
          </font>
       </Button>
-      <Button fx:id="btnCancellPack" layoutX="379.0" layoutY="333.0" mnemonicParsing="false" onAction="#cancelPack" text="Cancelar envío">
+      <Button fx:id="btnCancellPack" layoutX="379.0" layoutY="333.0" mnemonicParsing="false"
+         onAction="#cancelPack" text="Cancelar envío">
          <font>
             <Font size="18.0" />
          </font>
       </Button>
-      <Label layoutX="14.0" layoutY="71.0" prefHeight="27.0" prefWidth="174.0" text="Nombre del paquete:">
+      <Label layoutX="14.0" layoutY="71.0" prefHeight="27.0" prefWidth="174.0"
+         text="Nombre del paquete:">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <TextField fx:id="txtNamePack" layoutX="200.0" layoutY="72.0" prefHeight="26.0" prefWidth="227.0" promptText="Nombre del producto" />
-      <Label layoutX="23.0" layoutY="117.0" prefHeight="27.0" prefWidth="182.0" text="Dirección de entrega:">
+      <TextField fx:id="txtNamePack" layoutX="200.0" layoutY="72.0" prefHeight="26.0"
+         prefWidth="227.0" promptText="Nombre del producto" />
+      <Label layoutX="23.0" layoutY="117.0" prefHeight="27.0" prefWidth="182.0"
+         text="Dirección de entrega:">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <ComboBox fx:id="boxDeliveryAddres" layoutX="202.0" layoutY="117.0" onAction="#viewAdrees" prefHeight="26.0" prefWidth="227.0" promptText="Selecciona" />
-      <Label layoutX="316.0" layoutY="288.0" prefHeight="27.0" prefWidth="110.0" text="Anular envío" textFill="RED">
+      <ComboBox fx:id="boxDeliveryAddres" layoutX="202.0" layoutY="117.0" onAction="#selecAdrres"
+         onShowing="#viewAdrees" prefHeight="26.0" prefWidth="227.0" promptText="Selecciona" />
+      <Label layoutX="316.0" layoutY="288.0" prefHeight="27.0" prefWidth="110.0" text="Anular envío"
+         textFill="RED">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <TextField fx:id="txtIdCancelPack" layoutX="112.0" layoutY="340.0" onMouseClicked="#viewInfoID" prefHeight="26.0" prefWidth="227.0" promptText="Ingrese el ID" />
-      <Label fx:id="lblInfoCancell" layoutX="159.0" layoutY="386.0" prefHeight="27.0" prefWidth="264.0" text=".">
+      <TextField fx:id="txtIdCancelPack" layoutX="112.0" layoutY="340.0"
+         onMouseClicked="#viewInfoID" prefHeight="26.0" prefWidth="227.0" promptText="Ingrese el ID" />
+      <Label fx:id="lblInfoCancell" layoutX="112.0" layoutY="386.0" prefHeight="27.0"
+         prefWidth="409.0" text=".">
          <font>
             <Font size="16.0" />
          </font>
       </Label>
-      <Label fx:id="lblInfoOrderPack" layoutX="216.0" layoutY="246.0" prefHeight="26.0" prefWidth="245.0" text=".">
+      <Label fx:id="lblInfoOrderPack" layoutX="85.0" layoutY="246.0" prefHeight="26.0"
+         prefWidth="510.0" text=".">
          <font>
             <Font size="16.0" />
          </font>
