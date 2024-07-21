@@ -1,19 +1,21 @@
 package model;
 
+import utilities.Utilities;
+
 public class Package {
     private String name;
     private String address;
     private Owner owner;
-    private Responsible responsible;
-    private int id;
+    private Owner deliverMan;
+    private String id;
     private String status;
 
-    public Package(String name, String address, Owner owner, Responsible responsible, int id, String status) {
+    public Package(String name, String address, Owner owner, Owner deliverMan, String status) {
         this.name = name;
         this.address = address;
         this.owner = owner;
-        this.responsible = responsible;
-        this.id = id;
+        this.deliverMan = deliverMan;
+        this.id = Utilities.generateId();
         this.status = status;
     }
 
@@ -41,19 +43,19 @@ public class Package {
         this.owner = owner;
     }
 
-    public Responsible getResponsible() {
-        return responsible;
+    public Owner getDeliverMan() {
+        return deliverMan;
     }
 
-    public void setResponsible(Responsible responsible) {
-        this.responsible = responsible;
+    public void setDeliverMan(Owner deliverMan) {
+        this.deliverMan = deliverMan;
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
@@ -64,5 +66,4 @@ public class Package {
     public void setStatus(String status) {
         this.status = status;
     }
-
 }

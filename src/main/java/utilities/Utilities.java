@@ -7,9 +7,6 @@ import java.util.Random;
 
 public class Utilities {
 
-    private static int fileCounter = 0;
-
-    //los primeros 3 son metodos utlizados para generar cuentas.
 
     //el metodo quita espacios al principio y al final del nombre.
     public  String cleanNames(String name){
@@ -39,7 +36,7 @@ public class Utilities {
     }
 
     // genera una letra y dos nuemros aleatorios
-    public String generateId() {
+    public static String generateId() {
 
         // Letras disponibles: A, B, C, D
         char randomLetter = (char) ('A' + new Random().nextInt(4));
@@ -49,9 +46,8 @@ public class Utilities {
         int randomNumber2 = new Random().nextInt(10);
 
         // Construir el ID
-        String idGenerated = "2024" + randomLetter + randomNumber1 + randomNumber2;
 
-        return idGenerated;
+        return "2024" + randomLetter + randomNumber1 + randomNumber2;
 
     }
 
@@ -101,13 +97,7 @@ public class Utilities {
         return random.nextInt(max - min + 1) + min;
     }
 
-    public  String generateUniqueFilename() {
-        String filename;
-        fileCounter++;
-        filename = "grapht" + fileCounter;
-        return filename;
 
-    }
 
 
 }
