@@ -1,18 +1,25 @@
 package controlerView;
 
 import controlers.LoginController;
+import controlers.OwnerAccountController;
 import javafx.event.ActionEvent;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
+import javafx.stage.Stage;
+import view.UserView;
 
-public class LoginViewController {
+import java.io.IOException;
+
+public class LoginViewWindowController {
 
     private LoginController loginController;
+    private OwnerAccountController ownerAccountController;
 
-    public LoginViewController(LoginController loginController) {
+    public LoginViewWindowController(LoginController loginController, OwnerAccountController ownerAccountController) {
         this.loginController = loginController;
+        this.ownerAccountController = ownerAccountController;
 
     }
 
@@ -21,7 +28,7 @@ public class LoginViewController {
     public Button btnLogIn;
     public Label txtInfoMesague;
 
-    public void logIn(ActionEvent actionEvent) {
+    public void logIn(ActionEvent actionEvent) throws IOException {
 
         boolean loginAnswer = loginController.login(txtUsername.getText(), txtPassword.getText());
 
@@ -29,8 +36,8 @@ public class LoginViewController {
             txtInfoMesague.setText("Bienvenido");
             switch (loginController.getOwnerLogged().getRol()) {
                 case "USER":
-                    System.out.println("ES USER ");
-                    System.out.println(loginController.getOwnerLogged().toString());
+                    UserView userView = new UserView(ownerAccountController, loginController);
+                    userView.start(new Stage());
                     //EmployeeView employeeView = new EmployeeView(userAcountControler, loginControler, gymControler);
                     //employeeView.start(new Stage());
                     break;

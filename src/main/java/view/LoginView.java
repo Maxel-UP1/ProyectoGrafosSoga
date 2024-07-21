@@ -1,5 +1,5 @@
 package view;
-import controlerView.LoginViewController;
+import controlerView.LoginViewWindowController;
 import controlers.LoginController;
 import controlers.OwnerAccountController;
 import javafx.application.Application;
@@ -26,7 +26,7 @@ public class LoginView extends Application {
 
         //muestra la ventana principal
         FXMLLoader fxmlLoader = new FXMLLoader(LoginView.class.getResource("loginView.fxml"));
-        LoginViewController loginControllerView = new LoginViewController(loginController);
+        LoginViewWindowController loginControllerView = new LoginViewWindowController(loginController, ownerAccountController);
         fxmlLoader.setControllerFactory(controllerClass -> {
             // Devolver la instancia del controlador
             return loginControllerView;
