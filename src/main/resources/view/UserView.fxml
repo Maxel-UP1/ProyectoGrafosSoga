@@ -1,36 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" >
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlerView.UserViewWindowController">
    <children>
-      <Label layoutX="147.0" layoutY="31.0" text="Bienvenido Usuario: ">
+      <Label layoutX="64.0" layoutY="30.0" text="Bienvenido Usuario: ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblNameUser" layoutX="314.0" layoutY="30.0" prefHeight="26.0" prefWidth="245.0" text=".">
          <font>
             <Font size="16.0" />
          </font>
       </Label>
-      <Label fx:id="lblNameUser" layoutX="341.0" layoutY="31.0" prefHeight="26.0" prefWidth="245.0" text=".">
+      <Button fx:id="btnCreatePack" layoutX="450.0" layoutY="85.0" mnemonicParsing="false" onAction="#addPack" text="Solicitar envío">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="brnSeePacks" layoutX="226.0" layoutY="329.0" mnemonicParsing="false" onAction="#seePacks" text="Ver envíos realizados">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnCancellPack" layoutX="366.0" layoutY="255.0" mnemonicParsing="false" onAction="#cancelPack" text="Cancelar envío">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="14.0" layoutY="71.0" prefHeight="27.0" prefWidth="174.0" text="Nombre del paquete:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtNamePack" layoutX="200.0" layoutY="72.0" prefHeight="26.0" prefWidth="227.0" />
+      <Label layoutX="23.0" layoutY="117.0" prefHeight="27.0" prefWidth="182.0" text="Dirección de entrega:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="boxDeliveryAddres" layoutX="202.0" layoutY="117.0" onAction="#viewAdrees" prefHeight="26.0" prefWidth="227.0" />
+      <Label layoutX="260.0" layoutY="207.0" prefHeight="27.0" prefWidth="110.0" text="Anular envío" textFill="RED">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtIdCancelPack" layoutX="64.0" layoutY="262.0" prefHeight="26.0" prefWidth="227.0" />
+      <Label fx:id="lblInfoCancell" layoutX="153.0" layoutY="295.0" prefHeight="27.0" prefWidth="264.0" text=".">
          <font>
             <Font size="16.0" />
          </font>
       </Label>
-      <Button fx:id="btnCreatePack" layoutX="260.0" layoutY="107.0" mnemonicParsing="false" onAction="#addPack" text="Solicitar envío">
-         <font>
-            <Font size="18.0" />
-         </font>
-      </Button>
-      <Button fx:id="brnSeePacks" layoutX="273.0" layoutY="277.0" mnemonicParsing="false" onAction="#seePacks" text="Ver envíos">
-         <font>
-            <Font size="18.0" />
-         </font>
-      </Button>
-      <Button fx:id="btnCancellPack" layoutX="257.0" layoutY="188.0" mnemonicParsing="false" onAction="#cancelPack" text="Cancelar envío">
-         <font>
-            <Font size="18.0" />
-         </font>
-      </Button>
    </children>
 </AnchorPane>
