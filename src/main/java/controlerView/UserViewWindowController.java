@@ -7,11 +7,12 @@ import javafx.scene.control.Button;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
+import javafx.scene.input.MouseEvent;
 
 public class UserViewWindowController {
 
 
-
+    public Label lblInfoOrderPack;
     private LoginController loginController;
     private OwnerAccountController ownerAccountController;
     public TextField txtNamePack;
@@ -41,5 +42,8 @@ public class UserViewWindowController {
     //llena el vbox
     public void viewAdrees(ActionEvent actionEvent) {
 
+    }
+    //ver la sugerencia para conocer los ID
+    public void viewInfoID(MouseEvent mouseEvent) {
     }
 }
