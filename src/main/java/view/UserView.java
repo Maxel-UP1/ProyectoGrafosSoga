@@ -30,7 +30,7 @@ public class UserView extends Application {
         fxmlLoader.setController(employeeWindowControler);
 
         Parent root = fxmlLoader.load();
-        Scene scene = new Scene(root, 615, 415);
+        Scene scene = new Scene(root, 625, 500);
 
         stage.setTitle("Menu User");
         stage.setScene(scene);
