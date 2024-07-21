@@ -1,6 +1,7 @@
 package view;
 import controlerView.LoginViewController;
 import controlers.LoginController;
+import controlers.OwnerAccountController;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -9,15 +10,16 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 public class LoginView extends Application {
-
+    private  OwnerAccountController ownerAccountController;
     public static Stage currentStage;
 
 
     @Override
     public void start(Stage stage) throws IOException {
         //Leer la persistencia de usuarios
-        LoginController loginController = new LoginController();
-        //userAcountControler.chargeUsersReadFile("users");
+        OwnerAccountController ownerAccountController = new OwnerAccountController();
+        LoginController loginController = new LoginController(ownerAccountController);
+        ownerAccountController.chargeOwnersReadFile("users");
 
 
 

@@ -1,9 +1,11 @@
 package model;
 
+
 import java.util.ArrayList;
 
 public class Owner {
     private String name;
+    private String nameAcount;
     private String password;
     private String rol;
     private String email;
@@ -12,10 +14,11 @@ public class Owner {
     private int id;
     private ArrayList<Package> packages;
 
-    public Owner(String name, String passString, String rol, String email, String address, String phone, int id,
-            ArrayList<Package> packages) {
+    public Owner(String name, String nameAcount, String password, String rol, String email, String address, String phone, int id,
+                 ArrayList<Package> packages) {
         this.name = name;
-        this.password = passString;
+        this.nameAcount = nameAcount;
+        this.password = password;
         this.rol = rol;
         this.email = email;
         this.address = address;
@@ -30,6 +33,14 @@ public class Owner {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getNameAcount() {
+        return nameAcount;
+    }
+
+    public void setNameAcount(String nameAcount) {
+        this.nameAcount = nameAcount;
     }
 
     public String getPassword() {
@@ -87,5 +98,4 @@ public class Owner {
     public void setPackages(ArrayList<Package> packages) {
         this.packages = packages;
     }
-
 }

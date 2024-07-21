@@ -27,6 +27,21 @@ public class LoginViewController {
 
         if (loginAnswer) {
             txtInfoMesague.setText("Bienvenido");
+            switch (loginController.getOwnerLogged().getRol()) {
+                case "USER":
+                    System.out.println("ES USER ");
+                    System.out.println(loginController.getOwnerLogged().toString());
+                    //EmployeeView employeeView = new EmployeeView(userAcountControler, loginControler, gymControler);
+                    //employeeView.start(new Stage());
+                    break;
+                case "DELIVER":
+                    System.out.println("ES DELIVER");
+                    System.out.println(loginController.getOwnerLogged().toString());
+                    //AdminView adminView = new AdminView(userAcountControler, loginControler, gymControler);
+                    //adminView.start(new Stage());
+                    break;
+            }
+
         } else {
             txtInfoMesague.setText("Usuario o contraseña incorrectos");
         }
