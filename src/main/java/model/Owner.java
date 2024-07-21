@@ -1,12 +1,10 @@
 package model;
 
-
 import java.util.ArrayList;
 
 public class Owner {
     private String name;
-    private String nameAcount;
-    private String password;
+    private String passString;
     private String rol;
     private String email;
     private String address;
@@ -14,11 +12,10 @@ public class Owner {
     private int id;
     private ArrayList<Package> packages;
 
-    public Owner(String name, String nameAcount, String password, String rol, String email, String address, String phone, int id,
-                 ArrayList<Package> packages) {
+    public Owner(String name, String passString, String rol, String email, String address, String phone, int id,
+            ArrayList<Package> packages) {
         this.name = name;
-        this.nameAcount = nameAcount;
-        this.password = password;
+        this.passString = passString;
         this.rol = rol;
         this.email = email;
         this.address = address;
@@ -35,20 +32,12 @@ public class Owner {
         this.name = name;
     }
 
-    public String getNameAcount() {
-        return nameAcount;
+    public String getPassString() {
+        return passString;
     }
 
-    public void setNameAcount(String nameAcount) {
-        this.nameAcount = nameAcount;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
+    public void setPassString(String passString) {
+        this.passString = passString;
     }
 
     public String getRol() {
@@ -98,4 +87,16 @@ public class Owner {
     public void setPackages(ArrayList<Package> packages) {
         this.packages = packages;
     }
+
+    @Override
+    public String toString() {
+        return "Owner [name=" + name + ", passString=" + passString + ", rol=" + rol + ", email=" + email + ", address="
+                + address + ", phone=" + phone + ", id=" + id + ", packages=" + packages + "]";
+    }
+
+    public void addPackage(String name, String address, Owner deliverMan, String status) {
+        Package newPackage = new Package(name, address, this, deliverMan, status);
+        packages.add(newPackage);
+    }
+
 }

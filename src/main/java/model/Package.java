@@ -47,23 +47,10 @@ public class Package {
         return deliverMan;
     }
 
-    public void setDeliverMan(Owner deliverMan) {
-        this.deliverMan = deliverMan;
+    @Override
+    public String toString() {
+        return "Package [name=" + name + ", address=" + address + ", owner=" + owner + ", deliverMan=" + deliverMan
+                + ", id=" + id + ", status=" + status + "]";
     }
 
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
-    }
-
-    public String getStatus() {
-        return status;
-    }
-
-    public void setStatus(String status) {
-        this.status = status;
-    }
 }
