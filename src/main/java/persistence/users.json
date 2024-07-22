@@ -9,7 +9,10 @@
       "nameAcount": "sam12",
       "password": "123",
       "rol": "USER",
-      "packagesIds": []
+      "packagesIds": [
+        "2024C42",
+        "2024D19"
+      ]
     }
   },
   {
@@ -22,7 +25,10 @@
       "nameAcount": "juan",
       "password": "admin12",
       "rol": "DELIVER",
-      "packagesIds": []
+      "packagesIds": [
+        "2024C42",
+        "2024D19"
+      ]
     }
   },
   {
@@ -62,36 +68,6 @@
       "password": "admin",
       "rol": "DELIVER",
       "packagesIds": []
-    }
-  },
-  {
-    "id": 1,
-    "name": "Samuel",
-    "email": "samuel@example.com",
-    "phone": "1234567890",
-    "account": {
-      "idUser": "1",
-      "nameAcount": "sam12",
-      "password": "123",
-      "rol": "USER",
-      "packagesIds": [
-        "2024B83"
-      ]
-    }
-  },
-  {
-    "id": 2,
-    "name": "Juan",
-    "email": "juan@example.com",
-    "phone": "0987654321",
-    "account": {
-      "idUser": "2",
-      "nameAcount": "juan",
-      "password": "admin12",
-      "rol": "DELIVER",
-      "packagesIds": [
-        "2024B83"
-      ]
     }
   }
 ]

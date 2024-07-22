@@ -77,13 +77,13 @@ public class UserAccountController {
         packagesList.add(pack);
         for (User  user : usersList){
             if (user.getAccount().getIdUser().equals(owner.getIdUser())){
-                writeFileReading("users" , user);
+                writeFileAlone("users");
             }
             if (user.getAccount().getIdUser().equals(deliver.getIdUser())){
-                writeFileReading("users" , user);
+                writeFileAlone("users");
             }
         }
-        wirteFileAlone("packages");
+        writeFileAlonePackage("packages");
 
 
     }
@@ -114,6 +114,7 @@ public class UserAccountController {
 
     }
 
+
     public void chargePackagesReadFile(String nameFile) {
 
         List<Package> packageList = jsonStorageUtilities.readContentFromFile(nameFile, PACKAGETYPE);
@@ -123,8 +124,11 @@ public class UserAccountController {
 
     }
 
-    public void wirteFileAlone(String nameFile) {
+    public void writeFileAlonePackage(String nameFile) {
         jsonStorageUtilities.saveDataToFile(packagesList, nameFile, PACKAGETYPE);
+    }
+    public void writeFileAlone(String nameFile) {
+        jsonStorageUtilities.saveDataToFile(usersList, nameFile, PERSONTYPE);
     }
 }
 
