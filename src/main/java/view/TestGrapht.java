@@ -1,17 +1,18 @@
 package view;
+import java.io.File;
+import java.io.IOException;
+import java.util.List;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
+
 import org.jgrapht.Graph;
-import org.jgrapht.alg.shortestpath.DijkstraShortestPath;
+import org.jgrapht.alg.shortestpath.YenKShortestPath;
 import org.jgrapht.graph.DefaultWeightedEdge;
 import org.jgrapht.graph.SimpleWeightedGraph;
-
-import java.io.File;
-import java.io.IOException;
-import java.util.List;
+import org.jgrapht.GraphPath;
 
 public class TestGrapht {
 
@@ -43,19 +44,23 @@ public class TestGrapht {
                 }
             }
 
-            // Encontrar la ruta más corta entre dos puntos
-            long source = 1016190752L; // punto de origen
+            // Encontrar las tres rutas más óptimas entre dos puntos
+            long source = 956058028L; // punto de origen
             long target = 7784867706L; // punto de destino
 
-            DijkstraShortestPath<Long, DefaultWeightedEdge> dijkstraAlg = new DijkstraShortestPath<>(graph);
-            List<Long> path = dijkstraAlg.getPath(source, target).getVertexList();
-            double pathWeight = dijkstraAlg.getPath(source, target).getWeight();
+            YenKShortestPath<Long, DefaultWeightedEdge> yenKShortestPath = new YenKShortestPath<>(graph);
+            List<GraphPath<Long, DefaultWeightedEdge>> paths = yenKShortestPath.getPaths(source, target, 3);
 
-            System.out.println("Ruta más corta desde " + source + " hasta " + target + ": " + path);
-            System.out.println("Peso total de la ruta: " + pathWeight);
+            if (paths.size() > 0) {
+                List<Long> shortestPath = paths.get(0).getVertexList();
+                List<Long> secondShortestPath = paths.size() > 1 ? paths.get(1).getVertexList() : null;
+                List<Long> thirdShortestPath = paths.size() > 2 ? paths.get(2).getVertexList() : null;
 
-            // Guardar la ruta en un archivo GeoJSON
-            saveShortestPathAsGeoJson(path, nodes, edges, graph, "src/main/java/persistence/shortest_path.geojson");
+                // Guardar las rutas en un archivo GeoJSON
+                savePathsAsGeoJson(shortestPath, secondShortestPath, thirdShortestPath, nodes, edges, "src/main/java/persistence/paths.geojson");
+            } else {
+                System.out.println("No se encontraron rutas entre los puntos seleccionados.");
+            }
 
         } catch (IOException e) {
             e.printStackTrace();
@@ -71,17 +76,35 @@ public class TestGrapht {
         return mapper.readTree(new File(filePath));
     }
 
-    private static void saveShortestPathAsGeoJson(List<Long> path, JsonNode nodes, JsonNode edges,
-            Graph<Long, DefaultWeightedEdge> graph, String outputPath) throws IOException {
+    private static void savePathsAsGeoJson(List<Long> shortestPath, List<Long> secondShortestPath, List<Long> thirdShortestPath, JsonNode nodes, JsonNode edges, String outputPath) throws IOException {
         ObjectMapper mapper = new ObjectMapper();
-        JsonNode root = mapper.createObjectNode();
-        ((ObjectNode) root).put("type", "FeatureCollection");
+        ObjectNode root = mapper.createObjectNode();
+        root.put("type", "FeatureCollection");
         ArrayNode features = mapper.createArrayNode();
 
+        // Añadir los nodos y aristas de la ruta más corta
+        addPathToFeatures(shortestPath, nodes, edges, features, "shortest");
+
+        // Añadir la segunda ruta más corta si existe
+        if (secondShortestPath != null) {
+            addPathToFeatures(secondShortestPath, nodes, edges, features, "secondShortest");
+        }
+
+        // Añadir la tercera ruta más corta si existe
+        if (thirdShortestPath != null) {
+            addPathToFeatures(thirdShortestPath, nodes, edges, features, "thirdShortest");
+        }
+
+        root.set("features", features);
+        mapper.writerWithDefaultPrettyPrinter().writeValue(new File(outputPath), root);
+    }
+
+    private static void addPathToFeatures(List<Long> path, JsonNode nodes, JsonNode edges, ArrayNode features, String pathType) {
         // Añadir los nodos de la ruta
         for (long id : path) {
             for (JsonNode node : nodes.get("features")) {
                 if (node.get("properties").get("osmid").asLong() == id) {
+                    ((ObjectNode) node.get("properties")).put("pathType", pathType);
                     features.add(node);
                 }
             }
@@ -93,15 +116,11 @@ public class TestGrapht {
             long v = path.get(i + 1);
             for (JsonNode edge : edges.get("features")) {
                 if ((edge.get("properties").get("u").asLong() == u && edge.get("properties").get("v").asLong() == v) ||
-                        (edge.get("properties").get("u").asLong() == v
-                                && edge.get("properties").get("v").asLong() == u)) {
-                    ((ObjectNode) edge.get("properties")).put("weight", graph.getEdgeWeight(graph.getEdge(u, v)));
+                        (edge.get("properties").get("u").asLong() == v && edge.get("properties").get("v").asLong() == u)) {
+                    ((ObjectNode) edge.get("properties")).put("pathType", pathType);
                     features.add(edge);
                 }
             }
         }
-
-        ((ObjectNode) root).set("features", features);
-        mapper.writerWithDefaultPrettyPrinter().writeValue(new File(outputPath), root);
     }
 }

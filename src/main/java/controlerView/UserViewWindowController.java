@@ -54,6 +54,7 @@ public class UserViewWindowController {
             //crea el paquete y lo persiste
             userAccountController.addPack(owner, deliveryMan, namePack, addressSelected, "Pendiente");
             lblInfoOrderPack.setText("Paquete creado con éxito");
+            txtNamePack.setText("");
         }
     }
 
@@ -68,6 +69,7 @@ public class UserViewWindowController {
             //cancela el paquete
             userAccountController.cancelPack(idPack);
             lblInfoCancell.setText("Paquete cancelado con éxito");
+
 }
     }
 
