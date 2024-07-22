@@ -1,0 +1,73 @@
+[
+  {
+    "id": 1,
+    "name": "Samuel",
+    "email": "samuel@example.com",
+    "phone": "1234567890",
+    "account": {
+      "idUser": "1",
+      "nameAcount": "sam12",
+      "password": "123",
+      "rol": "USER",
+      "packagesIds": [
+        "2024C42",
+        "2024D19"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "name": "Juan",
+    "email": "juan@example.com",
+    "phone": "0987654321",
+    "account": {
+      "idUser": "2",
+      "nameAcount": "juan",
+      "password": "admin12",
+      "rol": "DELIVER",
+      "packagesIds": [
+        "2024C42",
+        "2024D19"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "name": "Carlos",
+    "email": "carlos@example.com",
+    "phone": "1122334455",
+    "account": {
+      "idUser": "3",
+      "nameAcount": "carlos_account",
+      "password": "password123",
+      "rol": "USER",
+      "packagesIds": []
+    }
+  },
+  {
+    "id": 4,
+    "name": "Maria",
+    "email": "maria@example.com",
+    "phone": "2233445566",
+    "account": {
+      "idUser": "4",
+      "nameAcount": "maria_account",
+      "password": "password123",
+      "rol": "USER",
+      "packagesIds": []
+    }
+  },
+  {
+    "id": 5,
+    "name": "Ana",
+    "email": "ana@example.com",
+    "phone": "3344556677",
+    "account": {
+      "idUser": "5",
+      "nameAcount": "admin",
+      "password": "admin",
+      "rol": "DELIVER",
+      "packagesIds": []
+    }
+  }
+]
