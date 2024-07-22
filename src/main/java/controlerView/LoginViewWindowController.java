@@ -1,13 +1,14 @@
 package controlerView;
 
 import controlers.LoginController;
-import controlers.OwnerAccountController;
+import controlers.UserAccountController;
 import javafx.event.ActionEvent;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
+import model.User;
 import view.UserView;
 
 import java.io.IOException;
@@ -15,11 +16,11 @@ import java.io.IOException;
 public class LoginViewWindowController {
 
     private LoginController loginController;
-    private OwnerAccountController ownerAccountController;
+    private UserAccountController userAccountController;
 
-    public LoginViewWindowController(LoginController loginController, OwnerAccountController ownerAccountController) {
+    public LoginViewWindowController(LoginController loginController, UserAccountController userAccountController) {
         this.loginController = loginController;
-        this.ownerAccountController = ownerAccountController;
+        this.userAccountController = userAccountController;
 
     }
 
@@ -34,16 +35,15 @@ public class LoginViewWindowController {
 
         if (loginAnswer) {
             txtInfoMesague.setText("Bienvenido");
-            switch (loginController.getOwnerLogged().getRol()) {
+
+            switch (loginController.getAccountLogged().getRol().name()) {
                 case "USER":
-                    UserView userView = new UserView(ownerAccountController, loginController);
+                    UserView userView = new UserView(userAccountController, loginController);
                     userView.start(new Stage());
-                    //EmployeeView employeeView = new EmployeeView(userAcountControler, loginControler, gymControler);
-                    //employeeView.start(new Stage());
                     break;
                 case "DELIVER":
                     System.out.println("ES DELIVER");
-                    System.out.println(loginController.getOwnerLogged().toString());
+                    System.out.println(loginController.getAccountLogged().toString());
                     //AdminView adminView = new AdminView(userAcountControler, loginControler, gymControler);
                     //adminView.start(new Stage());
                     break;

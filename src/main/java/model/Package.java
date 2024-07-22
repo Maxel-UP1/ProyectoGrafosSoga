@@ -3,19 +3,16 @@ package model;
 import utilities.Utilities;
 
 public class Package {
+    private String id;
     private String name;
     private String address;
-    private Owner owner;
-    private Owner deliverMan;
-    private String id;
     private String status;
+    private Utilities utilities;
 
-    public Package(String name, String address, Owner owner, Owner deliverMan, String status) {
+    public Package(String name, String address, String status) {
+        this.id = Utilities.generateId();
         this.name = name;
         this.address = address;
-        this.owner = owner;
-        this.deliverMan = deliverMan;
-        this.id = Utilities.generateId();
         this.status = status;
     }
 
@@ -27,6 +24,14 @@ public class Package {
         this.name = name;
     }
 
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
     public String getAddress() {
         return address;
     }
@@ -35,22 +40,22 @@ public class Package {
         this.address = address;
     }
 
-    public Owner getOwner() {
-        return owner;
+    public String getStatus() {
+        return status;
     }
 
-    public void setOwner(Owner owner) {
-        this.owner = owner;
-    }
-
-    public Owner getDeliverMan() {
-        return deliverMan;
+    public void setStatus(String status) {
+        this.status = status;
     }
 
     @Override
     public String toString() {
-        return "Package [name=" + name + ", address=" + address + ", owner=" + owner + ", deliverMan=" + deliverMan
-                + ", id=" + id + ", status=" + status + "]";
+        return "Package{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", address='" + address + '\'' +
+                ", status='" + status + '\'' +
+                ", utilities=" + utilities +
+                '}';
     }
-
 }

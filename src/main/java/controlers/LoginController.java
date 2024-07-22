@@ -1,31 +1,27 @@
 package controlers;
 
-import model.Owner;
+import model.Account;
+import model.User;
 
 import java.util.ArrayList;
 
 public class LoginController {
-    private OwnerAccountController ownerAccountController;
-    private ArrayList<Owner> ownersList;
-    private Owner ownerLogged;
+    private UserAccountController userAccountController;
+    private Account AccountLogged;
 
-    public Owner getOwnerLogged() {
-        return ownerLogged;
+    public Account getAccountLogged() {
+        return AccountLogged;
     }
 
-
-    public LoginController(OwnerAccountController ownerAccountController) {
-        this.ownerAccountController = ownerAccountController;
-        this.ownersList = ownerAccountController.getOwnersList();
-
-        //LLamar a la persistencia de los usuarios  y ponerselo en el igual!!!
+    public LoginController(UserAccountController userAccountController) {
+        this.userAccountController = userAccountController;
     }
 
     public boolean login(String nameAcountUser, String password) {
-        ownersList = ownerAccountController.getOwnersList();
-        for (Owner owner : ownersList) {
-            if (owner.getNameAcount().equals(nameAcountUser) && owner.getPassword().equals(password)) {
-                ownerLogged = owner;
+        ArrayList<User> users = userAccountController.getUsersList();
+        for (User user : users) {
+            if (user.getAccount().getNameAcount().equals(nameAcountUser) && user.getAccount().getPassword().equals(password)) {
+                AccountLogged = user.getAccount();
                 return true;
             }
         }
@@ -33,6 +29,7 @@ public class LoginController {
     }
 
 
-
-
 }
+
+
+

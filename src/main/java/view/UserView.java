@@ -2,7 +2,7 @@ package view;
 
 import controlerView.UserViewWindowController;
 import controlers.LoginController;
-import controlers.OwnerAccountController;
+import controlers.UserAccountController;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -13,19 +13,19 @@ import java.io.IOException;
 
 public class UserView extends Application {
     private LoginController loginController;
-    private OwnerAccountController ownerAccountController;
+    private UserAccountController userAccountController;
 
-    public UserView(OwnerAccountController ownerAccountController, LoginController loginController) {
-        this.ownerAccountController = ownerAccountController;
+    public UserView(UserAccountController userAccountController, LoginController loginController) {
+        this.userAccountController = userAccountController;
         this.loginController = loginController;
     }
 
     @Override
     public void start(Stage stage) throws IOException {
-        ownerAccountController.chargeOwnersReadFile("users");
+        //userAccountController.chargeOwnersReadFile("users");
 
         FXMLLoader fxmlLoader = new FXMLLoader(UserView.class.getResource("UserView.fxml"));
-        UserViewWindowController employeeWindowControler = new UserViewWindowController(ownerAccountController, loginController);
+        UserViewWindowController employeeWindowControler = new UserViewWindowController(userAccountController, loginController);
 
         fxmlLoader.setController(employeeWindowControler);
 

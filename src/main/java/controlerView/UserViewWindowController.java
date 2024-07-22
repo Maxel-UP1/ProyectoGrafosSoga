@@ -1,7 +1,7 @@
 package controlerView;
 
 import controlers.LoginController;
-import controlers.OwnerAccountController;
+import controlers.UserAccountController;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -11,7 +11,7 @@ import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
-import model.Owner;
+import model.Account;
 import utilities.Utilities;
 import javax.swing.JOptionPane;
 
@@ -19,7 +19,7 @@ public class UserViewWindowController {
 
     public Label lblInfoOrderPack;
     private LoginController loginController;
-    private OwnerAccountController ownerAccountController;
+    private UserAccountController userAccountController;
     public String addressSelected;
     public TextField txtNamePack;
     public ComboBox boxDeliveryAddres;
@@ -35,22 +35,24 @@ public class UserViewWindowController {
             "Parque Del Norte", "Personalizado");
     JOptionPane jp = new JOptionPane();
 
-    public UserViewWindowController(OwnerAccountController ownerAccountController, LoginController loginController) {
-        this.ownerAccountController = ownerAccountController;
+    public UserViewWindowController(UserAccountController userAccountController, LoginController loginController) {
+        this.userAccountController = userAccountController;
         this.loginController = loginController;
     }
 
     public void addPack(ActionEvent actionEvent) {
         String namePack = txtNamePack.getText();
-        Owner owner = loginController.getOwnerLogged();
-        Owner deliveryMan = ownerAccountController.firtsDeliveredMan();
+        Account owner = loginController.getAccountLogged();
+        //necesita un repartidor, por defecto es admin
+        Account deliveryMan = userAccountController.firtsDeliveredMan();
 
         if (namePack.isEmpty()) {
             lblInfoOrderPack.setText("El nombre del paquete no puede estar vacío");
         } else if (addressSelected.isEmpty()) {
             lblInfoOrderPack.setText("Debe seleccionar una dirección");
         } else {
-            ownerAccountController.addPack(owner, deliveryMan, namePack, addressSelected, "Pendiente");
+            //crea el paquete y lo persiste
+            userAccountController.addPack(owner, deliveryMan, namePack, addressSelected, "Pendiente");
             lblInfoOrderPack.setText("Paquete creado con éxito");
         }
     }

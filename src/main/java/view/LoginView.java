@@ -1,7 +1,7 @@
 package view;
 import controlerView.LoginViewWindowController;
 import controlers.LoginController;
-import controlers.OwnerAccountController;
+import controlers.UserAccountController;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -10,23 +10,26 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 public class LoginView extends Application {
-    private  OwnerAccountController ownerAccountController;
+    private  UserAccountController userAccountController;
     public static Stage currentStage;
 
+    public LoginView(){
+        userAccountController = new UserAccountController();
+    }
 
     @Override
     public void start(Stage stage) throws IOException {
         //Leer la persistencia de usuarios
-        OwnerAccountController ownerAccountController = new OwnerAccountController();
-        LoginController loginController = new LoginController(ownerAccountController);
-        ownerAccountController.chargeOwnersReadFile("users");
+        userAccountController.chargeUsersReadFile("users");
+        userAccountController.chargePackagesReadFile("packages");
+        LoginController loginController = new LoginController(userAccountController);
 
 
 
 
         //muestra la ventana principal
         FXMLLoader fxmlLoader = new FXMLLoader(LoginView.class.getResource("loginView.fxml"));
-        LoginViewWindowController loginControllerView = new LoginViewWindowController(loginController, ownerAccountController);
+        LoginViewWindowController loginControllerView = new LoginViewWindowController(loginController, userAccountController);
         fxmlLoader.setControllerFactory(controllerClass -> {
             // Devolver la instancia del controlador
             return loginControllerView;
