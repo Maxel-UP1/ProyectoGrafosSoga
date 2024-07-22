@@ -48,7 +48,7 @@ public class UserViewWindowController {
 
         if (namePack.isEmpty()) {
             lblInfoOrderPack.setText("El nombre del paquete no puede estar vacío");
-        } else if (addressSelected.isEmpty()) {
+        } else if (addressSelected.equals("")) {
             lblInfoOrderPack.setText("Debe seleccionar una dirección");
         } else {
             //crea el paquete y lo persiste
@@ -61,6 +61,14 @@ public class UserViewWindowController {
     }
 
     public void cancelPack(ActionEvent actionEvent) {
+         String idPack = txtIdCancelPack.getText();
+        if (idPack.isEmpty()) {
+            lblInfoCancell.setText("El ID del paquete no puede estar vacío");
+        } else {
+            //cancela el paquete
+            userAccountController.cancelPack(idPack);
+            lblInfoCancell.setText("Paquete cancelado con éxito");
+}
     }
 
     // ver la sugerencia para conocer los ID

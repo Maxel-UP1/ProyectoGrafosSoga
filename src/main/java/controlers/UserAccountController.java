@@ -87,7 +87,22 @@ public class UserAccountController {
 
 
     }
+    public void cancelPack(String idPack){
+        for (Package pack : packagesList){
+            if (pack.getId().equals(idPack)){
+                pack.setStatus("CANCELED");
 
+                for (User user : usersList){
+                    if (user.getAccount().getPackagesIds().contains(idPack)){
+                        user.getAccount().getPackagesIds().remove(idPack);
+                        writeFileAlone("users");
+                    }
+                }
+                pack.setId("CANCELED");
+            }
+        }
+        writeFileAlonePackage("packages");
+}
 
 
     //Metodos para persistencia
