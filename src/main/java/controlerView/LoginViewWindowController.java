@@ -45,10 +45,6 @@ public class LoginViewWindowController {
                 case "DELIVER":
                     AdminView adminView = new AdminView(userAccountController, loginController);
                     adminView.start(new Stage());
-                    System.out.println("ES DELIVER");
-                    System.out.println(loginController.getAccountLogged().toString());
-                    //AdminView adminView = new AdminView(userAcountControler, loginControler, gymControler);
-                    //adminView.start(new Stage());
                     break;
             }
 
