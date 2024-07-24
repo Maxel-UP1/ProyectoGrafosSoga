@@ -52,7 +52,8 @@ public class TestGrapht {
             List<GraphPath<Long, DefaultWeightedEdge>> paths = yenKShortestPath.getPaths(source, target, 3);
 
             if (paths.size() > 0) {
-                List<Long> shortestPath = paths.get(0).getVertexList();
+                List<Long> shortestPath = paths.get(0).getVertexList(); //ruta mas optimaaaaaa
+                //verificacion de rutas secundarias
                 List<Long> secondShortestPath = paths.size() > 1 ? paths.get(1).getVertexList() : null;
                 List<Long> thirdShortestPath = paths.size() > 2 ? paths.get(2).getVertexList() : null;
 

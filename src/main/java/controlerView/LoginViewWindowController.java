@@ -9,6 +9,7 @@ import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 import model.User;
+import view.AdminView;
 import view.UserView;
 
 import java.io.IOException;
@@ -42,6 +43,8 @@ public class LoginViewWindowController {
                     userView.start(new Stage());
                     break;
                 case "DELIVER":
+                    AdminView adminView = new AdminView(userAccountController, loginController);
+                    adminView.start(new Stage());
                     System.out.println("ES DELIVER");
                     System.out.println(loginController.getAccountLogged().toString());
                     //AdminView adminView = new AdminView(userAcountControler, loginControler, gymControler);
