@@ -1,0 +1,96 @@
+/* Clase para el fondo */
+.background {
+    -fx-background-color: linear-gradient(
+            to bottom right,
+            rgba(44, 37, 37, 0.9),
+            rgba(62, 40, 95, 0.7),
+            rgba(44, 37, 37, 0.9)
+    );
+    -fx-background-image: radial-gradient(circle, rgba(255, 255, 255, 0.1), rgba(44, 37, 37, 0.1) 70%),
+    radial-gradient(circle, rgba(255, 255, 255, 0.05), rgba(44, 37, 37, 0.05) 50%);
+    -fx-background-size: cover;
+    -fx-background-blend-mode: overlay, multiply;
+}
+
+/* Clase para botones */
+.button-red-black {
+    -fx-background-color: linear-gradient(to bottom right, #ff6f61, #333333);
+    -fx-text-fill: white;
+    -fx-border-radius: 10px;
+    -fx-font-size: 16px;
+    -fx-padding: 10px 20px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.5), 10, 0.5, 0, 0);
+}
+
+.button-red-black:hover {
+    -fx-background-color: linear-gradient(to bottom right, #ff4b39, #555555);
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.7), 15, 0.5, 0, 0);
+}
+
+/* Clase para texto */
+.text-red-black {
+    -fx-background-color: linear-gradient(to bottom right, #ff6f61, #333333);
+    -fx-background-radius: 5px;
+    -fx-padding: 5px 10px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.5), 5, 0.5, 0, 0);
+}
+
+/* Clase para tablas */
+/* Clase para tablas */
+.table-red-white {
+    -fx-background-color: linear-gradient(
+            to bottom right,
+            #2a2a2a,
+            #444444
+    );
+    -fx-border-color: #ff6f61;
+    -fx-border-width: 2px;
+    -fx-border-radius: 10px;
+    -fx-padding: 15px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 10, 0.3, 0, 0);
+    -fx-font-family: 'Orbitron', sans-serif;
+    -fx-text-fill: white;
+}
+
+.table-row-cell {
+    -fx-background-color: rgba(255, 255, 255, 0.1);
+    -fx-text-fill: #eeeeee;
+    -fx-border-color: rgba(255, 255, 255, 0.2);
+    -fx-border-width: 0 0 1px 0;
+}
+
+.table-row-cell:hover {
+    -fx-background-color: rgba(255, 255, 255, 0.2);
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #ff6f61;
+    -fx-text-fill: white;
+}
+
+.table-column-header {
+    -fx-background-color: linear-gradient(to bottom right, #ff6f61, #ff8a75);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 5, 0.2, 0, 0);
+    -fx-border-color: #ff6f61;
+    -fx-border-width: 0 0 2px 0;
+    -fx-alignment: center;
+}
+
+/* Aplicar estilo global */
+.root {
+    -fx-font-family: 'Orbitron', sans-serif;
+    -fx-font-size: 14px;
+}
+
+/* Aplicar estilo global */
+.root {
+    -fx-font-family: 'Orbitron', sans-serif;
+    -fx-font-size: 14px;
+}

@@ -1,6 +1,7 @@
 package view;
 
 import controlerView.AdminViewController;
+import controlerView.PackageViewController;
 import controlers.LoginController;
 import controlers.UserAccountController;
 import javafx.application.Application;
@@ -11,27 +12,27 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class AdminView extends Application {
+public class PackageView extends Application {
 
     private LoginController loginController;
     private UserAccountController userAccountController;
 
-    public AdminView(UserAccountController userAccountController, LoginController loginController) {
+    public PackageView(UserAccountController userAccountController, LoginController loginController) {
         this.userAccountController = userAccountController;
         this.loginController = loginController;
     }
 
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(AdminView.class.getResource("AdminView.fxml"));
-        AdminViewController adminViewController = new AdminViewController(userAccountController, loginController);
+        FXMLLoader fxmlLoader = new FXMLLoader(AdminView.class.getResource("PackageView.fxml"));
+        PackageViewController packageViewController = new PackageViewController(userAccountController, loginController);
 
-        fxmlLoader.setController(adminViewController);
+        fxmlLoader.setController(packageViewController);
 
         Parent root = fxmlLoader.load();
         Scene scene = new Scene(root);
 
-        stage.setTitle("Menu Deliver");
+        stage.setTitle("Estado Paquete");
         stage.setScene(scene);
         stage.show();
     }

@@ -4,17 +4,19 @@ import controlers.LoginController;
 import controlers.UserAccountController;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.Button;
-import javafx.scene.control.TableColumn;
-import javafx.scene.control.TableView;
+import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.stage.Stage;
 import javafx.util.Callback;
-import javafx.scene.control.TableCell;
 import model.Package;
+import view.AdminView;
+import view.PackageView;
 import view.TestGrapht;
 
+import java.io.IOException;
 import java.util.ArrayList;
 
 public class AdminViewController {
@@ -49,6 +51,8 @@ public class AdminViewController {
 
     @FXML
     private TableColumn<Package, Void> colAction; // Nueva columna para el botón
+@FXML
+public Button BottonEstadoPack;
 
     @FXML
     public void initialize() {
@@ -98,5 +102,10 @@ public class AdminViewController {
         for (Package pack : tablePackages.getItems()) {
             System.out.println("TableView Item: " + pack.getId() + " " + pack.getName() + " " + pack.getAddress() + " " + pack.getStatus());
         }
+    }
+    @FXML
+    public void bottonEstadoPack(ActionEvent actionEvent) throws IOException {
+        PackageView packageView = new PackageView(userAccountController, loginController);
+        packageView.start(new Stage());
     }
 }
