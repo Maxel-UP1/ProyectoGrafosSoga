@@ -8,12 +8,9 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
-import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.stage.Stage;
 import javafx.util.Callback;
 import model.Package;
-import view.AdminView;
-import view.PackageView;
 import view.TestGrapht;
 
 import java.io.IOException;
@@ -50,9 +47,9 @@ public class AdminViewController {
     private TableColumn<Package, String> colStatus;
 
     @FXML
-    private TableColumn<Package, Void> colAction; // Nueva columna para el botón
-@FXML
-public Button BottonEstadoPack;
+    private TableColumn<Package, Void> colAction;
+
+
 
     @FXML
     public void initialize() {
@@ -60,23 +57,46 @@ public Button BottonEstadoPack;
         colPackageId.setCellValueFactory(new PropertyValueFactory<>("id"));
         colName.setCellValueFactory(new PropertyValueFactory<>("name"));
         colAddress.setCellValueFactory(new PropertyValueFactory<>("address"));
-        colStatus.setCellValueFactory(new PropertyValueFactory<>("status"));
 
-        // Configuración de la columna de acción
-        colAction.setCellFactory(new Callback<TableColumn<Package, Void>, TableCell<Package, Void>>() {
+        // Configuración de la columna de estado con ComboBox
+        colStatus.setCellFactory(col -> new TableCell<>() {
+            private final ComboBox<String> comboBox = new ComboBox<>();
+
+            {
+                comboBox.getItems().addAll("pendiente", "encamino", "entregado", "devuelto");
+                comboBox.setOnAction(e -> {
+                    Package pack = getTableView().getItems().get(getIndex());
+                    pack.setStatus(comboBox.getValue());
+                });
+            }
+
+            @Override
+            protected void updateItem(String item, boolean empty) {
+                super.updateItem(item, empty);
+                if (empty) {
+                    setGraphic(null);
+                } else {
+                    Package pack = getTableView().getItems().get(getIndex());
+                    comboBox.setValue(pack.getStatus());
+                    setGraphic(comboBox);
+
+                }
+            }
+        });
+
+        // Configuración de la columna de acción con botón
+        colAction.setCellFactory(new Callback<>() {
             @Override
             public TableCell<Package, Void> call(final TableColumn<Package, Void> param) {
-                final TableCell<Package, Void> cell = new TableCell<Package, Void>() {
-
+                final TableCell<Package, Void> cell = new TableCell<>() {
                     private final Button btn = new Button("Ver Ruta");
 
                     {
-                        btn.setOnAction((event) -> {
+                        btn.setOnAction(event -> {
                             Package data = getTableView().getItems().get(getIndex());
                             System.out.println("Ver Ruta del Paquete: " + data.getId());
                             // Aquí puedes añadir la lógica para ver la ruta
                             TestGrapht testGrapht = new TestGrapht(data.getAddress());
-
                         });
                     }
 
@@ -99,13 +119,15 @@ public Button BottonEstadoPack;
         System.out.println("TableView initialized with packages: " + packages.size());
 
         // Debug output to see if data is set correctly
-        for (Package pack : tablePackages.getItems()) {
+        for (Package pack : packagesList) {
             System.out.println("TableView Item: " + pack.getId() + " " + pack.getName() + " " + pack.getAddress() + " " + pack.getStatus());
         }
+
+        userAccountController.actualizarEstadoPack(packagesList);
     }
+
     @FXML
     public void bottonEstadoPack(ActionEvent actionEvent) throws IOException {
-        PackageView packageView = new PackageView(userAccountController, loginController);
-        packageView.start(new Stage());
+        userAccountController.actualizarEstadoPack(packagesList);
     }
 }
