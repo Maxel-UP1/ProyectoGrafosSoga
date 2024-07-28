@@ -1,7 +1,6 @@
 package view;
 
-import controlerView.AdminViewController;
-import controlerView.PackageViewController;
+import controlerView.PackageDeliverViewController;
 import controlers.LoginController;
 import controlers.UserAccountController;
 import javafx.application.Application;
@@ -25,7 +24,7 @@ public class PackageView extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(AdminView.class.getResource("PackageView.fxml"));
-        PackageViewController packageViewController = new PackageViewController(userAccountController, loginController);
+        PackageDeliverViewController packageViewController = new PackageDeliverViewController(userAccountController, loginController);
 
         fxmlLoader.setController(packageViewController);
 

@@ -51,6 +51,7 @@ public class UserViewWindowController {
         } else if (addressSelected.equals("")) {
             lblInfoOrderPack.setText("Debe seleccionar una dirección");
         } else {
+
             //crea el paquete y lo persiste
             userAccountController.addPack(owner, deliveryMan, namePack, addressSelected, "Pendiente");
             lblInfoOrderPack.setText("Paquete creado con éxito");

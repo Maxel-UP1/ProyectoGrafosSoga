@@ -6,12 +6,12 @@ import model.Package;
 
 import java.util.ArrayList;
 
-public class PackageViewController {
+public class PackageDeliverViewController {
     private ArrayList<Package> packagesList;
     private LoginController loginController;
     private UserAccountController userAccountController;
 
-    public PackageViewController(UserAccountController userAccountController, LoginController loginController) {
+    public PackageDeliverViewController(UserAccountController userAccountController, LoginController loginController) {
             this.userAccountController = userAccountController;
             this.loginController = loginController;
             this.packagesList = userAccountController.getPackagesList();
