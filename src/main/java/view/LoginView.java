@@ -24,9 +24,6 @@ public class LoginView extends Application {
         userAccountController.chargePackagesReadFile("packages");
         LoginController loginController = new LoginController(userAccountController);
 
-
-
-
         //muestra la ventana principal
         FXMLLoader fxmlLoader = new FXMLLoader(LoginView.class.getResource("loginView.fxml"));
         LoginViewWindowController loginControllerView = new LoginViewWindowController(loginController, userAccountController);

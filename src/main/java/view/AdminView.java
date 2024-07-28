@@ -1,7 +1,6 @@
 package view;
 
 import controlerView.AdminViewController;
-import controlerView.UserViewWindowController;
 import controlers.LoginController;
 import controlers.UserAccountController;
 import javafx.application.Application;
@@ -24,9 +23,7 @@ public class AdminView extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-        //userAccountController.chargeOwnersReadFile("users");
-
-        FXMLLoader fxmlLoader = new FXMLLoader(UserView.class.getResource("AdminView.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(AdminView.class.getResource("AdminView.fxml"));
         AdminViewController adminViewController = new AdminViewController(userAccountController, loginController);
 
         fxmlLoader.setController(adminViewController);
@@ -37,7 +34,9 @@ public class AdminView extends Application {
         stage.setTitle("Menu Deliver");
         stage.setScene(scene);
         stage.show();
-
     }
 
+    public static void main(String[] args) {
+        launch(args);
+    }
 }

@@ -4,5 +4,17 @@
     "name": "RTX 4060",
     "address": "U.P.T.C",
     "status": "Pendiente"
+  },
+  {
+    "id": "2024D45",
+    "name": "sam",
+    "address": "U.P.T.C",
+    "status": "Pendiente"
+  },
+  {
+    "id": "2024D92",
+    "name": "tablet samsung t6",
+    "address": "Parque Del Norte",
+    "status": "Pendiente"
   }
 ]

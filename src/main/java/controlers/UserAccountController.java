@@ -145,6 +145,12 @@ public class UserAccountController {
     public void writeFileAlone(String nameFile) {
         jsonStorageUtilities.saveDataToFile(usersList, nameFile, PERSONTYPE);
     }
+
+
+    // retornar paquetes
+    public ArrayList<Package> getPackagesList() {
+        return packagesList;
+    }
 }
 
 
