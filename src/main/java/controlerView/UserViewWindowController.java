@@ -22,13 +22,14 @@ public class UserViewWindowController {
     private UserAccountController userAccountController;
     public String addressSelected;
     public TextField txtNamePack;
-    public ComboBox boxDeliveryAddres;
+    public ComboBox<String> boxDeliveryAddres;
     public TextField txtIdCancelPack;
     public Label lblInfoCancell;
     public Label lblNameUser;
     public Button btnCreatePack;
     public Button brnSeePacks;
     public Button btnCancellPack;
+    public TextField txtCustomAddress; // New TextField
 
     Utilities utilities = new Utilities();
     ObservableList<String> addresList = FXCollections.observableArrayList("U.P.T.C", "Colegio Sugamuxi",
@@ -43,19 +44,21 @@ public class UserViewWindowController {
     public void addPack(ActionEvent actionEvent) {
         String namePack = txtNamePack.getText();
         Account owner = loginController.getAccountLogged();
-        //necesita un repartidor, por defecto es admin
         Account deliveryMan = userAccountController.firtsDeliveredMan();
 
         if (namePack.isEmpty()) {
             lblInfoOrderPack.setText("El nombre del paquete no puede estar vacío");
         } else if (addressSelected.equals("")) {
             lblInfoOrderPack.setText("Debe seleccionar una dirección");
+        } else if (addressSelected.equals("Personalizado") && txtCustomAddress.getText().isEmpty()) {
+            lblInfoOrderPack.setText("Debe ingresar una dirección personalizada");
         } else {
-
-            //crea el paquete y lo persiste
-            userAccountController.addPack(owner, deliveryMan, namePack, addressSelected, "Pendiente");
+            String finalAddress = addressSelected.equals("Personalizado") ? txtCustomAddress.getText() : addressSelected;
+            userAccountController.addPack(owner, deliveryMan, namePack, finalAddress, "Pendiente");
             lblInfoOrderPack.setText("Paquete creado con éxito");
             txtNamePack.setText("");
+            txtCustomAddress.setText("");
+            txtCustomAddress.setVisible(false);
         }
     }
 
@@ -63,27 +66,28 @@ public class UserViewWindowController {
     }
 
     public void cancelPack(ActionEvent actionEvent) {
-         String idPack = txtIdCancelPack.getText();
+        String idPack = txtIdCancelPack.getText();
         if (idPack.isEmpty()) {
             lblInfoCancell.setText("El ID del paquete no puede estar vacío");
         } else {
-            //cancela el paquete
             userAccountController.cancelPack(idPack);
             lblInfoCancell.setText("Paquete cancelado con éxito");
-
-}
+        }
     }
 
-    // ver la sugerencia para conocer los ID
     public void viewInfoID(MouseEvent mouseEvent) {
         lblInfoCancell.setText("Si no conoce el ID, seleccione Ver envíos Realizados");
     }
 
     public void selecAdrres(ActionEvent actionEvent) {
-        addressSelected = boxDeliveryAddres.getValue().toString();
+        addressSelected = boxDeliveryAddres.getValue();
+        if ("Personalizado".equals(addressSelected)) {
+            txtCustomAddress.setVisible(true);
+        } else {
+            txtCustomAddress.setVisible(false);
+        }
     }
 
-    // llenar el vbox
     public void viewAdrees(Event event) {
         utilities.fillComboVox(boxDeliveryAddres, addresList);
     }

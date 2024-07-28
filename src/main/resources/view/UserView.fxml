@@ -57,10 +57,12 @@
             <Font size="16.0" />
          </font>
       </Label>
-      <Label fx:id="lblInfoOrderPack" layoutX="85.0" layoutY="246.0" prefHeight="26.0" prefWidth="510.0" text="." textFill="WHITE">
+      <Label fx:id="lblInfoOrderPack" layoutX="54.0" layoutY="219.0" prefHeight="26.0" prefWidth="510.0" text="." textFill="WHITE">
          <font>
             <Font size="16.0" />
          </font>
       </Label>
+      <!-- New TextField for custom address -->
+      <TextField fx:id="txtCustomAddress" layoutX="200.0" layoutY="170.0" prefHeight="26.0" prefWidth="227.0" promptText="Ingrese dirección personalizada" styleClass="text-red-black" stylesheets="@Syles.css" visible="false" />
    </children>
 </AnchorPane>
