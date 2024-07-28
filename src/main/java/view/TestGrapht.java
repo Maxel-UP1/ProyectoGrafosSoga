@@ -1,24 +1,20 @@
 package view;
-import java.awt.*;
 import java.io.File;
 import java.io.IOException;
 import java.util.List;
-
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
-
 import org.jgrapht.Graph;
 import org.jgrapht.alg.shortestpath.YenKShortestPath;
 import org.jgrapht.graph.DefaultWeightedEdge;
 import org.jgrapht.graph.SimpleWeightedGraph;
 import org.jgrapht.GraphPath;
 import java.awt.Desktop;
-import java.awt.Desktop;
-import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
+
 public class TestGrapht {
 
     public TestGrapht(String direccion) {
