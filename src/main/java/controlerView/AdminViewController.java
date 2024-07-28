@@ -75,7 +75,7 @@ public Button BottonEstadoPack;
                             Package data = getTableView().getItems().get(getIndex());
                             System.out.println("Ver Ruta del Paquete: " + data.getId());
                             // Aquí puedes añadir la lógica para ver la ruta
-                            TestGrapht testGrapht = new TestGrapht();
+                            TestGrapht testGrapht = new TestGrapht(data.getAddress());
 
                         });
                     }

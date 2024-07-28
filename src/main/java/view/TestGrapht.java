@@ -15,11 +15,14 @@ import org.jgrapht.graph.DefaultWeightedEdge;
 import org.jgrapht.graph.SimpleWeightedGraph;
 import org.jgrapht.GraphPath;
 import java.awt.Desktop;
-import java.io.File;
+import java.awt.Desktop;
 import java.io.IOException;
+import java.net.URI;
+import java.net.URISyntaxException;
 public class TestGrapht {
 
-    public TestGrapht() {
+    public TestGrapht(String direccion) {
+
         try {
             // Cargar los datos
             JsonNode nodes = loadGeoJson("src/main/java/persistence/nodes.geojson");
@@ -48,8 +51,9 @@ public class TestGrapht {
             }
 
             // Encontrar las tres rutas más óptimas entre dos puntos
-            long source = 316951892L; // punto de origen
-            long target = 1016183500L; // punto de destino
+            //entrada de la uptc bodega
+            long source = 7781524482L; // punto de origen
+            long target = Long.parseLong(direccion); // punto de destino
 
             YenKShortestPath<Long, DefaultWeightedEdge> yenKShortestPath = new YenKShortestPath<>(graph);
             List<GraphPath<Long, DefaultWeightedEdge>> paths = yenKShortestPath.getPaths(source, target, 3);
@@ -126,6 +130,7 @@ public class TestGrapht {
                 }
             }
         }
+        //abre en el navegador
         OpenHTML openHTML = new OpenHTML();
     }
 
@@ -133,25 +138,26 @@ public class TestGrapht {
     }
 class   OpenHTML {
 public OpenHTML() {
-    // Ruta al archivo HTML
-    String filePath = "src/main/java/persistence/map.html";
+    try {
+        // Define la URL que quieres abrir
+        URI uri = new URI("http://localhost:63342/ProyectoGrafosSoga/src/main/java/persistence/map.html?_ijt=qh45e7u86t73n1s12n0e0iibl7&_ij_reload=RELOAD_ON_SAVE");
 
-    // Crear un objeto File con la ruta del archivo
-    File htmlFile = new File(filePath);
-
-    // Verificar si Desktop es soportado en el sistema
-    if (Desktop.isDesktopSupported()) {
-        Desktop desktop = Desktop.getDesktop();
-        try {
-            // Abrir el archivo HTML en el navegador predeterminado
-            desktop.browse(htmlFile.toURI());
-        } catch (IOException e) {
-            e.printStackTrace();
+        // Comprueba si Desktop es soportado en el sistema actual
+        if (Desktop.isDesktopSupported()) {
+            Desktop desktop = Desktop.getDesktop();
+            // Comprueba si el navegador es soportado
+            if (desktop.isSupported(Desktop.Action.BROWSE)) {
+                desktop.browse(uri);
+            } else {
+                System.err.println("El navegador no es soportado.");
+            }
+        } else {
+            System.err.println("Desktop no es soportado en este sistema.");
         }
-    } else {
-        System.out.println("La función Desktop no es soportada en este sistema.");
-    }}
-}
+    } catch (IOException | URISyntaxException e) {
+        e.printStackTrace();
+    }
+}}
 
 
 
