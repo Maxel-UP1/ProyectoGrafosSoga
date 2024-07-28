@@ -1,4 +1,5 @@
 package view;
+import java.awt.*;
 import java.io.File;
 import java.io.IOException;
 import java.util.List;
@@ -13,10 +14,12 @@ import org.jgrapht.alg.shortestpath.YenKShortestPath;
 import org.jgrapht.graph.DefaultWeightedEdge;
 import org.jgrapht.graph.SimpleWeightedGraph;
 import org.jgrapht.GraphPath;
-
+import java.awt.Desktop;
+import java.io.File;
+import java.io.IOException;
 public class TestGrapht {
 
-    public static void main(String[] args) {
+    public TestGrapht() {
         try {
             // Cargar los datos
             JsonNode nodes = loadGeoJson("src/main/java/persistence/nodes.geojson");
@@ -45,8 +48,8 @@ public class TestGrapht {
             }
 
             // Encontrar las tres rutas más óptimas entre dos puntos
-            long source = 956058028L; // punto de origen
-            long target = 7784867706L; // punto de destino
+            long source = 316951892L; // punto de origen
+            long target = 1016183500L; // punto de destino
 
             YenKShortestPath<Long, DefaultWeightedEdge> yenKShortestPath = new YenKShortestPath<>(graph);
             List<GraphPath<Long, DefaultWeightedEdge>> paths = yenKShortestPath.getPaths(source, target, 3);
@@ -123,5 +126,32 @@ public class TestGrapht {
                 }
             }
         }
+        OpenHTML openHTML = new OpenHTML();
     }
+
+
+    }
+class   OpenHTML {
+public OpenHTML() {
+    // Ruta al archivo HTML
+    String filePath = "src/main/java/persistence/map.html";
+
+    // Crear un objeto File con la ruta del archivo
+    File htmlFile = new File(filePath);
+
+    // Verificar si Desktop es soportado en el sistema
+    if (Desktop.isDesktopSupported()) {
+        Desktop desktop = Desktop.getDesktop();
+        try {
+            // Abrir el archivo HTML en el navegador predeterminado
+            desktop.browse(htmlFile.toURI());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    } else {
+        System.out.println("La función Desktop no es soportada en este sistema.");
+    }}
 }
+
+
+
