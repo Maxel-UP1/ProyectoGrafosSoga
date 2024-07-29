@@ -10,6 +10,10 @@
       "password": "123",
       "rol": "USER",
       "packagesIds": [
+        "2024D98",
+        "2024C71",
+        "2024C00",
+        "2024B36"
       ]
     }
   },
@@ -24,6 +28,10 @@
       "password": "admin",
       "rol": "DELIVER",
       "packagesIds": [
+        "2024D98",
+        "2024C71",
+        "2024C00",
+        "2024B36"
       ]
     }
   },
