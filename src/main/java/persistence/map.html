@@ -28,11 +28,11 @@
     function styleFeature(feature) {
         var color;
         if (feature.properties.pathType === "shortest") {
-            color = "#00008B";  // Azul oscuro
+            color = "#f45353";  // Azul oscuro
         } else if (feature.properties.pathType === "secondShortest") {
-            color = "#1E90FF";  // Azul menos oscuro
+            color = "#99b9f4";  // Azul menos oscuro
         } else if (feature.properties.pathType === "thirdShortest") {
-            color = "#87CEEB";  // Azul claro
+            color = "#26f818";  // Azul claro
         }
         if (feature.geometry.type === "Point") {
             return {
