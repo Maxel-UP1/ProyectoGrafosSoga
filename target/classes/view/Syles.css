@@ -43,16 +43,16 @@
 .table-red-white {
     -fx-background-color: linear-gradient(
             to bottom right,
-            #2a2a2a,
-            #444444
+            rgba(73, 119, 236, 0.83),
+            rgb(114, 229, 191)
     );
-    -fx-border-color: #ff6f61;
+    -fx-border-color: #d261ff;
     -fx-border-width: 2px;
     -fx-border-radius: 10px;
     -fx-padding: 15px;
-    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 10, 0.3, 0, 0);
+    -fx-effect: dropshadow(gaussian, rgb(201, 198, 198), 10, 0.3, 0, 0);
     -fx-font-family: 'Orbitron', sans-serif;
-    -fx-text-fill: white;
+    -fx-text-fill: rgba(1, 19, 5, 0.83);
 }
 
 .table-row-cell {
