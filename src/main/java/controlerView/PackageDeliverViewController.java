@@ -15,10 +15,10 @@ public class PackageDeliverViewController {
             this.userAccountController = userAccountController;
             this.loginController = loginController;
             this.packagesList = userAccountController.getPackagesList();
-            System.out.println("Packages list loaded: " + packagesList.size());
-            for (Package pack : packagesList) {
-                System.out.println(pack.getId() + " " + pack.getName() + " " + pack.getAddress() + " " + pack.getStatus());
-            }
-        }
     }
+
+
+
+
+}
 

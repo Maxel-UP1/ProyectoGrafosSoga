@@ -55,7 +55,6 @@ public class AdminViewController {
 
     @FXML
     public void initialize() {
-        System.out.println("Initializing TableView");
         colPackageId.setCellValueFactory(new PropertyValueFactory<>("id"));
         colName.setCellValueFactory(new PropertyValueFactory<>("name"));
         colAddress.setCellValueFactory(new PropertyValueFactory<>("address"));
@@ -96,8 +95,6 @@ public class AdminViewController {
                     {
                         btn.setOnAction(event -> {
                             Package data = getTableView().getItems().get(getIndex());
-                            System.out.println("Ver Ruta del Paquete: " + data.getId());
-                            // Aquí puedes añadir la lógica para ver la ruta
                             TestGrapht testGrapht = new TestGrapht(data.getAddress());
                         });
                     }
@@ -118,13 +115,6 @@ public class AdminViewController {
 
         ObservableList<Package> packages = FXCollections.observableArrayList(packagesList);
         tablePackages.setItems(packages);
-        System.out.println("TableView initialized with packages: " + packages.size());
-
-        // Debug output to see if data is set correctly
-        for (Package pack : packagesList) {
-            System.out.println("TableView Item: " + pack.getId() + " " + pack.getName() + " " + pack.getAddress() + " " + pack.getStatus());
-        }
-
         userAccountController.actualizarEstadoPack(packagesList);
     }
 

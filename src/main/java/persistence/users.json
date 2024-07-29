@@ -20,8 +20,8 @@
     "phone": "0987654321",
     "account": {
       "idUser": "2",
-      "nameAcount": "juan",
-      "password": "admin12",
+      "nameAcount": "admin",
+      "password": "admin",
       "rol": "DELIVER",
       "packagesIds": [
       ]
@@ -60,8 +60,8 @@
     "phone": "3344556677",
     "account": {
       "idUser": "5",
-      "nameAcount": "admin",
-      "password": "admin",
+      "nameAcount": "ana",
+      "password": "admin12",
       "rol": "DELIVER",
       "packagesIds": []
     }

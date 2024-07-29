@@ -168,6 +168,22 @@ public class UserAccountController {
         jsonStorageUtilities.saveDataToFile(packagesList, "packages", PACKAGETYPE);
 
     }
+
+    public ArrayList<Package> getPackByUser(Account account){
+        ArrayList<Package> packByUser = new ArrayList<>();
+        for (Account acc : acountsList){
+            if (acc.getIdUser().equals(account.getIdUser())){
+                for (Package pack : packagesList){
+                    if (acc.getPackagesIds().contains(pack.getId())){
+                        packByUser.add(pack);
+                    }
+                }
+            }
+        }
+           return packByUser;
+    }
+
+
 }
 
 
