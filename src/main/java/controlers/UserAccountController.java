@@ -151,6 +151,18 @@ public class UserAccountController {
     public ArrayList<Package> getPackagesList() {
         return packagesList;
     }
+
+
+
+
+    public void actualizarEstadoPack(ArrayList<Package> packagesList) {
+        this.packagesList= packagesList;
+        jsonStorageUtilities.saveDataToFile(packagesList, "packages", PACKAGETYPE);
+
+    }
 }
+
+
+
 
 
