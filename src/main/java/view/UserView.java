@@ -25,15 +25,16 @@ public class UserView extends Application {
         //userAccountController.chargeOwnersReadFile("users");
 
         FXMLLoader fxmlLoader = new FXMLLoader(UserView.class.getResource("UserView.fxml"));
-        UserViewWindowController employeeWindowControler = new UserViewWindowController(userAccountController, loginController);
+        UserViewWindowController userViewWindowController = new UserViewWindowController(userAccountController, loginController);
 
-        fxmlLoader.setController(employeeWindowControler);
+        fxmlLoader.setController(userViewWindowController);
 
         Parent root = fxmlLoader.load();
         Scene scene = new Scene(root, 625, 500);
 
         stage.setTitle("Menu User");
         stage.setScene(scene);
+        userViewWindowController.showNameUserLoged();
         stage.show();
 
     }

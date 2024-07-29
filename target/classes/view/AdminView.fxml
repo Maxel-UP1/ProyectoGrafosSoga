@@ -28,6 +28,11 @@
             <Font size="17.0" />
          </font>
       </Label>
-      <Button fx:id="BottonEstadoPack" layoutX="534.0" layoutY="87.0" mnemonicParsing="false" onAction="#bottonEstadoPack" styleClass="button-red-black" stylesheets="@Syles.css" text="Actualizar" />
+      <Button fx:id="btnUpdatePack" layoutX="517.0" layoutY="70.0" mnemonicParsing="false" onAction="#bottonEstadoPack" styleClass="button-red-black" stylesheets="@Syles.css" text="Actualizar" />
+      <Label fx:id="lblNameDeliver" layoutX="222.0" layoutY="23.0" prefHeight="26.0" prefWidth="501.0" styleClass="background" stylesheets="@Syles.css" text="." textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>

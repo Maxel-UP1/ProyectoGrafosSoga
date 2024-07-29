@@ -5,11 +5,13 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.event.Event;
+import javafx.scene.Node;
 import javafx.scene.control.Button;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
+import javafx.stage.Stage;
 import model.Account;
 import utilities.Utilities;
 import javax.swing.JOptionPane;
@@ -24,6 +26,8 @@ import java.io.File;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ArrayNode;
+import view.UserPackagesView;
+import view.UserView;
 
 public class UserViewWindowController {
 
@@ -67,6 +71,9 @@ public class UserViewWindowController {
         this.userAccountController = userAccountController;
         this.loginController = loginController;
         loadValidOsmids();
+    }
+    public void showNameUserLoged() {
+        lblNameUser.setText(userAccountController.userById(loginController.getAccountLogged().getIdUser()).getName());
     }
 
     private void loadValidOsmids() {
@@ -167,7 +174,18 @@ public class UserViewWindowController {
         txtCustomCoordinates.setVisible(false);
     }
 
-    public void seePacks(ActionEvent actionEvent) {
+    public void goBack(ActionEvent actionEvent) {
+        Node source = (Node) actionEvent.getSource();
+        Stage stage = (Stage) source.getScene().getWindow();
+        stage.close();
+    }
+
+
+    public void seePacks(ActionEvent actionEvent) throws IOException {
+
+        UserPackagesView userPackagesView = new UserPackagesView(userAccountController, loginController);
+        userPackagesView.start(new Stage());
+
     }
 
     public void cancelPack(ActionEvent actionEvent) {

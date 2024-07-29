@@ -22,6 +22,14 @@ public class UserAccountController {
     private static final Type PERSONTYPE = new TypeToken<List<User>>() {
     }.getType();
 
+    public User userById(String idUser) {
+        for (User user : usersList) {
+            if (user.getAccount().getIdUser().equals(idUser)) {
+                return user;
+            }
+        }
+        return null;
+    }
 
     public ArrayList<User> getUsersList() {
         return usersList;

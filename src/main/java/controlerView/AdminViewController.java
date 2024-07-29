@@ -17,6 +17,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class AdminViewController {
+    public Button btnUpdatePack;
+    public Label lblNameDeliver;
     private ArrayList<Package> packagesList;
     private LoginController loginController;
     private UserAccountController userAccountController;
@@ -126,6 +128,10 @@ public class AdminViewController {
         userAccountController.actualizarEstadoPack(packagesList);
     }
 
+    public void showNameUserLoged() {
+        lblNameDeliver.setText(userAccountController.userById(loginController.getAccountLogged().getIdUser()).getName());
+    }
+    
     @FXML
     public void bottonEstadoPack(ActionEvent actionEvent) throws IOException {
         userAccountController.actualizarEstadoPack(packagesList);
