@@ -168,7 +168,7 @@ public class AdminViewController {
         });
         ObservableList<Package> packag = FXCollections.observableArrayList(packagesList);
         tablePackages.setItems(packag);
-        if (cont > 2) {
+        if (cont >= 2) {
             userAccountController.actualizarEstadoPack(packagesList);
         }
 
@@ -180,6 +180,8 @@ public class AdminViewController {
 
     @FXML
     public void bottonEstadoPack(ActionEvent actionEvent) throws IOException {
-        userAccountController.actualizarEstadoPack(packagesList);
+        if (cont >= 2) {
+            userAccountController.actualizarEstadoPack(packagesList);
+        }
     }
 }
