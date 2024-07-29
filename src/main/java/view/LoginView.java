@@ -33,7 +33,7 @@ public class LoginView extends Application {
         });
         Parent root = fxmlLoader.load();
         Scene scene = new Scene(root, 600, 400);
-        stage.setTitle("Login Paquetería UPTC");
+        stage.setTitle("Login Paquetería BA.GÓ");
         stage.setScene(scene);
         stage.show();
     }

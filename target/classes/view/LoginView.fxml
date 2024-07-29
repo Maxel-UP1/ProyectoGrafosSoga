@@ -35,5 +35,10 @@
             <Font size="18.0" />
          </font>
       </Label>
+      <Label layoutX="198.0" layoutY="33.0" styleClass="label-red-black" stylesheets="@Syles.css" text="Paqueteria BA.GÓ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>
