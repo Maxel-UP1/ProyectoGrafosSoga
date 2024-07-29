@@ -40,7 +40,6 @@
 }
 
 /* Clase para tablas */
-/* Clase para tablas */
 .table-red-white {
     -fx-background-color: linear-gradient(
             to bottom right,
@@ -83,10 +82,16 @@
     -fx-alignment: center;
 }
 
-/* Aplicar estilo global */
-.root {
-    -fx-font-family: 'Orbitron', sans-serif;
+/* Clase para labels */
+.label-red-black {
+    -fx-background-color: linear-gradient(to bottom right, #333333, #444444);
+    -fx-text-fill: white;
     -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 8px 12px;
+    -fx-border-radius: 5px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 5, 0.3, 0, 0);
+    -fx-alignment: center;
 }
 
 /* Aplicar estilo global */

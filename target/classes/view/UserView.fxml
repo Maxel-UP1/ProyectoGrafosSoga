@@ -9,62 +9,62 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="492.0" prefWidth="666.0" styleClass="background" stylesheets="@Syles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Label layoutX="64.0" layoutY="30.0" styleClass="table-row-cell" stylesheets="@Syles.css" text="Bienvenido Usuario: ">
+      <Label layoutX="2.0" layoutY="2.0" styleClass="table-row-cell" stylesheets="@Syles.css" text="Bienvenido Usuario: ">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <Label fx:id="lblNameUser" layoutX="283.0" layoutY="30.0" prefHeight="26.0" prefWidth="317.0" text=".">
+      <Label fx:id="lblNameUser" layoutX="175.0" layoutY="3.0" prefHeight="26.0" prefWidth="317.0" styleClass="label-red-black" stylesheets="@Syles.css" text=".">
          <font>
             <Font size="16.0" />
          </font>
       </Label>
-      <Button fx:id="btnCreatePack" layoutX="450.0" layoutY="85.0" mnemonicParsing="false" onAction="#addPack" styleClass="text-red-black" stylesheets="@Syles.css" text="Solicitar envío">
+      <Button fx:id="btnCreatePack" layoutX="450.0" layoutY="85.0" mnemonicParsing="false" onAction="#addPack" styleClass="button-red-black" stylesheets="@Syles.css" text="Solicitar envío">
          <font>
             <Font size="18.0" />
          </font>
       </Button>
-      <Button fx:id="brnSeePacks" layoutX="309.0" layoutY="436.0" mnemonicParsing="false" onAction="#seePacks" styleClass="text-red-black" stylesheets="@Syles.css" text="Ver envíos realizados">
+      <Button fx:id="brnSeePacks" layoutX="451.0" layoutY="430.0" mnemonicParsing="false" onAction="#seePacks" styleClass="button-red-black" stylesheets="@Syles.css" text="Ver envíos realizados">
          <font>
             <Font size="18.0" />
          </font>
       </Button>
-      <Button fx:id="btnCancellPack" layoutX="379.0" layoutY="333.0" mnemonicParsing="false" onAction="#cancelPack" styleClass="text-red-black" stylesheets="@Syles.css" text="Cancelar envío">
+      <Button fx:id="btnCancellPack" layoutX="378.0" layoutY="345.0" mnemonicParsing="false" onAction="#cancelPack" styleClass="button-red-black" stylesheets="@Syles.css" text="Cancelar envío">
          <font>
             <Font size="18.0" />
          </font>
       </Button>
-      <Label layoutX="14.0" layoutY="71.0" prefHeight="27.0" prefWidth="174.0" styleClass="table-row-cell" stylesheets="@Syles.css" text="Nombre del paquete:">
+      <Label layoutX="14.0" layoutY="58.0" prefHeight="27.0" prefWidth="174.0" styleClass="table-row-cell" stylesheets="@Syles.css" text="Nombre del paquete:">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <TextField fx:id="txtNamePack" layoutX="200.0" layoutY="72.0" prefHeight="26.0" prefWidth="227.0" promptText="Nombre del producto" styleClass="text-red-black" stylesheets="@Syles.css" />
-      <Label layoutX="23.0" layoutY="117.0" prefHeight="27.0" prefWidth="182.0" styleClass="table-row-cell" stylesheets="@Syles.css" text="Dirección de entrega:">
+      <TextField fx:id="txtNamePack" layoutX="203.0" layoutY="50.0" prefHeight="26.0" prefWidth="227.0" promptText="Nombre del producto" styleClass="table-red-white" stylesheets="@Syles.css" />
+      <Label layoutX="10.0" layoutY="147.0" prefHeight="27.0" prefWidth="182.0" styleClass="table-row-cell" stylesheets="@Syles.css" text="Dirección de entrega:">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <ComboBox fx:id="boxDeliveryAddres" layoutX="202.0" layoutY="117.0" onAction="#selecAdrres" onShowing="#viewAdrees" prefHeight="26.0" prefWidth="227.0" promptText="Selecciona" styleClass="text-red-black" stylesheets="@Syles.css" />
-      <Label layoutX="273.0" layoutY="259.0" prefHeight="54.0" prefWidth="131.0" styleClass="table-red-white" stylesheets="@Syles.css" text="Anular envío" textFill="RED">
+      <ComboBox fx:id="boxDeliveryAddres" layoutX="203.0" layoutY="129.0" onAction="#selecAdrres" onShowing="#viewAdrees" prefHeight="26.0" prefWidth="227.0" promptText="Selecciona" styleClass="table-red-white" stylesheets="@Syles.css" />
+      <Label layoutX="268.0" layoutY="270.0" prefHeight="54.0" prefWidth="131.0" styleClass="label-red-black" stylesheets="@Syles.css" text="Anular envío" textFill="RED">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <TextField fx:id="txtIdCancelPack" layoutX="112.0" layoutY="340.0" onMouseClicked="#viewInfoID" prefHeight="26.0" prefWidth="227.0" promptText="Ingrese el ID" styleClass="text-red-black" stylesheets="@Syles.css" />
-      <Label fx:id="lblInfoCancell" layoutX="112.0" layoutY="386.0" prefHeight="27.0" prefWidth="409.0" text="." textFill="WHITE">
+      <TextField fx:id="txtIdCancelPack" layoutX="112.0" layoutY="340.0" onMouseClicked="#viewInfoID" prefHeight="26.0" prefWidth="227.0" promptText="Ingrese el ID" styleClass="table-red-white" stylesheets="@Syles.css" />
+      <Label fx:id="lblInfoCancell" layoutX="64.0" layoutY="402.0" prefHeight="27.0" prefWidth="409.0" text="." textFill="WHITE">
          <font>
             <Font size="16.0" />
          </font>
       </Label>
-      <Label fx:id="lblInfoOrderPack" layoutX="54.0" layoutY="219.0" prefHeight="26.0" prefWidth="510.0" text="." textFill="WHITE">
+      <Label fx:id="lblInfoOrderPack" layoutX="35.0" layoutY="220.0" prefHeight="26.0" prefWidth="510.0" text="." textFill="WHITE">
          <font>
             <Font size="16.0" />
          </font>
       </Label>
       <!-- Existing UI elements -->
       <TextField fx:id="txtCustomCoordinates" layoutX="200.0" layoutY="170.0" prefHeight="26.0" prefWidth="227.0" promptText="Ingrese coordenadas (lat, lon)" styleClass="text-red-black" stylesheets="@Syles.css" visible="false" />
-      <Button layoutX="188.0" layoutY="436.0" mnemonicParsing="false" onAction="#goBack" styleClass="text-red-black" stylesheets="@Syles.css" text="Salir">
+      <Button layoutX="10.0" layoutY="452.0" mnemonicParsing="false" onAction="#goBack" styleClass="text-red-black" stylesheets="@Syles.css" text="Salir">
          <font>
             <Font size="18.0" />
          </font>

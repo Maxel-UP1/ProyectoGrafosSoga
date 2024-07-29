@@ -23,7 +23,7 @@
             <Font size="17.0" />
          </font>
       </Label>
-      <Label layoutX="358.0" layoutY="67.0" styleClass="table-red-white" stylesheets="@Syles.css" text="Pedidos" textFill="#ff2a2a">
+      <Label layoutX="362.0" layoutY="93.0" styleClass="label-red-black" stylesheets="@Syles.css" text="Pedidos" textFill="#ff2a2a">
          <font>
             <Font size="17.0" />
          </font>

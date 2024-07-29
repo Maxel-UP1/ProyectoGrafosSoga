@@ -7,9 +7,9 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="469.0" prefWidth="775.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="469.0" prefWidth="775.0" styleClass="background" stylesheets="@Syles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Label layoutX="293.0" layoutY="14.0" text="Devoluciones y Pedidos">
+      <Label layoutX="293.0" layoutY="14.0" styleClass="label-red-black" stylesheets="@Syles.css" text="Devoluciones y Pedidos">
          <font>
             <Font size="18.0" />
          </font>
@@ -22,7 +22,7 @@
             <TableColumn fx:id="colStatus" prefWidth="132.00003051757812" styleClass="table-column-header" text="Estado" />
          </columns>
       </TableView>
-      <Button fx:id="btnBack" layoutX="81.0" layoutY="404.0" mnemonicParsing="false" onAction="#goBack" text="Regresar">
+      <Button fx:id="btnBack" layoutX="81.0" layoutY="404.0" mnemonicParsing="false" onAction="#goBack" styleClass="button-red-black" stylesheets="@Syles.css" text="Regresar">
          <font>
             <Font size="18.0" />
          </font>
