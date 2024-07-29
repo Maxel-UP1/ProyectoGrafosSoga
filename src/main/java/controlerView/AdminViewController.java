@@ -1,5 +1,6 @@
 package controlerView;
 
+import controlers.GraphtController;
 import controlers.LoginController;
 import controlers.UserAccountController;
 import javafx.collections.FXCollections;
@@ -11,6 +12,7 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.stage.Stage;
 import javafx.util.Callback;
 import model.Package;
+import utilities.JacksonStorageUtilities;
 import view.TestGrapht;
 
 import java.io.IOException;
@@ -22,15 +24,19 @@ public class AdminViewController {
     private ArrayList<Package> packagesList;
     private LoginController loginController;
     private UserAccountController userAccountController;
+    private JacksonStorageUtilities jacksonStorageUtilities;
+    private GraphtController graphtController;
 
-    public AdminViewController(UserAccountController userAccountController, LoginController loginController) {
+    public AdminViewController(UserAccountController userAccountController, LoginController loginController) throws IOException {
         this.userAccountController = userAccountController;
         this.loginController = loginController;
+        this.jacksonStorageUtilities = new JacksonStorageUtilities();
+        jacksonStorageUtilities.buildGraph();
+        this.graphtController = jacksonStorageUtilities.getGraphtController();
+
+        //AREGLE ESTO JUAN
         this.packagesList = userAccountController.getPackagesList();
-        System.out.println("Packages list loaded: " + packagesList.size());
-        for (Package pack : packagesList) {
-            System.out.println(pack.getId() + " " + pack.getName() + " " + pack.getAddress() + " " + pack.getStatus());
-        }
+
     }
 
     @FXML
@@ -95,7 +101,10 @@ public class AdminViewController {
                     {
                         btn.setOnAction(event -> {
                             Package data = getTableView().getItems().get(getIndex());
-                            TestGrapht testGrapht = new TestGrapht(data.getAddress());
+                            //Muestra la ruta del paquete
+                            graphtController.fastestRoutes(Long.parseLong(data.getAddress()), "shortpath");
+                            graphtController.openRute();
+                            //TestGrapht testGrapht = new TestGrapht(data.getAddress());
                         });
                     }
 

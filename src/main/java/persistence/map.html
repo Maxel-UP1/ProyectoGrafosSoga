@@ -53,7 +53,7 @@
     }
 
     // Cargar el archivo GeoJSON de las rutas
-    new L.GeoJSON.AJAX("paths.geojson", {
+    new L.GeoJSON.AJAX("shortpath.geojson", {
         style: styleFeature,
         pointToLayer: function (feature, latlng) {
             return L.circleMarker(latlng, styleFeature(feature));
