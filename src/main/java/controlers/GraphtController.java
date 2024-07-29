@@ -49,22 +49,11 @@ public class GraphtController {
         }
     }
 
-    public void openRute() {
-        try {
+    public void openRute() throws URISyntaxException, IOException {
             URI uri = new URI("http://localhost:63342/ProyectoGrafosSoga/src/main/java/persistence/map.html?_ijt=qh45e7u86t73n1s12n0e0iibl7&_ij_reload=RELOAD_ON_SAVE");
-            if (Desktop.isDesktopSupported()) {
-                Desktop desktop = Desktop.getDesktop();
-                if (desktop.isSupported(Desktop.Action.BROWSE)) {
-                    desktop.browse(uri);
-                } else {
-                    System.err.println("El navegador no es soportado.");
-                }
-            } else {
-                System.err.println("Desktop no es soportado en este sistema.");
-            }
-        } catch (IOException | URISyntaxException e) {
-            e.printStackTrace();
-        }
+            Desktop desktop = Desktop.getDesktop();
+            desktop.browse(uri);
+
     }
 
     private List<GraphPath<Long, DefaultWeightedEdge>> findShortestPaths(long target, int i) {

@@ -9,13 +9,13 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
-import javafx.stage.Stage;
 import javafx.util.Callback;
 import model.Package;
 import utilities.JacksonStorageUtilities;
 
 
 import java.io.IOException;
+import java.net.URISyntaxException;
 import java.util.ArrayList;
 
 public class AdminViewController {
@@ -33,9 +33,7 @@ public class AdminViewController {
         this.jacksonStorageUtilities = new JacksonStorageUtilities();
         jacksonStorageUtilities.buildGraph();
         this.graphtController = jacksonStorageUtilities.getGraphtController();
-
-        //AREGLE ESTO JUAN
-        this.packagesList = userAccountController.getPackagesList();
+        this.packagesList = userAccountController.getPackByUser(loginController.getAccountLogged()); // Añadido
 
     }
 
@@ -103,8 +101,13 @@ public class AdminViewController {
                             Package data = getTableView().getItems().get(getIndex());
                             //Muestra la ruta del paquete
                             graphtController.fastestRoutes(Long.parseLong(data.getAddress()), "shortpath");
-                            graphtController.openRute();
-                            //TestGrapht testGrapht = new TestGrapht(data.getAddress());
+                            try {
+                                graphtController.openRute();
+                            } catch (URISyntaxException e) {
+                                throw new RuntimeException(e);
+                            } catch (IOException e) {
+                                throw new RuntimeException(e);
+                            }
                         });
                     }
 
@@ -121,9 +124,8 @@ public class AdminViewController {
                 return cell;
             }
         });
-
-        ObservableList<Package> packages = FXCollections.observableArrayList(packagesList);
-        tablePackages.setItems(packages);
+        ObservableList<Package> packag = FXCollections.observableArrayList(packagesList);
+        tablePackages.setItems(packag);
         userAccountController.actualizarEstadoPack(packagesList);
     }
 

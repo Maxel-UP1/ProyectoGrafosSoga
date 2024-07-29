@@ -50,7 +50,6 @@ public class UserViewWindowController {
             "U.P.T.C", "Colegio Sugamuxi", "Parque Del Norte",
             "El Cerrito", "Terminal De Buses", "Personalizado"
     );
-    JOptionPane jp = new JOptionPane();
 
     // Mapear direcciones a sus respectivos OSMIDs
     HashMap<String, String> addressMap = new HashMap<String, String>() {{
