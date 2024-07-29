@@ -9,7 +9,9 @@
       "nameAcount": "sam12",
       "password": "123",
       "rol": "USER",
-      "packagesIds": []
+      "packagesIds": [
+        "2024D81"
+      ]
     }
   },
   {
@@ -22,7 +24,9 @@
       "nameAcount": "admin",
       "password": "admin",
       "rol": "DELIVER",
-      "packagesIds": []
+      "packagesIds": [
+        "2024D81"
+      ]
     }
   },
   {

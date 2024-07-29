@@ -43,10 +43,10 @@
 .table-red-white {
     -fx-background-color: linear-gradient(
             to bottom right,
-            rgba(73, 119, 236, 0.83),
-            rgb(114, 229, 191)
+            rgba(114, 96, 238, 0.83),
+            rgb(120, 170, 182)
     );
-    -fx-border-color: #d261ff;
+    -fx-border-color: #e07070;
     -fx-border-width: 2px;
     -fx-border-radius: 10px;
     -fx-padding: 15px;
