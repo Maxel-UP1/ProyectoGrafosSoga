@@ -40,6 +40,7 @@ public class AdminViewController {
     private UserAccountController userAccountController;
     private JacksonStorageUtilities jacksonStorageUtilities;
     private GraphtController graphtController;
+    int cont = 0;
 
     @FXML
     private TableView<Package> tablePackages;
@@ -81,6 +82,7 @@ public class AdminViewController {
 
     @FXML
     public void initialize() {
+
         colPackageId.setCellValueFactory(new PropertyValueFactory<>("id"));
         colName.setCellValueFactory(new PropertyValueFactory<>("name"));
         colAddress.setCellValueFactory(new PropertyValueFactory<>("address"));
@@ -114,6 +116,7 @@ public class AdminViewController {
                 comboBox.setOnAction(e -> {
                     Package pack = getTableView().getItems().get(getIndex());
                     pack.setStatus(comboBox.getValue());
+                   cont ++;
                 });
             }
 
@@ -163,10 +166,12 @@ public class AdminViewController {
                 return cell;
             }
         });
-
         ObservableList<Package> packag = FXCollections.observableArrayList(packagesList);
         tablePackages.setItems(packag);
-        userAccountController.actualizarEstadoPack(packagesList);
+        if (cont > 2) {
+            userAccountController.actualizarEstadoPack(packagesList);
+        }
+
     }
 
     public void showNameUserLoged() {
