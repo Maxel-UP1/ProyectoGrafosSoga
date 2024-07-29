@@ -7,6 +7,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
+<?import javafx.scene.control.TextArea?>
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="492.0" prefWidth="666.0" styleClass="background" stylesheets="@Syles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Label layoutX="64.0" layoutY="30.0" styleClass="table-row-cell" stylesheets="@Syles.css" text="Bienvenido Usuario: ">
@@ -62,7 +63,7 @@
             <Font size="16.0" />
          </font>
       </Label>
-      <!-- New TextField for custom address -->
-      <TextField fx:id="txtCustomAddress" layoutX="200.0" layoutY="170.0" prefHeight="26.0" prefWidth="227.0" promptText="Ingrese dirección personalizada" styleClass="text-red-black" stylesheets="@Syles.css" visible="false" />
+      <!-- Existing UI elements -->
+      <TextField fx:id="txtCustomCoordinates" layoutX="200.0" layoutY="170.0" prefHeight="26.0" prefWidth="227.0" promptText="Ingrese coordenadas (lat, lon)" styleClass="text-red-black" stylesheets="@Syles.css" visible="false"/>
    </children>
 </AnchorPane>

@@ -1,4 +1,5 @@
 package view;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.List;
@@ -48,7 +49,7 @@ public class TestGrapht {
 
             // Encontrar las tres rutas más óptimas entre dos puntos
             //entrada de la uptc bodega
-            long source = 7781524482L; // punto de origen
+            long source = 956058028 ; // punto de origen
             long target = Long.parseLong(direccion); // punto de destino
 
             YenKShortestPath<Long, DefaultWeightedEdge> yenKShortestPath = new YenKShortestPath<>(graph);
