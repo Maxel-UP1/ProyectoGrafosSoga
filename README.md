@@ -1,5 +1,5 @@
 # PathFinder Sogamoso
-
+Proyecto : Samuel González
 Este proyecto permite la visualización y registro de rutas para paqueteria mediante una interfaz desarrollada en JavaFX, integrando herramientas externas para la gestión de ubicaciones geográficas.
 
 ---
